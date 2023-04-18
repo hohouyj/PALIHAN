@@ -1,0 +1,1909 @@
+[
+  {
+    "name": "Balatik Trap Technique",
+    "disciplineName": "Beast Hunter",
+    "isEnlightenment": false,
+    "lore": "Balatik are the most well known contraption and trap of hunters in The Sword Isles: they are small bamboo ballistas and arbalests that, when triggered, skewers the unsuspecting prey with a long bamboo spike. It turns out that this is just as effective for humans as it is for wild boar and deer.",
+    "description": [
+      "You begin Violence with 3 Balatik Traps.",
+      "Spend 1 Beat: consume and activate a balatik trap: choose a square in range 5 as the origin point for a Line 6. All enemies in the line suffer 1 True Hit, SPD Down (2), Bleed (2)."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Pit Trap Technique",
+    "disciplineName": "Beast Hunter",
+    "isEnlightenment": false,
+    "lore": "Perfect for heavier creatures. This is a shallow pit that has multiple bamboo spikes with firehardened tips at the bottom. Learning to create and use this trap effectively necessitates harmony with the land.",
+    "prereqNames": [
+      "Balatik Trap"
+    ],
+    "description": [
+      "You begin Violence with 3 Pit Traps.",
+      "Spend 1 Beat: consume and activate a Pit trap: choose a square in range 5 as the origin point for a burst 1. The Burst 1 falls down -1 Elevation, and all enemies within suffer Unbalance (1) and Stun (1). Cannot bring an Elevation below -2 in this way."
+    ]
+  },
+  {
+    "name": "Tiger Hunting Meditation",
+    "disciplineName": "Beast Hunter",
+    "isEnlightenment": false,
+    "lore": "The Godbeast Hunter Jinrud Aceh Pakali could not capture a legendary tiger whose fur was whiter than lunarblooms. Therefore, in the midst of the night, when the Moon was full, he removed the balatik from its fixture on the ground and hunted down the Tiger God. The Tiger God was so impressed at Jinrud\u2019s tenacity that they fought Jinrud on his own terms, until Jinrud slew them. In thanks, Jinrud cut off the deer\u2019s antlers and gave it back to the forest. Jinrud has since then began teaching advanced Beast Hunters the art of wielding the Skewering Spear.",
+    "description": [
+      "Spend 1 Beat, to take on the Tiger Hunting Stance until you are forcibly moved. Inflict Eviscerate (2) on a single fighter in range 3 when you take on the Stance. While in this Stance, you and all your summons and pets ignore difficult terrain.",
+      "God Hunting: +1 Beat to enhance the Tiger Hunting Stance into the God Hunting Stance: while in this stance, on top of the benefits of the Tiger Hunting Stance, you can teleport 1 before making an attack."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Gilded Hound Nails",
+    "disciplineName": "Beast Hunter",
+    "isEnlightenment": false,
+    "lore": "Brandish nails of gilded iron, burning, meant to melt through the hardened carapaces of elder monsters. A technick crafted by Guro Dugu Ido, the Bloodhound, who famously hunted down his game not with spears or bows, but with talons crafted from gold.",
+    "prereqNames": [
+      "Tiger Hunting Meditation"
+    ],
+    "description": [
+      "Spend 1 Beat to strike with gilded claws: inflict Fray 1 on a fighter in range 2 and then mark them until the end of your next Fulmination. While marked, all their Defenses suffer -1.",
+      "Asura-Shearing Claws: +2 Beats to upgrade the mark: while marked, they suffer Sunder as well."
+    ]
+  },
+  {
+    "name": "Witch Dog Summoning Pamaagi",
+    "disciplineName": "Beast Hunter",
+    "isEnlightenment": false,
+    "lore": "Witch dogs are diwata that guard the forests. The fabled witch dogs or asonanggubat (forest dog) are some of the most vicious dogs, that only the most skilled of hunters can summon. These black-mouthed, large and wide-shouldered dogs have severely sharp claws that regularly shed, making it so that their claws are always sharp.",
+    "prereqNames": [
+      "Pit Trap Technique",
+      "Gilded Hound Nails"
+    ],
+    "description": [
+      "Spend 1 Beat to summon a Size 1 Witch Dog in a square adjacent to you, which shares your Martial Abilities. At the start of your Fulmination, the Witch Dog may rush 3. All enemies adjacent to the Witch Dog cannot make attacks that do not include the Witch Dog as a target."
+    ]
+  },
+  {
+    "name": "Elephant Hunter",
+    "isEnlightenment": true,
+    "disciplineName": "Beast Hunter",
+    "prereqNames": [],
+    "lore": "The great Maharaja Indrajaya, one of the most wellknown ancient datu under the Sultanate, once went on a hunting journey with Jaris Akai himself in Jamiyun Kulisa\u2019s Arrows. There they found large elephants, and decided that these behemoths are the greatest hunting targets. They went and killed many, but were faced with Sri Ganesh, the Elephant God. With the help of Baginda (who gave them a blessed moonsilver needle that destroyed Sri Ganesh\u2019s god nature) they defeated Sri Ganesh, who told them that they could continue hunting elephants, but must only do so as a powerful ritual offering to gods. With this agreement, Jaris Akai introduced elephants to Siga upon great war junks. Maharaja Indrajaya became known as the great Hunter King, and many Akai hunters invoke his soul when going out on hunting expeditions.",
+    "description": [
+      "At the start of your Fulmination, you may give 1 enemy in range 4 that you can see 1 Hunt. Only 1 fighter can have Hunt in the battlefield at any given time--if you give a different fighter the Hunt, transfer all current Hunt to that fighter. A fighter can have up to 5 Hunts. Whenever a fighter with Hunt is the target of an attack, the attacker may spend any number of Hunts to add that many Attack Teeth to the Violence Cast. Spend 2 Beats at Strike 3+ to throw a Moonsilver needle at up to 3 fighters in the battlefield. They have the needle for the rest of Violence. While they have the needle, they suffer 1 true hit every time they leave a square."
+    ]
+  },
+  {
+    "name": "Faith Unending",
+    "disciplineName": "Martyr",
+    "isEnlightenment": false,
+    "lore": "The Lunar Goddess has seen it fit for you to strive. Coat yourself in the holy oils. Battle is always death, battle is always death. Let out your rage, mighty Martyr! The Lunar Palace Upon The Moon beckons you! If you are to fall, then you shall bring all those around you with you!",
+    "description": [
+      "Spend 1 Beat to anoint yourself with oils: gain +2 Attack Teeth on your next Melee Attack.",
+      "Shared Striving: +1 Beat to give this benefit to all adjacent allies as well.",
+      "Heavenly Rend: +1 Beat to immediately make the following attack: Melee Fire Faith Attack vs 1 adjacent fighter, inflict Sunder (1)."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Crescent Cleaving The Earth",
+    "disciplineName": "Martyr",
+    "isEnlightenment": false,
+    "lore": "You hurl your weapon, guided by your faith in the Moon. Wield the Moon\u2019s Holy Blade, which is you. You! This is your strength, let Baginda Sumongsuklay, peace be unto her, wield you and bring the final triumph of victory. Who else could it be but you? With this internalization, you wield the holy blade of tenacity, and nothing shall ever stop your advance.",
+    "prereqNames": [
+      "Faith Unending"
+    ],
+    "description": [
+      "Spend 1 Beat to throw your weapon: make an Area Earth Faith Attack vs all fighters in line 4, then your weapon falls onto a free square adjacent to the last target of the line. It becomes Size 1 Object.",
+      "For 1 Beat while you\u2019re within burst 3 of the weapon, you may call it back, marking a path that starts adjacent to the weapon and ends with 1 square adjacent to you. Inflict 1 Hit to each fighter in the Path."
+    ]
+  },
+  {
+    "name": "Indomitable Pamaagi",
+    "disciplineName": "Martyr",
+    "isEnlightenment": false,
+    "lore": "The Moon\u2019s Holy Blade has express techniques for dealing when you are hobbled or disarmed. In fact, you are taught to be even more dangerous when you are in this state, as you are driven to a corner, and you must become more than a beast.",
+    "prereqNames": [
+      "Crescent Cleaving The Earth"
+    ],
+    "description": [
+      "Spend 1 Beat to take on the Indomitable Stance until the end of your next Fulmination. While in this stance, you have Stability, cleanse all Banes and Fray, and you become immune to any incoming Banes or Fray.",
+      "Purity Before Goddess: +1 Beat to rush 3 and cleanse all Fray from an adjacent ally after taking the Stance.",
+      "Consume Corruptions: +1 Beat to make it so that you can now consume the stance when you suffer a bane to make your next attack Overwhelming."
+    ]
+  },
+  {
+    "name": "Juru Pakal",
+    "disciplineName": "Martyr",
+    "isEnlightenment": false,
+    "lore": "Juru Pakal is an ancient, holy blade, used by Raja Sulayman and Indarapatra to cleanse the Sword Isles of primordial demons and monsters. Many still exist today. Many shy away from Juru Pakal\u2019s power.",
+    "prereqNames": [
+      "Indomitable Pamaagi"
+    ],
+    "description": [
+      "Spend 1 Beat to strike with the burning white blade of Goddess: Melee Fire Faith Attack vs an adjacent fighter, add +1 Attack Teeth per Bane on the target.",
+      "Swallow Vigor: +1 Beat to add +1 Attack Teeth per Status effect on the target instead of just Banes.",
+      "Violent Exorcism: +1 Beat to cleanse all chosen status effects on the target and then Surge for free after the attack resolves."
+    ]
+  },
+  {
+    "name": "Holy Wrath Amok",
+    "disciplineName": "Martyr",
+    "isEnlightenment": false,
+    "lore": "\u201cVerily, I say unto you: should you shed blood for your Goddess, thus shall you find eternal life. But should you rip open Heaven in the name of the Moon, then shall you achieve Concordance.\u201d - Masteries of Pandita Ashakarwa.",
+    "prereqNames": [
+      "Juru Pakal"
+    ],
+    "description": [
+      "Spend 1 Beat and 1 HP to run amok: Rush 1 and then make an Overwhelming Melee Fire Faith Attack vs 1 adjacent fighter.",
+      "Divine Devastation: +1 Beat to increase the range to all fighters in blast 3.",
+      "Earth-Wrecking Expungement: +1 Beat to also destroy every object and terrain adjacent to you."
+    ]
+  },
+  {
+    "description": [
+      "While you are Staggered, all your melee attacks generate 2 Hits on 9+ instead of 1. at strike 5+, while staggered, spend 1 beat to partake in ritual death. at the beginning of your next fulmination and every fulmination after that, you have 4 beats per fulmination. however, should you fall to critical, you immediately die."
+    ],
+    "name": "Glory In Striving",
+    "isEnlightenment": true,
+    "disciplineName": "Martyr",
+    "prereqNames": [],
+    "lore": "\u201cThe Moon shall descend. And so, submit, and be faithful. The Moon shall cleave the earth.\u201d - Book of the New Moon, Chapter 4, Verse 36, Lunar Scriptures. The Martyr rejoices in the glory of combat. You ready your weapon, and engage in violence. Your wounds only make you stronger. IN VIOLENCE YOU ARE BORN AND IN VIOLENCE YOU WILL PERISH. YOUR FURY IS A FIRE THAT CANNOT BE EXTINGUISHED, IT SHINES IN THE VOID AFTER THE END OF THE CREATION. REMEMBER THIS, MARTYR: WHEN PEACE IS ACHIEVED, YOU WILL CEASE TO EXIST. LET US ACHIEVE BLISS, THEN."
+  },
+  {
+    "name": "Tempest Garuda Lance",
+    "disciplineName": "Sarimanok Knight",
+    "isEnlightenment": false,
+    "lore": "Gather all that you know and summon a lithe and little hurricane to rend through the battlefield. A technique taught by Kartike themself, who arrived before ancient warriors in the Footsteps of the Gods before Akai was even established and taught them the divinity of the sarimanok, and their omen being.",
+    "description": [
+      "Spend 1 Beat to send a flurrious blade across the battlefield: Melee Air Bravery Attack vs an adjacent fighter, and then inflict Air Vulnerability 1.",
+      "Sky-Scouring Spear: +1 Beat to change the attack into Area Air Bravery Attack vs all enemies in line 6, and every square becomes Air Terrain.",
+      "Beffudling Wind: +1 Beat to inflict Provoke (1) on all targets."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Manaul Stone Raid",
+    "disciplineName": "Sarimanok Knight",
+    "isEnlightenment": false,
+    "lore": "Manaul, The King of Raptors and Fireflies, was once a king of the earthless seasky. He had owl counselors and fireflies to light his path. However he was never satiated, and tired of flying all the time, he tricked the sky and sea kings to fight each other, to create land.",
+    "prereqNames": [
+      "Tempest Garuda Lance"
+    ],
+    "description": [
+      "Spend 1 Beat to pull up any square adjacent to you, turning it into difficult terrain, and you are now considered holding a chunk of earth (which you can only hold up to 2 of). While holding the chunk of earth, you have cover. When you are attacked while you have a chunk of earth, roll a Chance Die after the attack. On a 5-, the rock shatters away.",
+      "Throw Rock: For 1 Beat while you have a chunk of earth, you can throw it at any square in range 4, putting down a Size 1 Boulder on the square, and inflicting Push 1 on all fighters adjacent to the square (including any target on the chosen square)."
+    ]
+  },
+  {
+    "name": "Sky Cloak Pamaagi",
+    "disciplineName": "Sarimanok Knight",
+    "isEnlightenment": false,
+    "lore": "The Sarimanok, holy omen birds, ascend into the sky and burst into the winds, and you become one with them. Sarimanok Knights are known for being one of the quickest warriors in the lands, able to fight and hunt down skyships. An ancient story about the Sarimanok is about how the Elder Rajah Indarapatra, King of Mournful Compassion, fell in love with a certain Moon Spirit, said to have been later an incarnation of Baginda Sumongsuklay herself. When the Moon Spirit, named Bayi Bulan, ascended to the moon, Indarapatra wept, until a sarimanok that was his umalagad for so long offered to take him to the moon, where Indarapatra is said to now live in eternal happiness.",
+    "prereqNames": [
+      "Manaul Stone Raid Spend 1 Beat to take on the Sky Cloak Stance. While in this stance",
+      "you ignore all terrain when moving",
+      "and you ignore cover."
+    ],
+    "description": [
+      "Lightning-Struck Cultivation: Spend +1 Beat when you take on this stance to immediately Rush 5, and then your next Metal Attack gains +1 Attack Tooth.",
+      "Whirlwind Riding Mantle: +1 Beat to make it so that you Fly whenever you move while in the Stance."
+    ]
+  },
+  {
+    "name": "Kartike\u2019s Arrow",
+    "disciplineName": "Sarimanok Knight",
+    "isEnlightenment": false,
+    "lore": "The First Sarimanok Knight was said to have been the son of Siwa, the Triumphant and Auspicious God, who is very frequently known as Rajah Indarapatra of the Thunderclouds in more modern Akai literature. His eldest son, Yskanda Kartike, Archer of the Rainbow Raptor, was said to have come down upon the world upon the Sarimanok that took his father to the moon. There he taught the truths of the Sarimanok Knight, and how to properly befriend them, and how to treat them not as a horse but as a fierce brother. Yskanda Kartike eventually helped the ancient Put\u2019wanon King Sri Bata Shaja conquer much of the Gatusan Isles in an ancient war, now lost to memory.",
+    "prereqNames": [
+      "Sky Cloak Pamaagi"
+    ],
+    "description": [
+      "Spend 1 Beat to fire a burning arrow of incandescent fulgur: Ranged Fire Bravery Attack vs 1 target in range 4. Mark the target until the end of your next Fulmination.",
+      "Kartike\u2019s Lance: Spend +1 Beat to turn the attack into an Area Fire Bravery Attack vs all enemies in line 5. All enemies in the line suffer the mark until the end of your next Fulmination.",
+      "Whenever a fighter marked by this technique makes an attack, inflict 1 Hit on them after the attack resolves."
+    ]
+  },
+  {
+    "name": "Shah Vayu\u2019s Vengeant Javelin",
+    "disciplineName": "Sarimanok Knight",
+    "isEnlightenment": false,
+    "lore": "The Sarimanok are also the loyal steeds of Shah Vayu, known also as the Storm Prince, who ruled an ancient empire of floating isles to the east of the Footsteps of the Gods. It was destroyed when Jamiyun Kulisa released his arrows to kill the great Fen Ying, God of Heaven Mountain in the continent that is now known as Baik Hu. As apology, Shah Vayu\u2019s kingdom was turned into an eternal city in the fourth heaven. He is seeking revenge now, however. In his ambition, he seeks to take Jamiyun Kulisa\u2019s Thunderbolt for himself and become the new God of Thunder and Lightning.",
+    "prereqNames": [
+      "Kartike\u2019s Arrow"
+    ],
+    "description": [
+      "Spend 1 Beat to choose 1 square in range 4, sending a fulminating rainbow lightning spear at it. The lightning spear explodes, creating a Burst 1 Lightning Field from the chosen square. Any enemy within the field is considered Vulnerable to Metal and Air.",
+      "Fen Ying\u2019s Demise: +1 Beat to Daze (1) all enemies in the burst when the Field is created.",
+      "Dyavu Pitara Field: +1 Beat to upgrade the Field to Shah Vayu\u2019s Monstance: all enemies in the field are Vulnerable to all elements and any enemy that ends their Fulmination within must roll a Chance Die. On a 7+, they end their Fulmination and then gain Juggle (1)."
+    ]
+  },
+  {
+    "description": [
+      "At Strike 3+, for 1 Beat, fly into the sky, removing yourself from the battlefield. At the start of your next Fulmination, choose a burst 1 area and plummet into the middle of the burst, then deal Bravery+Faith against all fighters within. All enemies in the burst gain Juggle (3), and you become Flying for the rest of violence. Afterwards, change the weather into the Consummate Storm. Within the Consummate Storm, all non-attack hits are canceled and all air attacks have overwhelming. All allies have cover against all attacks of all fighters, and all opponents suffer Daze."
+    ],
+    "name": "Sultan Dewa Bagyu\u2019s Lance",
+    "isEnlightenment": true,
+    "disciplineName": "Sarimanok Knight",
+    "prereqNames": [],
+    "lore": "Sultan Dewa Bagyu is the ancient god of monsoon season storms, the most powerful of all the storms. He is very frequently said to be an aspect of Jamiyun Kulisa, and is the grandfather of the four monsoon winds. Ancient stories quote that Shah Vayu believed himself to be his incarnation, and was his key to becoming an ancient God King of his now crumbling kingdom in the Fourth Heaven. Sultan Dewa Bagyu can control all the winds of the Monsoons to change the entire world."
+  },
+  {
+    "name": "Paean To The Unexalted",
+    "disciplineName": "Strifesinger",
+    "isEnlightenment": false,
+    "lore": "A song that hearkens to ancient warriors that have died in fight and ascended to the Sky upon the rainbow. There was one particular warband, a troop, who followed the Datu Kinalagtuman, Consummate Brightness, who stayed behind to defend against the assault of Ratu Kyai Gede, Crucible of Weeping, Queen of Ancient Medang. The Datu defended his island when he and that warband, forever remembered as the Unexalted, beseeched the diwata of their island: a Serpent God named Maharaya, the Great Streaking, to let them keep fighting. The Unexalted were granted this: instead of ascending to the Sky, their souls instead became Umalagad that protected their island even in death. And so Ancient Medang was not able to conquer their island, and to this day the Unexalted still protect that island.",
+    "description": [
+      "Spend 1 Beat to grant 1 fighter in burst 3 or self, the blessing of the porcelain lady: the target gains Protect (2).",
+      "Spend 2 Beats to grant all allies in burst 3, including yourself, Protect (2).",
+      "Spend 3 Beats to grant all ally in the battlefield, including yourself, Protect (2)."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Litany of the Porcelain Lady",
+    "disciplineName": "Strifesinger",
+    "isEnlightenment": false,
+    "lore": "This is a song that sings of Bayi Makadiyah, Porcelain Lady of Mournful Miracles, a healer-witch who was also the incarnation of Mother Madiyah, the Virgin Bearer of the One Destined to Die, Maiden of the Valley of Tears. Madiyah is a goddess brought from the bloody faith of Issohappa and indigenized across the islands where the Sanguine Missionaries reached. As an avatar of Mother Madiyah, she was revered by her settlement, and she could summon rains during dry spells, and kill with just a word. She was eventually killed by a jealous datu, but her death curse was that his name would never be remembered. Bayi Makadiyah is now revered as a god, and has a number of cults about the Sword Isles dedicated to her. Her idol is usually a weeping woman (her face is never shown) made of porcelain or earthenware, never earth. Her icon is very frequently an enclosed square with a triangle within.",
+    "prereqNames": [
+      "Paean to the Unexalted"
+    ],
+    "description": [
+      "For 1 Beat, choose self or 1 Fighter in range 4 and give them Block 2 and Stability (2).",
+      "For 2 Beats: Give all allies in burst 2, including yourself, Block 2 and Stability (2)",
+      "Antifragility: +1 Beat to also grant the chosen targets an Antifragile Token. When you suffering a Melee or Ranged Attack, may discard the Antifragile Token to immediately Inflict Violence against the attacker."
+    ]
+  },
+  {
+    "name": "Song of the Ancients",
+    "disciplineName": "Strifesinger",
+    "isEnlightenment": false,
+    "lore": "This song was sung by the first singer, a demigoddess whose name has been lost to time. She sang it to calm the two mountains that warred in a distant land. She died in the process, but became the clouds and the sky. The mountains continued on and killed each other, however, as they were bolstered by grief.",
+    "prereqNames": [
+      "Litany of the Porcelain Lady"
+    ],
+    "description": [
+      "Spend 2 Beats to Inflict Violence, and then slide 2 the target. At any point in the slide, you or an ally may inflict violence against them.",
+      "Echoing Ancient Psalm: +1 Beat to increase the slide to Slide 4.",
+      "Twice-Loved: +1 Beat to let another ally to also inflict violence."
+    ]
+  },
+  {
+    "name": "Respite In Tranquility",
+    "disciplineName": "Strifesinger",
+    "isEnlightenment": false,
+    "lore": "A remembrance to the ancient times of the Sword Isles, when it was called the Isles of Gold, back when war was the furthest from the minds of warriors. Back when songs were sung under peach trees, songs about play, about the great conflict of the Twin Gods of the Northwest Wind and the Southeast Monsoon, about the dancing of monkeys and mouse deers. The Tranquil Missionaries from the Far Southeast brought with them Gods of Tranquility.",
+    "prereqNames": [
+      "Song of the Ancients"
+    ],
+    "description": [
+      "Spend 2 Beats to heal 1 all allies in burst 2 of you, and then take on the Resounding Stance as you begin playing a healing tune. While in the Resounding Stance, All allies that start their Fulmination in burst 2 of you may Heal 1. When you end your Fulmination, you may end Resounding Stance to give POS Up (2) and RES Up (2) to yourself and all allies in burst 2."
+    ]
+  },
+  {
+    "name": "Kulintang of Heaven",
+    "disciplineName": "Strifesinger",
+    "isEnlightenment": false,
+    "lore": "\u201cBear rapture and sorrow.\u201d A song taught by the great warlord-paraawit apo-apo Singpuksa and since adapted by Awitan all across the archipelago. A song that quickens the hearts and souls of the beings that hear it, inexplicably, sometimes bringing heroes to jovial tears. Sing full and true, Singer. Your song, your steps... It shall culminate in this moment. Your song shall be the song of a thousand weary ghosts, that sorrowsong: let them hear the cries of your heart, the blood of your soul.",
+    "prereqNames": [
+      "Respite in Tranquility"
+    ],
+    "description": [
+      "Spend 1 Beat to conduct a grand orchestra: put down a Burst 1 Kulintang Field on your square. You and all allies that start their turn within the square Heal 1.",
+      "Heavenly Kulintang: +1 Beat when you put down the field to upgrade it to a Heavenly Kulintang Field: you or any ally that starts their turn within may Rush 1.",
+      "Yaksha Songfield: +1 Beat to inflict 1 Hit on every enemy in the Burst and Heal 1 every ally in the burst when you first put down the Field."
+    ]
+  },
+  {
+    "description": [
+      "At the beginning of Violence, you and all allies gain a Perfect Tempo. When you are the target of an attack, you can consume the Perfect Tempo to immediately rush 3 before the attack. At Strike 4+, for 1 Beat, All allies in the battlefield can take 4 Beats on their next Fulmination."
+    ],
+    "name": "Vesper of the Conquering King",
+    "isEnlightenment": true,
+    "disciplineName": "Strifesinger",
+    "prereqNames": [],
+    "lore": "The song of Rajaraya is lost now, no doubt a sad consequence of his great ambition. His mission and his achievements were liable to make him the most famous of all ancestors: he was the Conquering Giant-King, the one who will seize heaven\u2019s thunderclaps, who will destroy the gates of the sky and seize Jamiyun Kulisa\u2019s Thunderbolt. It is said that he succeeded, but that he also failed. The truth is now long forgotten, and some say that the Conquering Giant-King still walks this world, or that his corpse can be found within the deep cavern complexes that can be found near the mountain of Tauhaw, where the grand Rajahnate of Gatusan stakes its center."
+  },
+  {
+    "name": "Seafoam Slide",
+    "disciplineName": "Swordfish Cavalier",
+    "isEnlightenment": false,
+    "lore": "Taught by Hiling Makar as he was well versed in the arts of the bow before becoming the first Swordfish Cavalier. With this, you fire a piercing jet of water from your bow, shredding through armor.",
+    "description": [
+      "Spend 1 Beat to Rush 3 and then gain +1 Attack Tooth on your next Water Attack. This Rush ignores Water Terrain.",
+      "Soak: +1 Beat to inflict Water Vulnerability (2) on all enemies adjacent to you after the Rush."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Sea Lantaka",
+    "disciplineName": "Swordfish Cavalier",
+    "isEnlightenment": false,
+    "lore": "A skill invented by the old Balu Warlord Panglima Sumarak, who brought with him a giant lantaka cannon as a weapon to destroy stone fortifications. By using this technique, you channel that old Balu Warlord, and summon his lantaka.",
+    "prereqNames": [
+      "Seafoam Slide"
+    ],
+    "description": [
+      "Spend 1 Beat to fire your sea cannon: Area Water Faith Attack vs all fighters in Range 5 burst 1.",
+      "Riptide: +1 Beat to also inflict Pull 2 to all chosen targets.",
+      "Coral Lagoon: +1 Beat to put down a Burst 1 Sea Field in the burst area. Any ally in the field can make their attack into Water and they heal 1 when they start their Fulmination within."
+    ]
+  },
+  {
+    "name": "Ocean Joust Style",
+    "disciplineName": "Swordfish Cavalier",
+    "isEnlightenment": false,
+    "lore": "\u201cSeek true glory before the water that nourishes you becomes your blood,\u201d \u2013 Agi Sindarak, a Swordfish Cavalier warlord from the polity of Ikadan in Kalanawan. With this Technique, you embody the Satariya. You are heralded by the sounds of bodyong resound, kettlebells against sharp coral weapons.",
+    "prereqNames": [
+      "Sea Lantaka"
+    ],
+    "description": [
+      "For 1 Beat, you can rush 5 in a straight line, moving through enemies. Inflict 1 True Hit on every enemy you move through.",
+      "Liquid Lightning: +1 Beat to rush 6 but not constrained to a single straight line, but you cannot move through a square you\u2019ve already moved through.",
+      "Flying Fish: +1 Beat to Fly for the duration of the Rush, and you gain Flying until the end of your next Fulmination."
+    ]
+  },
+  {
+    "name": "Moon Princess Style",
+    "disciplineName": "Swordfish Cavalier",
+    "isEnlightenment": false,
+    "lore": "The Moon is perfectly intertwined with the sea. It is long said that an aspect of the Moon, Tsandila Dayawa, came down as a beautiful winged lunar woman, named Ayakassa Ravena, and Hakasalug fell in love with her, which caused him to stop teaching Hiling Makar the rest of his knowledge. Thus the Coral Knight Art is eternally imperfect, but there is a sect of Swordfish Cavalier\u2019s that argue that this is good, and is their responsibility to continue mastery. This Technique exemplifies this story: the moon becomes a sign of the times, a mark of glory. You summon moon spirits with a prayer and you shoot it with an arrow, or pierce it with a lance, exploding the moon and letting it splash in every direction.",
+    "prereqNames": [
+      "Ocean Joust Style"
+    ],
+    "description": [
+      "Spend 1 Beat to call the Moon to the field: place the Moon in a free square in range 3 as an Object. If the Moon suffers any Hits (it does not have any defenses), it explodes, dealing 2 True Hits to all enemies in burst 2 of it.",
+      "Hunting Moon: +1 Beat to make it so that all enemies adjacent to the Moon suffer Eviscerate.",
+      "Full Moon: +1 Beat to give the Moon 5HP before it explodes."
+    ]
+  },
+  {
+    "name": "Storm Surge Style",
+    "disciplineName": "Swordfish Cavalier",
+    "isEnlightenment": false,
+    "lore": "The waterfall cascades and flows. You rush up it, and send the haze of the falls upon you. Perfected by a later student of the Coral Knight Art, Abuy, who kept trying to climb up a waterfall.",
+    "prereqNames": [
+      "Moon Princess Style"
+    ],
+    "description": [
+      "Spend 1 Beat to rush 3. Make every square you move through into water terrain.",
+      "Overflow: +1 Beat to make the water terrain overflow: inflict 1 Hit on every enemy adjacent to the water terrain you just put down.",
+      "Sea Naga Whip: +1 Beat to make the following attack after the Rush: Area Water Faith Attack vs all fighters in path 7, then inflict SPD Down (1)."
+    ]
+  },
+  {
+    "description": [
+      "When you move into or start your Fulmination in water terrain, heal 2. You also become Immune to Slides. for 2 beats at strike 4+, slide 2 every chosen target in the field, and then every square of water terrain explodes, dealing 2 true hits to every target in burst 1 of them."
+    ],
+    "name": "Knight-Lord of the Seas",
+    "isEnlightenment": true,
+    "disciplineName": "Swordfish Cavalier",
+    "prereqNames": [],
+    "lore": "In the ancient of days there was a great deluge that brought all of the Sword Isles underwater. This deluge was said to be the wrath of Baginda for all the cruelty in thee world. Unfortunately, their punishment did not end the cycles of violence. It was said that this deluge is what buried the great ancient continent of Samrasat under the sea. You envelop yourself in rushing waves and salt sea brine, which takes on the form of the King of the Sea, high and mighty, with a crown of coral reefs and a mount of six thousand balu. You and your Balu share each other\u2019s eyes. Spirit torrents guide your arrow shots. Your weapon turns into a shrike of pure jet water, which you hurl against your enemy. Your balu becomes as the royal balu of Tuwan Margosatubig."
+  },
+  {
+    "name": "Sea and Storm Dance",
+    "disciplineName": "Death Dancer",
+    "isEnlightenment": false,
+    "lore": "Mastery Ninth: Be as water, formless but all form, thoughtless but all thought. The final conceit of the transcendental animism, this oneness with nature, this Hiyang, is to be as the bamboo, swaying in the wind, thinking not, but becoming that thing. Through thoughtlessness, become violence. This is a gentle fist, be not afraid to use it. With it, you shall toss boulders. Death crumbles all things, even mountains.\"",
+    "description": [
+      "Spend 1 Beat to take on Forceful Wave Stance: All your Melee Attacks now Push 1 per 7+ on the Attack Teeth and you can walk on water, ignoring water terrain. Spend 2 Beats to take on Razing Storm Stance instead: As with Forceful Wave Stance, but you can consume the Stance when you Push a fighter, to teleport to a square adjacent to the fighter after the Push."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Death Clinch",
+    "disciplineName": "Death Dancer",
+    "isEnlightenment": false,
+    "lore": "Yamadiraja, as Sri Dapa, measures the lives of every mortal on earth upon a tree on the Mountain of Kibalu, in Sonyoh. There, those that would travel to the Tree of Life would be met by him, and taught by him. He emphasizes thus. Quoth Death: \u201cYou are not beyond death. None are. Even immortality is temporary. Even the gods face death, for everything is part of the cycle of Diwa. Therefore, learn: something can only be beautiful if it ends.",
+    "description": [
+      "Spend 1 Beat to strike quickly with a chopping bolo punch which weaves into a grapple. 1 adjacent fighter to you becomes Clinched. While Clinched, they suffer Stop , but they lose Clinched at the end of their Fulmination.",
+      "Fight Ender: +1 Beat to immediately inflict violence, gaining Skewering. Clinch stays.",
+      "Hurl Gods At Mountains: +1 Beat to immediately throw the target: push 5 and if they collide, they suffer Slow (1). Clinch ends."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Foe Stepping Stance",
+    "disciplineName": "Death Dancer",
+    "isEnlightenment": false,
+    "lore": "Teaching twelfth: be as the wind. Be the thing that bends bamboo, the thing that becomes hurricanes, the thing that fights back waves. Be the thing that floats over it all.",
+    "prereqNames": [
+      "Sea and Storm Dance"
+    ],
+    "description": [
+      "Spend 1 Beat to take on the Foe Stepping Stance until you suffer hits. While in this Stance, when you Rush and you end your movement in an enemy\u2019s or terrain\u2019s square, you can rush 2 more, and keep bouncing off of enemy\u2019s though you can only bounce off each enemy and terrain once. Vertical terrain counts (ie. Higher terrain).",
+      "Eagle Stepping Style: +1 Beat to make it so that every fighter you bounce off of suffers 1 Hit.",
+      "Dragon Road: +1 Beat to make it so that this works with Strides as well, not just Rush."
+    ]
+  },
+  {
+    "name": "Hornbill Bladekick",
+    "disciplineName": "Death Dancer",
+    "isEnlightenment": false,
+    "lore": "Duality-Rending Sutra: do what is assigned to you, to your utmost ability, to the quality closest to the one expected. Strike, and when you do, strike with utmost intent. To perform the Hornbill Bladekick you must be close enough to Yamadiraja that you can manifest his leg, which is a burning monitor lizard claw.",
+    "prereqNames": [
+      "Deathly Clinch"
+    ],
+    "description": [
+      "Spend 1 Beat to strike an adjacent fighter either down or up with a bladekick. If up: inflict 1 Hit and Juggle (1); if down: inflict 1 Hit and inflict Unbalance (1).",
+      "Deep Earth Axe: +1 Beat if you strike them down to embed them into the earth. While embedded, they cannot move or be moved, and they must spend 1 Beat to remove the embed.",
+      "Sky Render: +1 Beat if you strike them up to launch them into the sky, removing them from play. They fall down at the start of their next Fulmination, suffering 1 True Hit."
+    ]
+  },
+  {
+    "name": "Death Comet",
+    "disciplineName": "Death Dancer",
+    "isEnlightenment": false,
+    "lore": "\u201cDeath Dancers practice the art of Holistic Violence, one of the main Rituals of Yamadiraja. This means that they are not simply inflicting violence, but they are violence. Death Dancers that practice this Technique understand and apply it to their martial art: they are capable of taking on multiple stances at a time, as if they are all violence at once. Quoth Death: \u201cThe Dance of Death is not just a physical dance, but rather, a way of life. Death, remember, is not the end, but rather, the next step to the next life. Therefore embrace death, and you shall be mercurial.\u201d The ultimation of this Technique is the ability to strike the air so quick with kicks that you summon a burning comet.",
+    "prereqNames": [
+      "Foe Stepping Stance",
+      "Hornbill Bladekick"
+    ],
+    "description": [
+      "Spend 1 Beat to kick the air rapidly, and send a ball of pure fraying death upon a target: Ranged Earth Faith Attack vs 1 fighter in range 5.",
+      "Death River: +1 Beat to turn this into a starstreak: Change the target to all fighters in line 5.",
+      "Death Souled: +1 Beat to store the ball instead, turning it into a Death Charge. When you next make a Faith attack, consume the Death Charge to make that attack Overwhelming."
+    ]
+  },
+  {
+    "name": "Dance of the King of Death",
+    "isEnlightenment": true,
+    "disciplineName": "Death Dancer",
+    "prereqNames": [],
+    "lore": "You breathe out, and then break into the blissful dance, all to summon Sayawraja, the King of Dance, the most violent aspect of Yamadiraja: a six-armed, flaming-eyed Avatar of Violence. The Ultimate Hypocrite. They Who Will Kill Those That Threaten Ang Hiyang, Transcendent Dharmapala. From your soul erupts two more sets of arms. Quoth Death: \u201cThe Four-Armed Thunderbolt Wielder is one of the primal versions of Yamadiraja. If there would be any that lights the wick of his ire, he will take upon this form to remind humans the most visceral and primordial face of death.\u201d",
+    "description": [
+      "When you make a melee attack, you can choose to shed any number of Stances, dealing +1 Hit per Stance removed. at strike 4+, spend 1 beat to summon the death avatar: all your melee attacks have sharpness and have Overwhelming. When you become Critical for the first time after gaining the blissful dance, you explode in deathly energies: inflict 6 true hits upon all enemies in burst 3."
+    ]
+  },
+  {
+    "name": "Owl Dance",
+    "disciplineName": "Headtaker",
+    "isEnlightenment": false,
+    "lore": "Thread 2: Blood need not be so noisy, however.",
+    "description": [
+      "Spend 1 Beat to gain an Owl Token. You can discard the Owl Token at any time to teleport 2.",
+      "Owl Spreads Its Wings: +1 Beat to also give the Owl Token to all allies in burst 1.",
+      "Owl Assassinates Night: +1 Beat to gain Stealth (2) when you discard the Owl Token."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Head Lopping Attack",
+    "disciplineName": "Headtaker",
+    "isEnlightenment": false,
+    "lore": "\u201cTo truly become the axe, you must be able to puncture the carapaces of all those that you wish to destroy. If you cannot, then you are ineffectual, useless.\u201d - Si Batara Padakul, Diwata of Axes. Thread 1: Your axe will always find its mark.",
+    "description": [
+      "Spend 1 Beat to strike down with a weapon and lop off heads: make a Melee Metal Bravery Attack vs 1 close target. If this brings them to 0 HP, inflict Daze (1) all enemies in burst 2 as your savage display sends them reeling.",
+      "Present Their Head: +1 Beat to rush 3 after bringing the target to 0 HP but before inflicting the Daze.",
+      "Phantom Hound: +1 Beat to mark one fighter in range 3 after making the attack. When that marked fighter moves, you may move after them, mirroring their movements."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Slayer Pamaagi",
+    "disciplineName": "Headtaker",
+    "isEnlightenment": false,
+    "lore": "\u201cVerse 49 - However, their head split into ten thousand skulls, and the Supreme Soul spoke: YOU HAVE DESCRIBED ME WRONGLY IN YOUR LESSONS, They said. I AM NO GOD. I AM BEYOND GOD. YOU CANNOT DESCRIBE ME. IN YOUR HUBRIS, YOU CANNOT KILL ME. I AM BEYOND DEATH. NOW... ACHIEVE HIYANG.\u201d 50 - This lesson cannot be written down, for it exists and does not exist all at once. I apologize on behalf of the Great Hero of Heroes, Noble Lord of Warrior-Slayers.\u201d \u2013 SONG OF IDDA MANGUBAT",
+    "description": [
+      "Spend 1 Beat to take on the Slayer Stance until you are forcibly moved by an enemy. While in this stance, you can move into enemy squares, but not end in them. When you move into an enemy\u2019s square that has 1 HP left, immediately defeat them.",
+      "Rip and Tear Stance: +1 Beat to gain +1 Speed while in the Stance.",
+      "Jagganath Rouse: +1 Beat when you take this stance to make it so that when you are forcibly moved while in this stance, roll a Chance Die. On a 6+, you ignore that forced movement."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Shadow Ritualist",
+    "disciplineName": "Headtaker",
+    "isEnlightenment": false,
+    "lore": "Verse 22: \u201cWhen BA~TA-LA, That Supreme Soul, stepped into the world through the paradox of creation, Idda Mangubat vanished into the trees in Their path. The great universal consciousness\u2019 gaze seemed so serene that he felt themself melting into oneness just at Their gaze\u201d. \u2013 SONG OF IDDA MANGUBAT",
+    "prereqNames": [
+      "Owl Dance",
+      "Head Lopping Attack",
+      "Slayer Pamaagi"
+    ],
+    "description": [
+      "Spend 1 Beat to rush 1 and then summon a shadow clone of yourself in the square you left, which is a Size 1 Object. When you are the target of an attack, you may swap squares with 1 Shadow Clone, teleporting, before the attack. You can only have up to 3 Shadow clones at a time. Shadow Clones are Cover Terrain. Spend 2 Beats to enact Umbral Assault: on the lines of shadowspeed and shade momentum you strike, a rippling culmination, as your shadow clones leap and strike your target: Melee Air Bravery (+1 Tooth per your Shadow Clone in the field) Attack vs an adjacent fighter. All your Shadow Clones then disappear."
+    ]
+  },
+  {
+    "name": "Death Scythes Down",
+    "disciplineName": "Headtaker",
+    "isEnlightenment": false,
+    "lore": "Thread 1: When blood is drawn, maybe then we shall revel in ultraviolence.",
+    "prereqNames": [
+      "Shadow Ritualist"
+    ],
+    "description": [
+      "Spend 1 Beat to leap down like Sri Dapa\u2019s Scythe: Make a Melee Air Bravery Attack vs 1 fighter on an Elevation lower than yours in range 3, then Rush to a square adjacent to them.",
+      "Sri Dapa\u2019s Harvest: +1 Beat to give this attack Overwhelming.",
+      "Flitting Death: +1 Beat to increase the range to range 5."
+    ]
+  },
+  {
+    "description": [
+      "When you make Melee Attacks against enemies with Full HP, you may roll twice and take the better result. When you make Melee Attacks against Staggered Enemies, once per your Fulmination, you can replace 1 Attack Tooth with a d12 Assassination Die. That die still Hits on 6+, and scores 2 Hits on 12+. At Strike 4+, spend 2 Beats to kill all enemies who have 3 or less HP."
+    ],
+    "name": "Yamakala Nature",
+    "isEnlightenment": true,
+    "disciplineName": "Headtaker",
+    "prereqNames": [],
+    "lore": "Whenever you move through the shadows, the god of ritual killing sends merit, flashing out in shadowy arms, striking all about you. One of the many Gods of Fated Death is said to be the god/goddess Yamakala Lakibayibatara (Male- Female Deity). It is said that the God of Cyclical Death, Yamadiraja, and the Goddess of Vengeance, Kalakatri, were once one being of all death."
+  },
+  {
+    "name": "Siga",
+    "disciplineName": "Makinaadmanon",
+    "isEnlightenment": false,
+    "lore": "\u201cHeaven crumbles and the seas boil! With nothing but my name writ across the stars... Siga!\u201d A popular mudra amongst Makinaadmanon that truly encapsulates their position as magickal artillery. This spell was perfected by Makinaadmanon warriors that needed to sneak through ancient temples guarded by Akai invaders.",
+    "description": [
+      "Spend 1 Beat to perform Siga: make a Ranged Fire Faith Attack vs 1 fighter in range 5, then inflict Fray 1.",
+      "Spend 2 Beats to perform Kusiga: Change the attack to Area Fire Faith Attack vs range 4 burst 1.",
+      "Spend 3 Beats to perform Devasiga. As with Kusiga but with the following effect: all squares in the burst become Fire Terrain."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Baha",
+    "disciplineName": "Makinaadmanon",
+    "isEnlightenment": false,
+    "lore": "\u201cI hold you to your word, giver of waters! Grant me thine strength to vanquish ere enemies! Water churns and overtakes chaos: Baha!\u201d Sorcery is the ability to use your own energy to affect the world at large, which you perform by harnessing your Kinaadman. You bring this storm down to bear upon your enemies. Baha is the spell used to summon water and to let it surge across the world.",
+    "prereqNames": [
+      "Siga"
+    ],
+    "description": [
+      "Spend 1 Beat to launch a wave of water, Baha: Ranged Water Faith Attack vs 1 fighter in range 4.",
+      "Spend 2 Beats to perform Kusobaha: Area Water Faith Attack vs all enemies in blast 3. All free squares in the burst become Water Terrain.",
+      "Spend 3 Beats to perform Devabaha: As with Kusobaha, but also inflict Slow (1) to each chosen target."
+    ]
+  },
+  {
+    "name": "Batubalani",
+    "disciplineName": "Makinaadmanon",
+    "isEnlightenment": false,
+    "lore": "Mentala are magical formulations that are usually read from the bamboo strip, but a very quick way of implementing them is by imbuing them upon something, and letting their effect trigger by dint of your Kinaadman. \"Whisper, bleed and burst forth! The overwhelming oppressive force of the gods of the soil herald thee! Batubalani!\" You throw out a mentala that rends into pieces at it hits the ground, creating a magnetic field. Batubalani means magnetic rock. The concept of rocks having its own force of attraction is ubiquitous across the isles, and it is said that this is the reason why people are drawn to the earth: the earth gods have an innate spiritual attraction that brings all mortals down.",
+    "prereqNames": [
+      "Baha"
+    ],
+    "description": [
+      "Spend 1 Beat to perform Batubalani: choose 1 square in range 5. All chosen targets in burst 2 of that square are Pulled 1 toward that square. Any targets with Float or Fly lose this until the end of their next Fulmination.",
+      "Spend 2 Beats to perform Kusobatubalani: pull 2 squares instead and inflict Unbalance (2).",
+      "3 Beats to perform Devabatubalani: As with Kusobatubalani, but every square in the burst becomes Air Terrain until the end of your next Fulmination."
+    ]
+  },
+  {
+    "name": "Kilat",
+    "disciplineName": "Makinaadmanon",
+    "isEnlightenment": false,
+    "lore": "\u201cAs I gather my fulminations, the violences upon my heart bursts forth! Uncontainable like the lightnings: I shall streak brighter than Jamiyun Kulisa! Now feel my sun-searing spite: Kilat!\u201d The element of lightning is the purest condensation of wind, and is the weapon of the gods. This technique was perfected by Busalian Keravu, from the highest mountains of Rusunuga in Sinuku, who was said to have been struck by lightning ten times and Deflected each one. He was granted the technique by Galura himself, who incarnated as Gat Alti Alaya, God-Hero of the Lightning Bolt, who brandished four arms. Mudras are magicked hand gestures that stem from ancient foreign religions. These gestures have metaphysical meaning, and performing them in certain manners, or projecting passionate faith upon them, calls magick upon the world.",
+    "prereqNames": [
+      "Batubalani"
+    ],
+    "description": [
+      "Spend 1 Beat to summon a fulminating lightning bolt, Kilat: make a Ranged Metal Faith Attack vs 1 fighter in range 5.",
+      "Spend 2 Beats to perform Kusokilat: Make the attack a snaking thunderbolt across the battlefield: change the attack to Area Metal Faith Attack vs all enemies in path 6.",
+      "Spend 3 Beats to perform Devakilat, as with Kusokilat but also turn every square in the path into Metal Terrain before the attack."
+    ]
+  },
+  {
+    "name": "Linog",
+    "disciplineName": "Makinaadmanon",
+    "isEnlightenment": false,
+    "lore": "\u201cHeed me, grandfather earth! Grant me thine earthquake! Linog!\u201d The element of earth is said to be younger than his fathers, the element of wind and water, who were first in the cosmos. However, earth has always been very rebellious. The earth is associated with steadfastness, but when flipped, represents ultimate annihilation.",
+    "prereqNames": [
+      "Kilat"
+    ],
+    "description": [
+      "Spend 1 Beat to perform Linog: launch yourself off of the earth, rush 3 in a straight line, ignoring terrain, fighters, and elevation. Once you land on a square, raise 1 adjacent square to you by +1 Elevation,. The square you left becomes Earth Terrain.",
+      "Spend 2 Beats to perform Kusolinog: Any enemy you move over suffers 1 Hit and Eviscerate (1).",
+      "Spend 3 Beats to perform Devalinog: As with Kusolinog, but once you land on a square, inflict 1 Hit on each enemy adjacent."
+    ]
+  },
+  {
+    "description": [
+      "At Strike 4+, for 3 Beats, you may summon the burning thunderbolt into the earth: inflict 5 True Hits to every fighter beyond burst 2 (everywhere within burst 2 of you is safe). Then suffer 1 True Hit, and you also suffer a Wound Consequence after Violence. If narratively appropriate, become Defeated to enact Sakuna: Inflict 10 True Hits on all enemies in the battlefield, but then you die, annihilated by the strength of your own thunderbolt."
+    ],
+    "name": "Heaven To Earth Vajra",
+    "isEnlightenment": true,
+    "disciplineName": "Makinaadmanon",
+    "prereqNames": [],
+    "lore": "\u201cJamiyun Kulisa, offer me your thunderbolt. Habagat and Amihan, offer me your winds! Si Ginarugan, let the almighty Earthquake shake the foundations of this atrocious field, and Indira Suga grant me the authority to bring godly indignation! SAKUNA!\u201d You raise your hand and thunderclouds gather. You incant, writhing, spiking utterations and ululations. When heaven has had enough of your blasphemy, the holy powers of heaven send a fulminating lightning bolt to the earth, embodying all seven natural elements."
+  },
+  {
+    "name": "Future Arrow",
+    "disciplineName": "Tigpana",
+    "isEnlightenment": false,
+    "lore": "This Discipline was made by the Sikarom (bamboo longbows) wielders of Ibalnong. They stood upon bamboo watchtoweres known as bantara to be able to protect their settlements from every raid. With a meditation upon the Universal Flow, you fire an arrow meant for the future.",
+    "description": [
+      "Spend 1 Beat to shoot an arrow into the air. At any point in the violence after your Fulmination, you can cause the arrows to fall onto any target that is within burst 5 of you, immediately inflicting 1 True Hit per arrow.",
+      "Stillness: +1 Beat to gain Stealth (2) immediately after firing the arrows."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Wind Breathing Style",
+    "disciplineName": "Tigpana",
+    "isEnlightenment": false,
+    "lore": "This concoction, known sometimes as the Hiyang Rasa (The Essence of Harmony), once crafted by baylan of Tigpana, has now become a common concoction taught to all beginner Tigpana. Made of fire, crocodile tears, hibiscus petals, and cinnamon bark, the concoction helps you align with the Flow. Once aligned with the Flow, you can use it to block off other\u2019s connection with the world.",
+    "prereqNames": [
+      "Future Arrow"
+    ],
+    "description": [
+      "Spend 1 Beat to imbibe Zephyr Essence: rush 2, ignoring elevation. The first square you left becomes Air Terrain until the end of your next Fulmination.",
+      "Dragon Shoot: +1 Beat to fire a wind-infused arrow after rushing: Area Air Bravery Attack vs all chosen targets in path 6.",
+      "Slicing Wind Form: +1 Beat to rush 6 in a straight line instead."
+    ]
+  },
+  {
+    "name": "Bamboo Reroutes The River",
+    "disciplineName": "Tigpana",
+    "isEnlightenment": false,
+    "lore": "The tigpana\u2019s reaction time is feared across the isles. Nothing matches them. In truth, this is the first lesson of the Tigpana: to catch an arrow from mid-air. The second lesson is this: throw the arrow back. Sri Taka is a legendary folk hero among Apumbukid, a Hinapanun noble who fought against a Virbanwan iron foundry village that seeked to kill the diwata of the forest Ibusi, Apu Ibusi.",
+    "prereqNames": [
+      "Wind Breathing Style"
+    ],
+    "description": [
+      "Spend 1 Beat to ready yourself, taking on the Si Taka Catches Arrows Stance until you are forcibly moved. While in this stance, when you are the target of a ranged attack, roll a Chance Die. On a 4+, redirect the attack against any other fighter within range 4 or back at the attacker. Then Rush 2 after the attack.",
+      "Pillars of Heaven: +1 Beat to immediately rush 3 and gain POS Up while in the Stance.",
+      "Twin Naga: +1 Beat to ready yourself: at any point during your Fulmination, consume the Stance for 1 Beat to inflict violence twice without Combo Breaker."
+    ]
+  },
+  {
+    "name": "Everywhere All At Once Meditation",
+    "disciplineName": "Tigpana",
+    "isEnlightenment": false,
+    "lore": "Becoming Naghiyang is an enlightened state but is not a final salvation or liberation from the sufferings of life. When one is Naghiyang, one moves in accordance with the wants of nature, with the bouncing gods that live in every single thing, including one\u2019s self. They do everything naturally, easily, without thinking, action without thought. However, mindfulness is still required to stay Naghiyang: one can be very easily brought out of harmony. Those in Naghiyang revel in the absolute joy in being accordance with the trichiliocosm.",
+    "prereqNames": [
+      "Bamboo Reroutes The River"
+    ],
+    "description": [
+      "Spend 1 Beat to gain a Watchtower Token. When a fighter leaves a square within burst 5, discard a Watchtower Token to inflict 1 True Hit on them before they leave the square.",
+      "God Eye: +1 Beat to gain a God Eye Token instead. When you discard a God Eye Token, you may inflict violence on the target instead."
+    ]
+  },
+  {
+    "name": "Harmonious Wind Spirit",
+    "disciplineName": "Tigpana",
+    "isEnlightenment": false,
+    "lore": "The application of Hiyang Technique is favored by all tigpana: with an ululation, you summon a wind spirits in particular areas of the battlefield. When your arrows go through the spirits, they are infused with stronger Flow, bouncing off of them and accelerating.",
+    "prereqNames": [
+      "Everywhere All At Once Meditation"
+    ],
+    "description": [
+      "For 1 Beat, Choose 1 square in range 3, placing Wind Spirits (Size 1/2 Summons) in them. An ally may target the wind spirit. If they do, they can change the origin point of the attack to the wind spirit, and the attack gains +1 range and +1 Attack Tooth.",
+      "God Wind: +1 Beat to strengthen the Wind Spirits: any fighter of your choice that ends their turn adjacent to them suffer Push 1.",
+      "Devil Hunting Wind: +1 Beat to increase the size of the spirit to Size 2."
+    ]
+  },
+  {
+    "description": [
+      "Whenever a fighter in range 5 of you suffers an attack, inflict 1 Hit immediately, 1/Fulmination. At Strike 4+, spend 1 Beat and choose any target in the battlefield. Roll your Bravery+Faith against them, each hit being a true hit. If they are still in play, they suffer Stun (1)."
+    ],
+    "name": "Astra of Transcendent Harmony",
+    "isEnlightenment": true,
+    "disciplineName": "Tigpana",
+    "prereqNames": [],
+    "lore": "You breathe out, and your breathe sparks with the rising drums of thunder. None can keep you down. Your aim is steady. In the gentleness arises the greatest of violences. This is the Rusakpana: the Bow of Annihiliation. Rusak weapons are weapons made of pure annihilating god-essence, the weapons of the gods and those that invoke them."
+  },
+  {
+    "name": "Butterfly Words Style",
+    "disciplineName": "Warspeaker",
+    "isEnlightenment": false,
+    "lore": "\u201cMaster this utterance and command the battlefield with your words.\u201d You utter A\u00b7TAS, warriors find themselves moving of their own accord.",
+    "description": [
+      "Spend 1 Beat to manipulate a fighter\u2019s perceptions and movement: Slide 2 a fighter in range 3.",
+      "Superior Command: +1 Beat to slide two fighters in range 3 instead.",
+      "Siwa Mandate: +1 Beat to Slide 4 instead."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Fey Buddha Glossolalia",
+    "disciplineName": "Warspeaker",
+    "isEnlightenment": false,
+    "lore": "\u201cMaster this utterance and know that the Absolute Reality is I, and the imperfect senses cannot comprehend perfection.\u201d You utter KA\u00b7RIK\u00b7TAN, and you show a warrior perfect beauty, so hard to comprehend that they are dazzled.",
+    "prereqNames": [
+      "Butterfly Words Style"
+    ],
+    "description": [
+      "Spend 1 Beat to Daze (1) a fighter in range 3 with your words.",
+      "Unfurling Lotus: Daze (1) all enemies in burst 2.",
+      "Hibiscus Enlightenment: +1 Beat to Stun (1) instead of Daze."
+    ]
+  },
+  {
+    "name": "Ferocity Mantra",
+    "disciplineName": "Warspeaker",
+    "isEnlightenment": false,
+    "lore": "\u201cMaster this utterance and inflict doubt upon the victims of your scorn. This is how you will transcend violence.\u201d You utter BA\u00b7LA\u00b7SIK: the surat inscribed upon the air, you weaken your target.",
+    "prereqNames": [
+      "Fey Buddha Glossolalia"
+    ],
+    "description": [
+      "Spend 1 Beat to weaken a fighter: Inflict 1 Hit and BRV Down (2) or FTH Down (2) to a fighter in range 4.",
+      "Vicious Mantra: +1 Beat to inflict BRV Down (2) + FTH Down (2) instead.",
+      "Flensing Mantra: +1 Beat: Inflict Sunder (2) on the target as well."
+    ]
+  },
+  {
+    "name": "Hibiscus Laughs Sutra",
+    "disciplineName": "Warspeaker",
+    "isEnlightenment": false,
+    "lore": "One day the great Namulak, He Who Blossomed After 500 Thunderbolts, Paranirvana Royalty, the BATALA-BUDDHA, was ruminating upon a giant hibiscus. The laughing dog warrior Shree Bangut Pangil came up to him, thinking he could take advantage of the buddha\u2019s rumination. The Namulak spoke the mocking syllable U\u00b7LOL and split the greatest warrior to have ever lived into a thousand billion realms, and thus created the trichiliocosm.",
+    "prereqNames": [
+      "Ferocity Mantra"
+    ],
+    "description": [
+      "Spend 2 Beats to take on the Hibiscus Laughs Stance until the end of your next Fulmination. While in this stance, all enemies in burst 2 of you suffer Dullness.",
+      "Mockery of the Flowers: +1 Beat to also inflict Fray 1 on every enemy that starts their Fulmination within burst 2 of you.",
+      "Peaflower Meditation: +1 Beat to teleport 2 before taking on the stance."
+    ]
+  },
+  {
+    "name": "Beyond Royalty Implicature",
+    "disciplineName": "Warspeaker",
+    "isEnlightenment": false,
+    "lore": "Meditate on this poem, and then utter the words KID\u00b7LAT, which is lightning. For enlightenment is like a burst of lightning. BATALA in a humble warrior-king form gathered his warriors together, sitting atop a karakoa. \u201cGather round, o warriors, and open thine ears. I sing on the topic of Ego, and it is thus: Killing God and Becoming God are goals for the lesser-minded chained to the cycle of rebirth. Embrace Violence and find Glory beyond God.\u201d",
+    "prereqNames": [
+      "Hibiscus Laughs Sutra"
+    ],
+    "description": [
+      "Spend 1 Beat to dominate 1 fighter in range 3: they Inflict Violence if they can, with a target chosen by you.",
+      "Headfirst Into Death: +1 Beat to let the target stride before or after Inflict Violence.",
+      "Mass Domination: +1 Beat to choose any number of fighters in burst 2."
+    ]
+  },
+  {
+    "description": [
+      "Whenever you inflict a Bane upon a fighter, put down an illusion adjacent to them. You can only put down up to 3 illusions: if you put down another one while you already have 3, choose any illusion to remove first. When you Stride, you can instead choose to switch places with one of your illusions, teleporting. These illusions have 1 HP and can be attacked, but they do nothing else. You can choose what they look like, but most Warspeakers tend to make them look like clones of themselves. spend 1 beat at strike 4+ to shatter the illusion: inflict 1 true hit, stun (1), and sunder (1) on each enemy adjacent to each illusion. each illusion is shattered, removed from play."
+    ],
+    "name": "Shatter Haraya",
+    "isEnlightenment": true,
+    "disciplineName": "Warspeaker",
+    "prereqNames": [],
+    "lore": "BATALA is the \u201cI leave you with this final mentala. Inscribe these upon your souls, or your bamboo slates, or your swords. This is NI\u00b7BA\u00b7TA\u00b7LA. Thus is the word for all my followers. All my followers will have my enlightenment, and know the truth of the Trichiliocosm. All things are Haraya, or Imagination. To find the truth of the world, one must find me.\u201d These are the words of BATALA upon the Lake of Pulilan, before riding upon a water lotus to the grand unending seas and returning to His abode. Speak HA\u00b7RA\u00b7YA and manipulate the illusion itself."
+  },
+  {
+    "name": "Biting Thorn Attack",
+    "disciplineName": "Flower Balyan",
+    "isEnlightenment": false,
+    "lore": "Kinahalas-un is an ancient balyan who learned the secrets of ancient necromancy and decay. She crafted a thorn, which has since become a primary offensive technique of all Flower Necromancers, who practice it and then learn to apply it as covetously and as hidden as possible, woven between sung incantations and empty hand forms.",
+    "description": [
+      "Spend 1 Beat to launch a thorn: Ranged Earth Faith Attack vs 1 fighter in range 4, inflict Bleed 1.",
+      "Blood Drain: +1 Beat to heal 1 per target inflicted Bleed upon.",
+      "Bloomed Spider Lily: +1 Beat to make this an area attack that targets all chosen fighters in burst 2."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Brambles As Dragons",
+    "disciplineName": "Flower Balyan",
+    "isEnlightenment": false,
+    "lore": "Corpse Flower Necromancy has part of a shaman initiation rite baked into their training. They are taught to practice and learn the ways of the spirits, to communicate with them, and to give extra reverence\u2013even more so than usual priests and shamans do\u2013due to their own trespasses brought about by learning their Martial Art. Flower Necromancers therefore are intimately connected to the societies of spirits.",
+    "prereqNames": [
+      "Biting Thorn Attack"
+    ],
+    "description": [
+      "Spend 1 Beat to touch a warrior and let brambles bind them: inflict Stop (1) on a fighter in range 3.",
+      "Poison Field: +1 Beat to increase the target and range to all chosen fighters range 3 burst 1, and every square in the burst becomes Earth Terrain.",
+      "Wrapped Dragonvine: +1 Beat to inflict Stop (3) instead."
+    ]
+  },
+  {
+    "name": "Gumamela Diwa Method",
+    "disciplineName": "Flower Balyan",
+    "isEnlightenment": false,
+    "lore": "A gumamela is a hibiscus native to the isles. It is so named after Gumeng and Mela, a mortal man and his diwata lover. The diwata lover killed him in a moment of grief, realizing that Mela cannot live with Gumeng forever. Then she killed herself, for she cannot suffer such blasphemy. The first gumamela flowers blossomed from their corpses. Once known simply as \u201cBulaklak ni Gumeng at Mela\u201d, which means \u201cFlowers of Gumeng and Mela\u201d, it is now known as Gumamela.",
+    "prereqNames": [
+      "Brambles As Dragons"
+    ],
+    "description": [
+      "Spend 1 Beat to summon a giant gumamela to swallow you into the earth and belch somewhere else, teleport 2.",
+      "Gumamela Traverse: +1 Beat to let the gumamela swallow all allies adjacent to you as well, letting them teleport 2 as well, but they must stay adjacent to you.",
+      "Bungasattva: +1 Beat to Push 2 all enemies adjacent to you before or after the teleport."
+    ]
+  },
+  {
+    "name": "Vampire Orchid Promulgation",
+    "disciplineName": "Flower Balyan",
+    "isEnlightenment": false,
+    "lore": "The Mandurugo is the vampire orchid, which drains blood from one\u2019s veins and applies it as spiritual healing upon others. It is exceedingly rare, and is popular for healing datu by sacrificing slaves.",
+    "prereqNames": [
+      "Gumamela Diwa Method"
+    ],
+    "description": [
+      "Spend 1 Beat to inflict an Orchid upon a fighter in range 2. You can stack up to 3 Orchids at a time, and Orchids stay indefinitely. When a fighter with Orchids is attacked, consume any number of Orchids on the fighter to heal 1 the attacker per Orchid consumed.",
+      "Busilak Tayabak: +1 Beat to inflict an Orchid on all enemies in range 3 burst 1.",
+      "Unkind Flower: +1 Beat to make it so you inflict Vampire Orchids instead. An enemy that starts their Fulmination with a Vampire Orchid suffers 1 Hit."
+    ]
+  },
+  {
+    "name": "Burning Santan Sorcery",
+    "disciplineName": "Flower Balyan",
+    "isEnlightenment": false,
+    "lore": "Gather motes of crimson santan, crush them, and pray to let the vengeful dead burn the thickets. A mentala that summons a thicket of thick and hard to move through foliage. It is wrapped in phantom flame.",
+    "prereqNames": [
+      "Vampire Orchid Promulgation"
+    ],
+    "description": [
+      "Spend 1 Beat to burn a place: choose a square in range 4. A Burst 1 Fireflower Field erupts from it until the end of your next Fulmination: any enemy that starts their Fulmination in the Field suffers Fray 1 and Eviscerate (1). When the Fireflower Field disappears, all squares within the Field become Fire Terrain.",
+      "Blossoming Sampaguita: +1 Beat to increase the Field to Burst 2.",
+      "Divine Flower AFlame: +1 Beat to inflict Fray 3 on each enemy in the burst when you put down the field."
+    ]
+  },
+  {
+    "name": "The Symbol of Death",
+    "isEnlightenment": true,
+    "disciplineName": "Flower Balyan",
+    "prereqNames": [],
+    "lore": "Hinagpis ng mga bulaklak. You touch the ground and it becomes drenched in the spirit of the dead. Your heart is rent; sampaguitas blossom from your fingers, from your brow. You become inert, a living bloom, as the ghosts of the vengeful rise above the earth in reckoning. Petals blossom from your feet, and wrap you around. You are a flower yourself, now. Just a bit more and you will become a goddess, so close\u2013so close\u2013to death. The spirits remind you that the flowers are there to signify when a dear dead loved one is near. Become that signifier. The blossom erupts about you, butterflites scatter in every direction. Become death. The symbol for death in the sword isles is the Flower.",
+    "description": [
+      "All squares in burst 2 of you become difficult terrain for enemies, as flowers grow around your footfalls. Spend 2 Beats at Strike 4+ to root yourself and become blossom open. Blossoms fill the sky. You can no longer move nor be moved. However, your range is the entire battlefield for every effect: every ally heals 1 at the start of their fulmination, and every enemy suffers 1 True Hit to when they end of their fulmination."
+    ]
+  },
+  {
+    "name": "Hornbill Lance",
+    "disciplineName": "Heavenspear",
+    "isEnlightenment": false,
+    "lore": "A technique mastered by winged eaglefolk Nawilani, who perfected it when they resolved to ignore their weakness as someone that cannot fly. The Heavenspear is not impeded by the battlefield. All obstacles are simply things that must be vaulted over. Heavenspear Hinalus sped through an entire forest to strike at a warrior resting within the mouth of a river.",
+    "description": [
+      "Spend 1 Beat to strike heavenward with your weapon: make a Melee Air Bravery Attack vs 1 adjacent fighter, and then inflict Juggle (1) on the target.",
+      "Sky Rave: +1 Beat to gain a Hawk Eagle Token. When an enemy in range 3 ticks down their Juggle duration, discard the Token to teleport to a square adjacent to them and inflict violence.",
+      "Hawk Eagle Dance: +1 Beat to change the attack to Area Metal Bravery Attack vs all enemies in Line 5."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Ghokong Vaults Heaven",
+    "disciplineName": "Heavenspear",
+    "isEnlightenment": false,
+    "lore": "You use your weapon to vault over your enemy, confusing them, befuddling them, overwhelming them with your superior movement. Ghokong is an ancient monkey warrior, one of the best to have lived, who helped the ancient ascetic shaman-monk Tulopitaka to the far Southeast to collect ancient manuscripts lost to time in ancient Stillshrines. He is one of the greatest Kadungganan to ever live, and is himself a namulak, having found Glory.",
+    "prereqNames": [
+      "Hornbill Lance"
+    ],
+    "description": [
+      "Spend 1 Beat to vault over an enemy: choose 1 adjacent fighter and then rush into any other adjacent square to them, and the target suffers BRV Down (2).",
+      "Crashing Dive: +1 Beat to instead crash into the target\u2019s square instead of ending in an adjacent square, inflict Push 2, and then inflict 2 Hits.",
+      "Leaping Dodge: +1 Beat to choose a fighter in range 3 instead."
+    ]
+  },
+  {
+    "name": "Pinamaskan Pamaagi",
+    "disciplineName": "Heavenspear",
+    "isEnlightenment": false,
+    "lore": "You leap up like lightning, and then crash down like the vajra. In Gatusan, the Pinamaskan is an heirloom spear that is important to the wielder, named and decorated with gold flame inlays, and are usually longer and have longer blades than the usual spears",
+    "prereqNames": [
+      "Ghokong Vaults Heaven"
+    ],
+    "description": [
+      "Spend 1 Beat to leap into the air: inflict Juggle 1 on an adjacent fighter, then take on the Pinamaskan Stance until the start of your next Fulmination. While in this stance, you are Flying, and all your attacks against Juggled fighters gain +1 Attack Tooth.",
+      "Thunderbolt Vanquisher: +1 Beat to make an Area Metal Bravery Attack vs all enemies in burst 1 instead, inflicting Juggle 1 on each fighter, instead of inflicting Juggle 1 on 1 fighter before taking on the Stance.",
+      "Jamiyun Kulisa\u2019s Spiralling Lightning: +1 Beat to upgrade the stance. When you lose the stance, immediately teleport adjacent to any enemy in range 2 or any enemy with Juggle or Unbalance, and then inflict violence."
+    ]
+  },
+  {
+    "name": "Plummeting Thunder",
+    "disciplineName": "Heavenspear",
+    "isEnlightenment": false,
+    "lore": "Thundering will overcome you: you will never be overcome. Jamiyun Kulisa is the Brother Thunderbolt, husband to Indira Suga, the Mother Sun. In the ancient of days, the Sky Brother stepped upon the seven heavens and reached the highest point of the sky. There he saw the stars in the void, and realized that nothingness is part of the supreme soul. With this enlightenment, he descended into the earth, and thus thunder resounded for the first time.",
+    "prereqNames": [
+      "Pinamaskan Pamaagi"
+    ],
+    "description": [
+      "Spend 1 Beat to become like thunder: push 5 an adjacent fighter. If they collide, teleport to a square adjacent to the target and then make a Melee Air Bravery Attack against that target, as they bounce from the collision.",
+      "Crashing Vajra: +1 Beat to inflict Stun (1) on the target after making the attack.",
+      "Crushing Weight of Perfection: +1 Beat to push the target 3 after the attack."
+    ]
+  },
+  {
+    "name": "Rising Lightning",
+    "disciplineName": "Heavenspear",
+    "isEnlightenment": false,
+    "lore": "You crouch down low, and then like lightning wishing to return to the heavens, you bolt up, sudden, unimpeded. Taught by Abusung Samudela, a once master of low moving Skysea Raiding, he perfected this after mixing the styles together, and created one of the most dangerous attacks in Heaven Rending.",
+    "prereqNames": [
+      "Plummeting Thunder"
+    ],
+    "description": [
+      "Spend 1 Beat to burst up like lightning from your soul: make an Metal Bravery Attack vs 1 adjacent fighter. Inflict +1 Hit if the target has Juggle, Flying, or Float. Inflict +1 Hit if the target has higher HP than you.",
+      "Antiroyal Blade: +1 Beat to turn one of the defender\u2019s Defense Teeth into a d6.",
+      "Kingkiller Vajra: +1 Beat to change the attack to an Area Bravery Attack vs all enemies in burst 1."
+    ]
+  },
+  {
+    "description": [
+      "You have a Lightning Token at the beginning of Violence. You can discard it at any point to immediately teleport to any free square anywhere in the battlefield. At Strike 4+, spend 1 Beat to rush 8 in a straight line, 4 times. Every enemy you move through suffers 1 True Hit. Then, make an Overwhelming Skewering Air Melee Bravery + Faith attack vs all enemies in a burst 1 centered on one of the enemies that you moved through, each Hit being a True Hit, and then teleport to a square adjacent to that target."
+    ],
+    "name": "Sunyata Piercing Transcension",
+    "isEnlightenment": true,
+    "disciplineName": "Heavenspear",
+    "prereqNames": [],
+    "lore": "That ultimate Mastery of Lawu, The Sun Eating Eagle: impale the sun and make the sky bloody with rebellion. With this, you become gathering storm clouds, waiting for the perfect opportunity to strike. Then, like that lightning dog, you descend upon the world. \u201cThere is no god, in fact there is no self, there is only thought,\u201d you state, as your weapon pierces the heart of creation."
+  },
+  {
+    "name": "Agas",
+    "disciplineName": "Mender",
+    "isEnlightenment": false,
+    "lore": "You utter healing mantra of AGAS, heal, spoken and sung during healing rituals. Healing Mantras heal The Vigor Soul first, before diving into the intricacies of an ailment. It is the Vigor that keeps us from death, that keeps The Immortal imprisoned within our bodies.",
+    "description": [
+      "Spend 1 Beat to heal 2 an ally in range 5.",
+      "Kusgagas: +1 Beat to also cleanse all Fray from the chosen target.",
+      "Devagas: +1 Beat to Heal 4 all allies in burst 2."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Ultrasoul Palm",
+    "disciplineName": "Mender",
+    "isEnlightenment": false,
+    "lore": "Clasp your hands together to produce a healing oil made of crushed flowers, cinnamon bark, and deepsea coral snake blood. Utter a mantra, and a mandala erupts from the crushed ingredients. When you bring your hands apart, Rumsua\u2019s Eye opens in the middle of your palm: the symbol fo health and spiritual strength. With Rumsua\u2019s Eye in your palm, you strike down, and blast both the enemy\u2019s physical and spiritual forms.",
+    "prereqNames": [
+      "Agas"
+    ],
+    "description": [
+      "Spend 1 Beat to push 4 an adjacent fighter. Spend 2 Beats to push an adjacent fighter\u2019s soul from them instead, pushing their soul into a square that is 3 squares behind them in a straight line. Anything that happens to the soul happens directly to the original fighter. The fighter must move into their soul to reunite with them. The soul still collides, and it ignores terrain. It cannot move or be moved (if it suffers forced movement, the original fighter suffers it instead)."
+    ]
+  },
+  {
+    "name": "Blasting Jarlet",
+    "disciplineName": "Mender",
+    "isEnlightenment": false,
+    "lore": "An jarlet filled with an oil and alcohol concoction created by ancient healer Temiak Parelang born from coconut wine, secret mangrove fish eggs, explosive fire serpent scales found in the mouths of underwater volcanoes, used during the War of Rosy Golds to stop the assault of Tundun warriors wearing gilded armor borne from technology of Samrasat.",
+    "prereqNames": [
+      "Ultrasoul Palm"
+    ],
+    "description": [
+      "Spend 1 Beat to throw the jarlet, letting it explode: make an Area Fire Faith Attack vs all enemies in range 3 burst 1. Then a Blazing Field erupts in the burst. All allies in the blazing field gain +1 Attack Tooth on all attacks, and can make their attacks Fire.",
+      "Deva of Flame: +1 Beat when you make the attack to upgrade the Field to a Sigadeva Field: All allies that start their Fulmination in the Field gain SPD Up (1) and all enemies that start their Fulmination within suffer Fray 1."
+    ]
+  },
+  {
+    "name": "Gahum Dampening Ointment",
+    "disciplineName": "Mender",
+    "isEnlightenment": false,
+    "lore": "This ointment forcibly causes The Power to be pushed out from the body for a setsuna instant, causing them to lose all autonomy and strength for a few crucial moments. You ready it upon a kris leaf upon your palm, and then strike your opponent with it.",
+    "prereqNames": [
+      "Blasting Jarlet"
+    ],
+    "description": [
+      "Spend 1 Beat to give the ointment on a fighter in range 3: their next attack gains Dullness.",
+      "Dampening Concoction: +1 Beat to create a Burst 1 Dampening Field centered on the original target\u2019s square. All enemies in the Dampening Field have their attacks suffer Dullness.",
+      "Bladebreak Herb: +1 Beat to discard 2 Hits on the target on their next attack."
+    ]
+  },
+  {
+    "name": "Numbing Lukay",
+    "disciplineName": "Mender",
+    "isEnlightenment": false,
+    "lore": "Lukay is palm leaf art, not dissimilar from origami from the far southern archipelago. Flower seeds, petals, and crushed insects steeped in hot water have been wrapped in a heart-shaped lukay. This, when applied forcibly, envelops The Immortal with a moment of Hiyang, making them one with all things for one moment.",
+    "prereqNames": [
+      "Gahum Dampening Ointment"
+    ],
+    "description": [
+      "Spend 1 Beat to make an adjacent ally immune to all hits on the next attack against them. However their next attack suffers -2d.",
+      "Falling Petal Festival: +1 Beat to affect all allies in burst 1.",
+      "Crimson Pepper Blessing: +1 Beat to remove the -2d penalty."
+    ]
+  },
+  {
+    "description": [
+      "Whenever you Heal an ally, heal them +1 and you also heal 1. At Strike 5+ you can spend 1 Beat to bring all allies up to Full HP, bringing any Defeated Ally back to play."
+    ],
+    "name": "Lunas",
+    "isEnlightenment": true,
+    "disciplineName": "Mender",
+    "prereqNames": [],
+    "lore": "Lunas is the panacea, made up of 20 different herb leaves, 15 animal blood parts, 13 moth, butterfly, and dragonfly wings, and 8 different healing waters from 8 different springs, placed within a clay jarlet engraved with the name of the healing diwata that helped the Mender that brewed this lunas. 0 - Discord is an excuse for harmony. In the beginning all things were harmonious. Assemble souls that have become sundered from each other. Rejoin with that supreme soul, that supernal consciousness, and find enlightenment. Only then shall you achieve Conjunction."
+  },
+  {
+    "name": "Ratu\u2019s Receive",
+    "disciplineName": "Starshooter",
+    "isEnlightenment": false,
+    "lore": "Leap down and recieve an attack. \u201cTHE GREAT IWAS-IWAS HAS DODGED THE DIMAKAUSOG\u2019S FIREBALL STRIKE! HIS COUNTERATTACK IS SET TO FINISH THIS MATCH!\u201d - Shoutcaster Basaka Tagaka, during the semifinals match point of the Shooting Star Massacre.",
+    "description": [
+      "Spend 1 Beat to raise your feet and ready: take on the Receiving Stance until the end of your next Fulmination. While in this stance, you have SPD Up and Stability, and any ally can target you to make you the origin square of any ranged attack that has a target with range, giving the ranged attack +1 Attack Tooth.",
+      "Lightning Dribble: +1 Beat to gain the following effect: whenever you are made the origin square of a ranged attack, rush 2 before releasing the attack."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Sidereal Setup Style",
+    "disciplineName": "Starshooter",
+    "isEnlightenment": false,
+    "lore": "You dig down and kick a projectile up into the air, and your allies see this as a proper signal. The Star of Morning is a style that turns play into violence. An important aspect of Sipa is the rule that you lose if you lose your volley. The ball must always be in the air. Therefore so do you keep your burning star aloft.",
+    "prereqNames": [
+      "Ratu\u2019s Receive"
+    ],
+    "description": [
+      "Spend 1 Beat to call out your targets: mark a single fighter in range 5.The next attack against the mark consumes the mark and inflicts -1d on the target\u2019s Defense Teeth.",
+      "Kabugwason Star: +1 Beat to mark up to 3 targets in burst 3 instead.",
+      "Dual-Tailed Constellation: +1 Beat to stack 2 marks on a target."
+    ]
+  },
+  {
+    "name": "Giant Scaring Boast",
+    "disciplineName": "Starshooter",
+    "isEnlightenment": false,
+    "lore": "You shout so loud that it throws your opponents off. A classic tactic. \u201cWALAAAAAA PUKININGINA MO DUKHA WALA ANG HINA MO TANGINA HAHA TANGINA BA\u2019T KA PA NAGLALARO TANGINAMO WEAKSHIT KALANG EH ANO ANO ANO ANO IIYAK KA ANO ANO ANO\u2014\u201c - Boasting by Team Naga-nagaan in the Match in the Cold Lonely Valley deep in Kalanawan.",
+    "prereqNames": [
+      "Sidereal Setup Style"
+    ],
+    "description": [
+      "Spend 1 Beat to inflict RES Down (1) or POS Down (1) on every enemy in blast 3.",
+      "Armor Rending Scream: +1 Beat to also inflict Sunder (1), but every enemy gains Provoke (1) to you.",
+      "Send Them Running!: +1 Beat to slide 2 every chosen fighter in the blast."
+    ]
+  },
+  {
+    "name": "RollingThunder",
+    "disciplineName": "Starshooter",
+    "isEnlightenment": false,
+    "lore": "You leap down and strike back an attack, but this ends up with you rolling to the side. \u201cYEAHHHHHHHHHH NEVER GIVE IN! WHEN SOMETHING FAILS, MAKE IT SUCCEED!\u201d - Sipa Master Hanahayan. \u201cWhy do you kick, Karipal?\u201d \u201cFor the same reason as you, Banas. To become the lightning.\u201d \u201cYou will not find it in the arena, you know this.\u201d \u201cNo. But every time I look at you\u2026 I find I am able to seize heaven\u2019s thunderclaps.\u201d",
+    "prereqNames": [
+      "Giant Scaring Boast"
+    ],
+    "description": [
+      "Spend 1 Beats to rush SPD, and then gain a Rolling Thunder Token. Discard the Token when a ranged attack\u2019s line of effect goes through your spaces or any space adjacent to you, Deflect the attack, targeting a space or fighter in range 3.Then rush 2.",
+      "Burning Star Vanquish: +1 Beat to give yourself SPD Up 2 and BRV Up 2 before you Rush.",
+      "Crashing Scintilla: Upgrade the Token to a Crashing Scintilla Token. As with Rolling Thunder, but while you have a Crashing Scintilla, whenever an enemy starts their Fulmination, Rush 1. You lose Crashing Scintilla at the start of your next Fulmination."
+    ]
+  },
+  {
+    "name": "Naga Breaker Straight",
+    "disciplineName": "Starshooter",
+    "isEnlightenment": false,
+    "lore": "HE\u2019S DONE IT! HE HAS PERFORMED A PERFECT SHOOTING STAR SET UP! KABAKA TAKES THE SETUP AND PERFORMS THAT IMMORTAL FORBIDDEN TECHNIQUE, THE ONE TO END IT ALL: NAGA! BREAKER! STRAIGHT!!!\u201d - Shoutcaster Sinuka-ang-bala, during the grand finals of the Shooting Star Massacre between the Balangiga Crimson Pudongs and Obertura Straightened Axes.",
+    "prereqNames": [
+      "Rolling Thunder"
+    ],
+    "description": [
+      "Spend 1 Beat to perform the Imperfect Naga Straight: Area Air Bravery Attack vs all fighters in line 4. Spend 2 Beats to perform the Reincarnated Naga Straight: Area Air Bravery+Faith Attack vs all fighters in line 10. Spend 3 Beats to perform the Perfected Naga Breaker Straight: Area Air Bravery+Faith Attack vs all fighters in Path 10."
+    ]
+  },
+  {
+    "description": [
+      "When you deal no successful Hits on an attack, gain +1 Tooth on your next attack. This stacks until you score successful hits on an attack. Spend 1 Beat at Strike 2+ to summon a falling meteor, which can be seen atop the battlefield, bursting through the clouds. It starts at Size 2. Every beginning of Strike, it increases in Size by 1. For 1 Beat, teleport to the sky and then axe kick the meteor to the ground, dealing 1+Size True Hits on every enemy in the battlefield."
+    ],
+    "name": "Meteor Garden",
+    "isEnlightenment": true,
+    "disciplineName": "Starshooter",
+    "prereqNames": [],
+    "lore": "This technique, taught only to those fully inducted into the arts of the Starshooter, emulates the first Sipa game with the comet god. In this alternative interpretation, Bulalakaw kills all of the 85 that saw the first game, and in the violence, the 85 became the 85 Sidereal Mansions, burning in the sky and dictating destinies if one should seek them. To this day, the Sidereal Mansions play this violent star-version of Bulalakaw\u2019s game, and it is said that they were the ones that taught this violent version of the game to the first Starshooters."
+  },
+  {
+    "name": "Hammer Shatters Earth",
+    "disciplineName": "Warsmith",
+    "isEnlightenment": false,
+    "lore": "Use your hammer to make a better world. Warsmiths wield all sorts of weapons, constantly shifting, masters of every possible armament so that they are never caught off-guard. Their strikes are thus universal, across all weapons, a skill and feature that makes them feared across the martial arts world.",
+    "description": [
+      "Spend 1 Beat to strike down with a hammer: make a Melee Metal Bravery Attack vs 1 adjacent fighter, inflicting Knockdown. While knocked down, they cannot move voluntarily.They must spend 1 Beat to stand up, removing Knockdown.",
+      "Gada Breaker: +1 Beat to change the attack into an Area Earth Bravery Attack vs all enemes in blast 3. All free squares in the blast become Earth Terrain until the end of your next Fulmination.",
+      "Armor Carver: +1 Beat to inflict POS Down (2) on all targets."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Wall Crafting Technique",
+    "disciplineName": "Warsmith",
+    "isEnlightenment": false,
+    "lore": "Quickly craft a wall. A popular technick of warsmiths, who are taught it since the first day of their training. Perfected by Panday Pira, it consists of both muscle memory, rigorously trained movement techniques, and meticulously prepared materiel to pull off.",
+    "prereqNames": [
+      "Hammer Shatters Earth"
+    ],
+    "description": [
+      "Spend 1 Beat to put down a wall on any side of your own square.",
+      "Kota Rising: +1 Beat to put down a path 5 wall instead.The walls must be contiguous.",
+      "Nagacharges: +1 Beat to attach an explosive on the wall. When the wall is broken, inflict 1 True Hit to all enemies in burst 1 of the wall."
+    ]
+  },
+  {
+    "name": "Gilded Kinnara",
+    "disciplineName": "Warsmith",
+    "isEnlightenment": false,
+    "lore": "Kinnari are protective maidens, part swan and part bamboofolk. They descend upon the world from the Forests of Himavala, the Sacred Mountain of the Continent, which Jamiyun Kulisa struck down. These beautiful beings have become the subject of many goldsmiths\u2019 art and expression. Kinnari Vessels draw projectiles toward it, as a Kinnari is created to protect her royalty. Gold is a holy metal in the isles. It is abundant, but only because the spirits grant it. Gold is so abundant, in fact, that entire houses are covered in sheets of it. However, it is still a mark of royalty. Gold is often used in sorcerous pursuits as well.",
+    "prereqNames": [
+      "Wall Crafting Technique"
+    ],
+    "description": [
+      "Spend 1 Beat to put down a kinnara statue in a square in range 3, a Size 1 object. Any ranged attack that has its line of effect go through within burst 1 of the kinnara instead targets the kinnara.",
+      "Pure Gold: +1 Beat to gild the kinnara. A gilded kinnara has 8 Durability. All squares adjacent to the Kinnara become Metal Terrain.",
+      "Tigmamanukan Statue: +1 Beat to increase the size of the kinnara to Size 2."
+    ]
+  },
+  {
+    "name": "Guardian Lion",
+    "disciplineName": "Warsmith",
+    "isEnlightenment": false,
+    "lore": "The Guardian Lions, known locally as Simha, Singa, or Chinde, are faithful and legendary lion-dogs made of stone that guard royal enclaves and temples. The Guardian Lions are the protectors of dharma, and in so doing, protect kings and queens who must be essential to the keeping of dharma. Recently, however, the guardian lions have slowly shirked from their responsibility.",
+    "prereqNames": [
+      "Gilded Kinnara"
+    ],
+    "description": [
+      "Spend 1 Beat to summon a stone guardian lion in a square adjacent to you, which is a Size 1 object. Any chosen fighter that ends their Fulmination adjacent to the guardian lion suffers 1 Hit.",
+      "Lion Dance: +1 Beat to animate the guardian lions: every end of your Fulmination, the lions may rush 1.",
+      "Gnashing Simha: +1 Beat to strengthen the guardian lions: they inflict 1 Hit to any chosen fighter that ends their Fulmination within burst 2 of them."
+    ]
+  },
+  {
+    "name": "Jade Naga",
+    "disciplineName": "Warsmith",
+    "isEnlightenment": false,
+    "lore": "\u201cNaga are water and air serpent-spirits of protection, and are one of the dragonkind in the Sword Isles, the others being the Sawa earth underworld serpents, and the Buwaya earth-water crocodiles. By brandishing a Jade Naga you create a spiritual boundary that prevents the targets of your hatred from inflicting violence.",
+    "prereqNames": [
+      "Gilded Kinnara"
+    ],
+    "description": [
+      "Spend 1 Beat to summon a jade naga: choose a path 3. Summon a Jade Naga on that path, a Durability 6 Object. The object is blocking terrain that cannot be climbed and cannot be shot over, as the naga now guards it. Push 1 any target in the chosen path away from the path.",
+      "Nagaraja: +1 Beat to exalt the naga, and now it swims: every end of your Fulmination, you may choose a new Path that is adjacent to at least one of the Naga\u2019s squares. The Naga teleports into those squares.",
+      "Breathing Violence: +1 Beat to choose a square adjacent to one of the squares of the naga. That square becomes Fire Terrain for as long as it is adjacent to the naga, and cannot be changed."
+    ]
+  },
+  {
+    "description": [
+      "Spend 1 Beat on Strike 3+ to summon and wear the God Body. Gain the following benefits: 0 You become Size 2. 0 Gain Block 4. 0 Whenever you start or end your Fulmination slide 2 all adjacent enemies. 0 All melee attacks against you have Dullness. 0 All your Area Attacks with Areas of Effect gain +1 to their size. 0 May spend 2 Beats to inflict 1 Hit on all adjacent enemies, and then inflict Stun (1)."
+    ],
+    "name": "Manifest The Godbody",
+    "isEnlightenment": true,
+    "disciplineName": "Warsmith",
+    "prereqNames": [],
+    "lore": "The Godbody is the magnum opus of Warsmiths. Warsmith training is usually done in conjunction with the formation of a personal Godbody. When they achieve Master level, only then will they have the techniques required to finish the crafting of the ancient Godbody, which will become their holy implement against darkness and violence. You submerge yourself into the blood of the battle and you are quenched. The battlefield becomes your anvil. Your arms become your hammers. And the VIOLENCE YOU BRING WILL BE THE SWORD YOU FORGE!"
+  },
+  {
+    "name": "Dragon Seizes The Sky",
+    "disciplineName": "BUWAYA LANCER",
+    "isEnlightenment": false,
+    "lore": "Your muscles and strength is unparalleled. You can wrestle with the Gods in the Sky. Crowns shall slip from heads unworthy. Your spear shall impale the gods upon high, and all shall bow down at your feet. This tenacity and boldness helped Ramasa keep their strength even after the advent of the Issohappans.",
+    "description": [
+      "Spend 1 Beat to rush 1 and then seize an adjacent fighter. While seized, they cannot leave your adjacency. If you move, they are forcibly moved, as long as they keep adjacency. They must spend 2 Beats to break free of the seize, or you can let go of them for at any point for free.",
+      "Dragon Seizes The Moon: Spend +1 Beat to Rush 3 instead.",
+      "Crocodile Jaws: Spend +1 Beat to inflict 1 True Hit when you seize the target."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Draconic Majesty Stance",
+    "disciplineName": "BUWAYA LANCER",
+    "isEnlightenment": false,
+    "lore": "1. Woe, woe be to those that would dare defy the Buwaya! 2. That ancient god of the rivers, that dragon of the lake. 3. Woe, and calamity. - Daknunuk Sutla 98",
+    "description": [
+      "Spend 1 Beat to exude brilliant draconic majesty. Take on the Draconic Majesty Stance until the end of your next Fulmination. While in this stance, every fighter that ends their Fulmination within burst 3 of you is pulled 1.",
+      "Immense Water Dragon: +1 Beat to inflict Provoke (1) on all enemies in burst 2 when you enter into the stance.",
+      "Immovable Sea Lord: +1 Beat to gain Stability while you\u2019re in the stance."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Dragon Lair Creation Pamaagi",
+    "disciplineName": "BUWAYA LANCER",
+    "isEnlightenment": false,
+    "lore": "1. The Buwaya brings with it hell. 2. And with a bellow, it brings others with it. - Makara Exalt Sutla 128 Crocodiles are venerated like ancestor gods in the isles, and to have one fight with you is a sign of respect and prestige. They are sometimes seen as psychopomps, and that is exactly what you will be doing: bringing your enemies to hell.",
+    "description": [
+      "Spend 1 Beat to rise up and then crash down: bring all squares in burst 1 down by 1 Elevation. (Example: +2 Elevation becomes +1 Elevation, 0 Elevation becomes -1 Elevation). All enemies in the burst suffer Unbalance (1). You cannot bring a square past -2 Elevation this way.",
+      "Gaping Gluttony: +1 Beat to increase the burst to Burst 2.",
+      "Vaunted Hall: +1 Beat to Rush 2 and then place a chasm in the square that you were on before the Rush."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Makara Meditation",
+    "disciplineName": "BUWAYA LANCER",
+    "isEnlightenment": false,
+    "lore": "An ancestral god in your hands. You summon your holy reverence, and your buwaya strikes down, tapping the springs beneath the earth. Waters erupt up, the waters of the deep. This was a technique crafted by Laksamana Tuhon Langkasingbangis himself to engrave a new river to stop the chase of ancient Put\u2019wan Cataphracts. The river still exists, known as Tuhonsuba, and has since become a tributary to Inagos. The diwata that have arisen from it are in constant war with the diwata of Inagos.",
+    "prereqNames": [
+      "Dragon Seizes The Sky",
+      "Draconic Majesty Stance",
+      "Dragon Lair Creation Pamaagi"
+    ],
+    "description": [
+      "Spend 1 Beat to strike the earth and bring up the waters of the deep: choose a square in range 3 and turn that into water terrain.",
+      "Makara Slithering River: +1 Beat to choose a Path 6 from yourself instead, turning that into water terrain and inflicting 1 Hit to every enemy in the line.",
+      "Makara Imposition: +1 Beat to give gvery enemy on every square that turn into water terrain Water Vulnerability (3)."
+    ]
+  },
+  {
+    "name": "Death Roll Style",
+    "disciplineName": "BUWAYA LANCER",
+    "isEnlightenment": false,
+    "lore": "\u201cUsa: Who will find you when you are in fragments? Duha: Do you not quiver at the sight? Tulo: This is the divine butchering, the ancestors ripping the world. Upat: Do you understand? You are not meant to see this. Lima: Rejoice, then. Rejoice. Here, you shall taste bliss. Only in Sulad will you achieve enlightenment.\u201d - Pagoda Tree Sage Sutla 44",
+    "prereqNames": [
+      "Makara Meditation"
+    ],
+    "description": [
+      "Spend 1 Beat to bite and roll against a helpless target: make a Melee Water Bravery Attack vs 1 close fighter; if the target has Slow, Stop, Unbalance, or Seize, the attack gains Overwhelming.",
+      "Maws of Hell: +1 Beat to make the attack Bravery + Faith instead.",
+      "Diivne Consumption: +1 Beat when you make the attack to make it so after the Attack, heal 1 per Hit on the attack, after Defends."
+    ]
+  },
+  {
+    "name": "Makara Seeming",
+    "isEnlightenment": true,
+    "disciplineName": "BUWAYA LANCER",
+    "prereqNames": [],
+    "lore": "Makara are the gods of the crocodiles of the Isles, the great vessels of ancient heroes and demigods who waged war to seize wealth. Makara are said to be the first of the crocodiles, and are the original dragons: their spiritual pairing created the three draconic forms that many gods take on: Naga, the Flying Water Guardian Spirits. Pythons, the Deep Earth and Tree Serpent. And finally, the Crocodile, the Sea and Soil Dragon. It is said that a Makara encircles the entire cosmos, all of Kalibutan, and in the end times when violence has consumed like a bleeding, threading flame, it will consume all of reality.",
+    "description": [
+      "Toughness: Raise your base HP by 2. Spend 1 Beat at Strike 3+ to turn your mount into a makara, legendary dragon-crocodile. Gain the Following Benefits for the rest of Violence: +1 BRV, +1 FTH, +2 SPD, +2 POS, StabIlity, and Regen. Finally, you ignore all terrain and elevation, and become Size 2."
+    ]
+  },
+  {
+    "name": "Kitasamba\u2019s Shield",
+    "disciplineName": "KAWAL",
+    "isEnlightenment": false,
+    "lore": "\"Ever ready. That is what kawal must be. Now bring your weapons up. We have a datu to save.\" - War Leader Katuna, as he goes on to save a hostaged datu from a rival banwa. Kitasamba is the Guardian Lord of the Northeast, who guards those that have been untouched and are pure. His symbol is a newly blossomed passion flower, but his weapon is that of a hibiscus spiked shield.",
+    "description": [
+      "Spend 1 Beat to raise your guard and take on the Guardian Stance until you make an attack. While in this Stance, all 8s on your Defense Teeth generates 2 Defends.",
+      "Charging Guardian God: +1 Beat to make it so that you may Rush 1 per 8 on Defense Teeth, after the attack.",
+      "Gnashing Dharmapala: +1 Beat to upgrade the stance: you can now convert every 1-3 on an attacker\u2019s Attack Teeth against you into Hits against them while in the stance."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Krishawisu\u2019s Hammer",
+    "disciplineName": "KAWAL",
+    "isEnlightenment": false,
+    "lore": "An art made famous by the Kawal of Apumbukid. A giant swing of both weapon and shield, flowing about so that it strikes all in your path, imitating the lotus of the great god Krishawisu. Lord Fahandu of the River Polity Vahansima used this to cut swathes through undead warriors to save his settlement. Krishawisu is the Guardian Lord of the North, who guides every direction. He is asleep, it is said, within a frozen lotus, and will only awake if chaos has subsumed Gubat Banwa. Others say that Krishawisu came down to the world and formed it into a lotus: \u201cImagine the Sea of Wine as exactly that, a Sea of Wine, and the various universes as Lotuses floating upon that Sea of Wine. We are simply in one of those, now.\u201d",
+    "prereqNames": [
+      "Kitasamba\u2019s Shield"
+    ],
+    "description": [
+      "Spend 1 Beat to unleash a staggering blow: Make a Melee Earth Bravery Attack vs 1 adjacent fighter, then gain POS Up (1).",
+      "Challenge of the North God: +1 Beat to inflict Provoke (1) on any 1 target of the attack.",
+      "Blossoming Lotus Hammer: +1 Beat to change the attack to Area Earth Bravery Attack vs all enemies in blast 3."
+    ]
+  },
+  {
+    "name": "Rayasaiwa\u2019s Vigil",
+    "disciplineName": "KAWAL",
+    "isEnlightenment": false,
+    "lore": "Rayasaiwa is the Guardian Lord of the Center, and is also said to be the Supreme and sometimes the Absolute, He Who Holds All In His Palm. It is said that Gubat Banwa\u2019s Cosmos, Kalibutan, balances upon the tip of his trident, Kadaut Rishud.",
+    "prereqNames": [
+      "Kitasamba\u2019s Shield"
+    ],
+    "description": [
+      "Spend 1 Beat to gain a Vigil Token. When an adjacent ally suffers an attack, spend the Token to swap places with the ally and then suffer the attack.",
+      "Eye of Rayasaiwa: +1 Beat to gain a Rayasaiwa Token instead. When an ally in range 3 suffers an attack, discard the Token to rush 3 and swap places with the ally, and then you and the ally gains Block 2. You then suffer the attack."
+    ]
+  },
+  {
+    "name": "Imawasura\u2019s Lance",
+    "disciplineName": "KAWAL",
+    "isEnlightenment": false,
+    "lore": "A technique used by the Kawal of Akai and Sinuku to crash through enemy front lines, which were very often arranged in a fierce and unbreakable shield wall. The Kawal of Akai now ride upon horses to do this, but they were able to break ranks even without mounts. Imawasura is the Guardian Lord of the Southeast, of Pagodas and Fortunes and Jades. His spear is as long as ten thousand palms of Rayasaiwa (whose palm measures fifteen universes), and is named Tudlo. It is said that Imawasura was the one that affixed the eight directions.",
+    "prereqNames": [
+      "Krishawisu\u2019s Hammer"
+    ],
+    "description": [
+      "Spend 1 Beat to pierce forward with a lance, polearm, or javelin, imbued with the striking powers of Imawasura: make a Melee Fire Bravery Attack vs 1 enemy in range 2. Then, inflict Bleed (1 +1 stack per 8+).",
+      "Tudlo\u2019s Goring: +1 Beat to also inflict Stop (1 +1 stack per 7+ on the Attack Teeth).",
+      "Impale The Earth: +1 Beat to strike the ground so hard that you throw out a chunk of earth: place Hindering Terrain adjacent to the target, and the target\u2019s square becomes Earth Terrain."
+    ]
+  },
+  {
+    "name": "Kedatupatya\u2019s Imposition",
+    "disciplineName": "KAWAL",
+    "isEnlightenment": false,
+    "lore": "Raise your banner. None shall go before you. Kedatupatya is the Guardian Lord of the Southwest, protector of all the dead, and keeper of the far Southwestern cave of Maharawug, which is a cave that connects the Underworlds with Gubat Banwa. He wields a rattan fan that summons diseases, and provokes fires.",
+    "prereqNames": [
+      "Rayasaiwa\u2019s Vigil"
+    ],
+    "description": [
+      "Spend 1 Beat to challenge a single adjacent fighter",
+      "inflict Provoke (2) on a fighter in range 4.",
+      "Death Mark: +1 Beat to make it so that as long as that fighter has the Provoke, whenever they voluntarily leave an adjacent square, they suffer 1 Hit.",
+      "Deadman\u2019s War Cry: +1 Beat to howl your challenge! Inflict Provoke (1) on all fighters in burst 3."
+    ]
+  },
+  {
+    "description": [
+      "Increased Vitality: Gain Block 1 at the start of your Fulmination. At Strike 3+, for 1 Beat, choose 1 fighter in range 3 to declare a bulu with. You and the target of your Bulu cannot be targeted or damaged by any attacks, nor can you suffer any hits or effects that do not come from each other\u2019s attacks and effects. You and the target of the Bulu can only treat each other as valid targets. However, you gain +1 to all Martial Abilities while in the Bulu. If you or the target falls to 0 HP, the Bulu ends."
+    ],
+    "name": "Rudrakasha\u2019s Vow",
+    "isEnlightenment": true,
+    "disciplineName": "KAWAL",
+    "prereqNames": [],
+    "lore": "You call out: \u201cYou! I challenge you. Face me or face the wrath of Jamiyun Kulisa!\u201d Kawal are masters of the battlefield. With a single command, they invoke the rite of violence: the Bulu, a duel in the midst of battle. One that they will surely win. A bulu is a duel to the death, after all. Rudrakasha is the Guardian Lord of the Southwest Corner, where the land is barren and eventually becomes a white void, the horizon between Sky and Sea. They guard this impossibility, but with their single eye (which is the Eye of the Hurricane) they can see all, and they can strike at any warrior from afar, gaining their ire, becoming their fate, with his bow and arrow, known only as Kalma, or Destiny."
+  },
+  {
+    "name": "Bleeding Steel Monsoon",
+    "disciplineName": "MANGANGAYAW",
+    "isEnlightenment": false,
+    "lore": "You move like a whirlpool in the midst of the sea, burgeoning and breaking and crashing and alluring ships into their depths. But you are steel, and you become like an unstoppable whirling wind of sharpness and blades.",
+    "description": [
+      "Spend 1 Beat to raid! Choose 1 fighter that you can see, then Stride. You must end the movement at least 2+ squares away from where you started, and you gain Eviscerate (1). Then, if within range, you may inflict violence on the chosen fighter. End your Fulmination afterwards.",
+      "Churning Blood: +1 Beat to gain BRV Up (1) instead of Eviscerate.",
+      "Vibrant Beat: +1 Beat to be able to Rush 1 after the attack."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Sea Demon Fire Pamaagi",
+    "disciplineName": "MANGANGAYAW",
+    "isEnlightenment": false,
+    "lore": "There are lights of the Moon Goddess that alight upon the sea when fishermen and raiders sail through the night. These are called Kalayo Sa Dagat, \u201cFire of the Sea\u201d. Mangangayaw Kulili Sa Katana befriended a demon and imbued her weapon with it, creating a Technique that allowed Mangangayaw to emblaze their weapons with flames.",
+    "prereqNames": [
+      "Bleeding Steel Monsoon"
+    ],
+    "description": [
+      "Spend 1 Beat to light your blade aflame: take on the Demon Flame Stance until the end of your next Fulmination. While in Demon Flame Stance, when you roll a 10 on your Attack Teeth, roll another Attack Tooth.",
+      "Speed of Fire: +1 Beat when you take the Stance to gain SPD Up while in the Stance.",
+      "Godflame Stance: +1 Beat when you take the Stance to also inflict Fray 1 per Hit after Defends."
+    ]
+  },
+  {
+    "name": "Live Hand",
+    "disciplineName": "MANGANGAYAW",
+    "isEnlightenment": false,
+    "lore": "You\u2019ve mastered the art of Catching Lightning: a Raiding Art taught to only the greatest of Mangangayaw. Your hands move faster than the wind. Your attacks flow into the next one, not one being a mistake, each one a set up for the next. All will fall under your salt, your weapons flash like lightning in your hands.",
+    "prereqNames": [
+      "Sea Demon Fire Pamaagi"
+    ],
+    "description": [
+      "Spend 1 Beat to gain a Live Hand Token, of which you can only have 1 of at a time. When suffering a Melee Attack, spend the token to change the target back at the attacker or at another fighter adjacent to both you and the attacker.",
+      "Lightning Hand: +1 Beat to enhance the Live Hand Token, letting you use it against Ranged Attacks as well.",
+      "Dancing Furious Mad: +1 Beat to also Slide 1 the attacker after the attack resolves."
+    ]
+  },
+  {
+    "name": "Deluge Kalis",
+    "disciplineName": "MANGANGAYAW",
+    "isEnlightenment": false,
+    "lore": "You strike with a movement quicker than the storm. Invented by the Panglima Jalido, incorporated due to his ingenuity and his skill in teaching the arts, Jalido notoriously used this to defeat the Akai Lunate Knights that encroached upon his settlement right before he broke his oath with the Sultana and defected to the Rajahnate.",
+    "prereqNames": [
+      "Live Hand"
+    ],
+    "description": [
+      "Spend 1 Beat to strike with lightning-breaking speed: rush 2, moving through enemies. If you move through a single enemy, make a Melee Air Bravery Attack against them, then inflict Juggle (1).",
+      "Blitz Sundang: +1 Beat to rush 1 after the attack, kicking off of the target.",
+      "Storm God Skewers The Sea: +1 Beat to give the attack Bravery + Faith instead."
+    ]
+  },
+  {
+    "name": "Giant-Slaying Sundang",
+    "disciplineName": "MANGANGAYAW",
+    "isEnlightenment": false,
+    "lore": "\"Learn this bastard art, and soon we will be able to raid heaven, and seize its thunderclaps.\" The Giants once ruled, and they were hewn with the threads of divinity. With this technique, perfected by the pygmy monkey artist Sri Mahaliwu, your attacks burn with an almost avaricious fervor, emulating the thundering strength of the giants that almost destroyed the cosmos.",
+    "prereqNames": [
+      "Deluge Kalis"
+    ],
+    "description": [
+      "Giants were slain with the pragmatic jungle prowess of ancient mangangayaw. Spend 1 Beat to make a Melee Metal Bravery Attack vs 1 close target. Every 1 on the defender\u2019s Defense Teeth reduces a Defend from them, as you take advantage of their blunder.",
+      "God-Slaying Force: +1 Beat to Push 1 per Miss on the attacker\u2019s Defense Teeth.",
+      "Buddha-Carving Pragmatism: +1 Beat to mark the target until the start of your next Fulmination. While marked by this technique, they only generate Defends on 7+."
+    ]
+  },
+  {
+    "description": [
+      "You gain Momentum: whenever you move 4+ squares, gain +1 Tooth on your next attack. At Strike 4+, Spend 3 Beats to explode into a monsoon of violence, make an Overwhelming Skewering Water Melee Attack vs every enemy on the battlefield. Then teleport to a square adjacent to any of the enemies in the field."
+    ],
+    "name": "Seize Heaven\u2019s Thunderclaps",
+    "isEnlightenment": true,
+    "disciplineName": "MANGANGAYAW",
+    "prereqNames": [],
+    "lore": "The entire battle was a setup. Heaven sees your movements: you were priming yourself for the ultimate raid. With your warband you charge, strings of fate binding you together. You move like the hurricane, slam like the tsunami. \u201cViolence is life, and life is violence. Rememver this dichotomy, and every move you make will be an attack.\u201d \u2013 The Teachings of Panglima Namwaran, warlord-datu of ancient Tundun."
+  },
+  {
+    "name": "Sword Ambahan",
+    "disciplineName": "SWORD POET",
+    "isEnlightenment": false,
+    "lore": "A flamboyant Sword Poet, Si Pahimuot, once performed this amidst the kawal of Datu Mabigi, from the league of Pannai, who hunted him down due to him killing his bride. He escaped by staying silent\u2014unheard of for a Sword Poet\u2014and amplifying the cutting tang of his blade. He performed a quick dance, cutting all those about him.",
+    "description": [
+      "For 1 Beat, you strike with a singing blade: make a Melee Air Bravery Attack vs 1 adjacent enemy, then inflict SPD Down (1).",
+      "Sword Burst: +1 Beat to make the attack an Area Air Bravery Attack vs all enemies in Burst 1 instead.",
+      "Tandava Blade: +1 Beat to also inflict Provoke 1."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Shield of Swords",
+    "disciplineName": "SWORD POET",
+    "isEnlightenment": false,
+    "lore": "Cut yourself off with that sorrowful song. Maybe then, maybe then, there will be peace. But not yet, not yet. A technick perfected by Sword Poet Sialo Baguna I, a King who spurned rulership to travel with a troupe of professional singers. This requires a quick wit and an even quicker tongue: you perform a poem so quickly that your sword swings are bolstered to follow the rhythm, so fast that it creates a physical barrier of strikes.",
+    "prereqNames": [
+      "Sword Ambahan"
+    ],
+    "description": [
+      "Spend 1 Beat to take on the Shield Song Stance until the end of your next Fulmination. While in this stance, all melee attacks against you hit only on 7+, even with Sharpness.",
+      "Godpoet Wings: +1 Beat to make it so that when you Stride, you may teleport your SPD instead while in the Stance.",
+      "Dancing Nataraja: +1 Beat to rush 1 after taking the Stance and then gain Stability while in the Stance."
+    ]
+  },
+  {
+    "name": "Naga Song Exhuberation",
+    "disciplineName": "SWORD POET",
+    "isEnlightenment": false,
+    "lore": "\u201cListen and hear thy people! They crieth out in torment. This war shalt bring us naught but struggle and pain! Please, let mine words pierce thine heart.\u201d A song that sings of the First Dragon, the great Harinaga, King of all Dragons, a God Among Gods, who was brought low and scourged by the giants, who wielded the Flame of Want, in the ancient event known only in the echoes of tradition as The Dragonscourge. Dragons now despise the giants.",
+    "prereqNames": [
+      "Shield of Swords"
+    ],
+    "description": [
+      "For 1 Beat, Sing the dragonsong and direct it at 1 fighter in range 3. Mark the chosen fighter until the end of your next Fulmination. As long as they have that mark, whenever they make an attack that does not include you as a target, they suffer 1 True Hit.",
+      "Garuda Poetry: +1 Beat to mark all enemies in burst 3 instead.",
+      "Serpent Hiss: +1 Beat to also give the chosen targets POS Down (1)."
+    ]
+  },
+  {
+    "name": "Ceaseless Rhythm",
+    "disciplineName": "SWORD POET",
+    "isEnlightenment": false,
+    "lore": "\u201cRaise your blade up high! If we wish to put an end to this cycle of violence we must put our foot forward. Our poetry is half of the battle. The other half includes our swords. First we inflict violence upon their hearts, then we inflict violence upon the world. What is violence but change? Therefore choose what violence you will enact, and what violence you will choose. Not all violences are equal: some are more noble than others.\u201d A combination perfected by Tuhan Madala, who performed this to defeat a King in a festival that challenged him, following the rhythm of the agung and the kulintang.",
+    "prereqNames": [
+      "Naga Song Exhuberation"
+    ],
+    "description": [
+      "Spend 1 Beat to inflict 1 Hit and Provoke (1) on an adjacent fighter. > Flows Into: The next time you use this Technique, inflict Eviscerate (1) and Unbalance (1) on an adjacent fighter instead. >> Flows Into: The next time you use this Technique, inflict Slow (1) and Stun (1) on an adjacent fighter instead. The Flow then ends (the next time you use this Technique, use the first effect)."
+    ]
+  },
+  {
+    "name": "Himaya Sword Song",
+    "disciplineName": "SWORD POET",
+    "isEnlightenment": false,
+    "lore": "Sing a song of joy! For even in the darkest days there are burning bright bonfires. What is darkness if not an absence of light? What is pain but a consequent of life? In this Festival of the Longest Night, rejoice! Happiness cannot be obtained, it is a becoming. Become joyful, Find Glory Beyond Heaven.",
+    "prereqNames": [
+      "Ceaseless Rhythm"
+    ],
+    "description": [
+      "Spend 1 Beat to mock a fighter in range 4 with your overwhelming joy: they suffer Eviscerate, Unbalance, and Provoke until they successfully score 2+ Hits against you with a single attack.",
+      "Bleeding Swordsong: +1 Beat to also inflict Bleed (1).",
+      "Astonishing Swordsong: +1 Beat to also inflict Stun (1)."
+    ]
+  },
+  {
+    "description": [
+      "At the start of Violence, you have a Saga Token. When you suffer an attack, consume the Saga Token to cancel the attack against you, and you can inflict violence on the target, inflicting Provoke (1). at strike 5+, for 2 beats: choose 1 fighter in the battlefield. for the rest of violence, they cannot perform any hostile actions. for chiefs, they only have 2 beats."
+    ],
+    "name": "Final Kandu",
+    "isEnlightenment": true,
+    "disciplineName": "SWORD POET",
+    "prereqNames": [],
+    "lore": "You sing a siday, the folk epic songs of your people. Your song bolsters those around you, and entrances your enemies. They are thrown into a reverie state, forced to play out the Siday that you sing, wherein you are the inevitable victor. However, it is a well-known fact that Siday last for up to seven days and seven nights, enumerating the exploits of great datu and dayang."
+  },
+  {
+    "name": "War Dance",
+    "disciplineName": "WARRIOR BALYAN",
+    "isEnlightenment": false,
+    "lore": "Balyan revel and dance in fits of crazed dancetrances as they are possessed and imbued with strength by the ancestors and the gods. When they dance, the rest of the warriors know that they have the gods on their side.",
+    "description": [
+      "Spend 1 Beat to dance the Trance Dance. You are dancing until you fall to 0 HP or suffer Stun, Daze, Unbalance, or Juggle. While dancing, you are channeling the ancestors: all allies in burst 1 of you have +2 to their BRV and FTH.",
+      "Diwata Sayaw: +1 Beat to increase the range to Burst 2.",
+      "Yawa Sayaw: +1 Beat to reduce the BRV and FTH of all enemies in the burst by -2."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Purification Rite",
+    "disciplineName": "WARRIOR BALYAN",
+    "isEnlightenment": false,
+    "lore": "A balyan is trained first in the arts of healing before the arts of violence, to ingrain in them that the violence we inflict is not simply for violence\u2019s sake, but for a better world. We deal in violence to transcend our frail mortal bodies, and thus violence is a ritual, one that only Folk can dance in.",
+    "prereqNames": [
+      "War Dance"
+    ],
+    "description": [
+      "Spend 1 Beat to perform a healing rite, cleansing yourself or 1 adjacent ally of 1 Status Effect or all Fray.",
+      "Holy Distillation: +1 Beat to cleanse all chosen effects from the target.",
+      "Pure Land Realm: Spend 2 Beats instead to put down a Burst 1 Purification Field in range 2. All allies that start their Fulmination within the field cleanse 1 Status or remove 1 Fray Tooth."
+    ]
+  },
+  {
+    "name": "Naga Nature Pamaagi",
+    "disciplineName": "WARRIOR BALYAN",
+    "isEnlightenment": false,
+    "lore": "Naga are blessed serpent gods that live within the rivers, the under-earths and the seas. They are divine, nature spirits that represent the inherent divinity and other-ness of the sea, and they protect the Seven Realms of the Waters, and are constantly opposed by the Garuda that guard the Seven Realms of the Heavens. They are invoked for merit, blessings, good rains, and protection against the flood. If they appear, it is often a sign of good fortune, though sometimes it might also be an ill omen.",
+    "prereqNames": [
+      "Purification Rite"
+    ],
+    "description": [
+      "Spend 1 Beat to summon a naga spirit and bless an ally with it: 1 ally in range 3 gains FTH Up (2).",
+      "Sri Dapa\u2019s Hand: +1 Beat to also let the ally Surge for free.",
+      "Nourishing of Sri Devi: +1 Beat to increase the range to all allies in range 3 burst 1."
+    ]
+  },
+  {
+    "name": "Love and Lightning",
+    "disciplineName": "WARRIOR BALYAN",
+    "isEnlightenment": false,
+    "lore": "A tale of two Gods: Lightning Lord and Dragon King. Pray upon the thunderbolt and make offerings to the lightning flash. Jamiyun Kulisa is the burning Brother Thunderbolt, son of the Sky Father Si Gurang Tungko, He Who Holds The Sky Aloft, known sometimes as the Batala or Batara, said to have wrought the creation of Folk. The lightning does not take advice from any one, just as the flame never seeks the comfort of water. Jamiyun Kulisa arises and truly is always there, counterpart to the great Sunmother Indira Suga, who is not his Mother but rather his partner. Together they create the Great Dichotomy within the Sword Isles, the two overpowering Seasons of the Center of the World: the Dry Season of Indira Suga and the Monsoon Season of Jamiyun Kulisa. As Jamiyun Kulisa is the bringer of Monsoon Season, he is also connected to the things that Monsoon Season brings about: rumination, calmness, peace, the soft patter of raindrops, the chill of strong storm winds. He strikes at the heart and cares not: us Mortal Folk have to bend to him when he brings with him his seasons. Upon the Sky he is well acquainted with the Wind Gods: Amihan, the Cold Wind. Habagat the Hot Tempest. Salatan the Cavern Winds. Kanaway the Death Squall. Balahalabagyu, known also as Vayu or Batara Vayu, the God of Storms, who brings destructive hurricanes. Galura, the Great Dragon-Eagle at the End of the World, who is said to be an aspect of Jamiyun Kulisa. \"Are you happy with what you've done?\" asked Makangayaw, grinning, with burning flame shooting out of his nostrils. The Second Man nodded. \"I have lain retribution upon what my sister has cursed upon me.\" \"And what have they cursed upon you?\" \"Jealousy.\" With another mighty laugh, Apung Makangayaw answered: \"And so the cycle begins.\" Apung Makangayaw is offered to whenever a ceremonial raid is enacted, whether it be a raid to gain resources or a revenge raid. In this way, the raid itself becomes more than just war, but ritual. If the omens were bad during the offering, however, it will be a sign that Makangayaw does not approve of the raid, and the raid will be called off. This usually happens when an omen bird flies across their path, or when the sky is red, or when in the distance they hear laughter during their offerings, or when they perform their boat divinations the boat shudders wildly. Offerings to Apung Makangayaw are frequent, for the main mode of war in the islands is raiding. Apung Makangayaw usually takes upon the form of a slave raider: wearing a short bahag with nothing else, and with tattoos that cover their entire body, the completion of the canvas. Their true form, whenever they should want to show it, is in the form of a naga-headed god, who sits upon a throne of seaspray. Apung Makangayaw is one of the principal members of the Anito faith. Anito, meaning act of worship, is the most widespread faith in the islands, so prominent that they do consider it more as tradition and way of life, and not just performative religion. Apung Makangayaw's spirit house is often situated by the shore, always by the shore. The usual spirit idol carved out for him is made usually with wood from sunken boats, and showcases a naga-headed man sitting cross-legged, with both hands upon his waist. Apung Makangayaw idols are frequently carried unto boats that would embark on raids.",
+    "prereqNames": [
+      "Naga Nature Pamaagi"
+    ],
+    "description": [
+      "Spend 1 Beat to choose a square in range 4. All squares in blast 2 of the chosen square becomes Elemental Terrain of your choice.",
+      "Vast Harmony of Elements: Spend +1 Beat to make this \u201cAll squares in burst 2 of the chosen square\u201d instead.",
+      "Summon The Storm: Spend +2 Beats to instead manipulate the Weather. Choose a Weather and the entire battlefield adopts that Weather, even if Indoors.\\"
+    ]
+  },
+  {
+    "name": "Astral Vehicle",
+    "disciplineName": "WARRIOR BALYAN",
+    "isEnlightenment": false,
+    "lore": "The Ten Mahadiwa are said to be great gods and goddesses who live in heaven, earth, and hell to help and mingle with the lives of mortals. It is important to consider then that these Mahadiwa were once warriors, who all died in war, and thus were made gods by the rainbow that carried them to the Sky. Thus each of the Mahadiwa are capable of human thought, speech, and understanding. They possess the Knowledge of Good and Evil that they used to have when they were humans. When a Mahadiwa dies or is killed, they simply reincarnate as another Mahadiwa. Through this, they live 999,999,999,999 lives. Mahadiwa Tala Kinabanaagan is the Bronze Multiplicitous Sidereal Steward of Stars, who lives in the Morning Star that brings with it the dawn. Mahadiwa's karakoa and coterie of 180 Star Servants Upon Astral Palanquins are said to fly across the sky, pulling the dark blankets of night away and giving it back to the Moon, Tsandira Dayawa. She watches the earth, and guards many secrets to sorcery, as the givers of sorcery are hidden away in the darkest voids of night. Mahadiwa Tala Kinabanaagan is also said to grant Hiyang to those that spend their lives trying to achieve it. Those she grants Hiyang to are given corporeal forms as stars upon the sky. Her being can be seen in the dawn, the dusk, the lightning bolts, the shooting stars, the comets, and the asteroids. She has lived her entire life in enlightenment. It is said that when she died, she was on the cusp of Hiyang, and when she was killed by a Ten- Fathoms Long Lance, she became a star that exploded upon the field, burning all in smokeless flame, and then shot up into the sky as the Evening Star. She is said to have a mirror image: Mahadiwa Kalakatri Duumanun, her darker side, the shadow that wraps around each star at night. They are both all at once the same and also different. The Bulakdiwa say: she is like this because she dared venture into the deepest parts of the night sky, further and further, past the void and the world jaws and the endless seas of chaos. Past the firmament, and past the darkness. The Bulakdiwa say: what she found, apparently, was not God, nor the Throne, nor Enlightenment--for how could she? She is already nature itself--but instead she found that she was swimming up, up, up, and up into the ocean. Her enlightenment is thus: the depths of the ocean and the farthest reaches of the void are one and the same. And when she understood the cyclical nature of reality and metareality, she realized that she lived in a world of unconstrained principles, she realized then that she lived in a world fabricated by dancers and singers and artists singing songs and laughing about a bonfire, and that split her into two, and her enlightenment-beyond-enlightenment was lost. But she still remembers. She knows the kinds of god-beings--many just as powerful as her--living in the Depths|Void. The Evening Star burns continuously. She is an evershining flame. Aba, aba, glory to the Evening Star. In the Eighth Star Era, only she has the sidereal violence to shine into the new world.",
+    "prereqNames": [
+      "Love and Lightning"
+    ],
+    "description": [
+      "You have light and darkness internalized, and through that you become a vehicle of the stars, Talayana. Your fingers now fulminate with starstuff, your eyes have stars specked within them. Spend 1 Beat to give a single fighter in range 5 either a Light Star or a Dark Star. You cannot have more than 1 of each on the battlefield at a time. Light Star: Fighters with this Star have +1 Defend against all attacks and heal 1 every start of Fulmination. Dark Star: Fighters with this star have can only move 1 square whenever they move, and they suffer -1 Hit on all their attacks. If a fighter with Light Star collides with a fighter with the Dark Star, they explode: inflict 3 True Hits on all fighters in burst 2 of the Light Star wielder. The Light Star dissipates afterwards.",
+      "Warrior of the Stars: +1 Beat to make it so that you have both Light and Dark Stars instead. If you do, you take on the Star Warrior Stance until you remove it at any start of any Fulmination. While in this stance, you and all allies in burst 3 of you gain +1 Hit on their Attacks and +1 Defend against their attacks, but you suffer 1 Hit every end of Fulmination."
+    ]
+  },
+  {
+    "description": [
+      "You constantly hover on the cusp of Transcendent Glory, Unity With All Things. When you suffer an attack, every 1 on the Attack Teeth discards a Hit from that attack. Additionally, you ignore all Effects from Weather. At Strike 5+, spend 1 Beat to achieve temporary Liberation: Become Immune to all attacks, but you cannot deal any damage as well. Any time you attack a target or inflict hits on them, heal them per hit instead."
+    ],
+    "name": "Minor Glory, Transcendent Unity",
+    "isEnlightenment": true,
+    "disciplineName": "WARRIOR BALYAN",
+    "prereqNames": [],
+    "lore": "This is your final testament, and your own minor transcendence, your own inkling of enlightenment. A little taste of what truly means. You become a Bulakdiwa, a bodhisattva on the cusp of Blossoming and finding Glory in Harmony. How do you feel? Take that next step. The first violence was when the Bulakdiwa of Violence glimped Blossoming when she realized the truth of the world: it is a vicious wheel. From the ancient war of the Southwest Monsoon and the Northeast Storm, to the slaying of the Ancient Dragon at the hands of Sumongsuklay, to the violence of the Giants Upon The Oldest of the Creators. All of these were Wheels of Violence, but the paradox she realized as she chose to stay corporeal upon the earth instead of achieving unity with the All, was that violence was how they were going to stop it. Thus she became the First Bulakdiwa, bodhisattva of violence. She forestalled Glory to bring others to Glory. She let herself be mauled by suffering to show others a better path."
+  },
+  {
+    "name": "Kalabit Diablo",
+    "disciplineName": "Baril Witch",
+    "isEnlightenment": false,
+    "lore": "The Art of Piercing is exemplified by serpents that can burrow into the thick soils and foliage of the great deep forests. Thus follow their way: burrow, spiral, destroy. All things will be broken through. That is the art of piercing. Who needs a spear when bullets can pierce through hearts just as well?",
+    "description": [
+      "Spend 1 Beat to take on the Kalabit Diablo Stance until the end of your next Fulmination. When you deal 2+ Hits on an attack, consume the stance and then roll a d4: fire a number of bullets equal to the result of the d4 at any enemy in range 3, inflicting 1 True Hit per Bullet. Each possible target must be struck at least once first before inflicting Bullets at the same enemy more than once."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Bullet Spirit Art",
+    "disciplineName": "Baril Witch",
+    "isEnlightenment": false,
+    "lore": "You spin, unleashing bullets, and then utter the mentala for the passing of days. Contort it with your spirituality. Time stops for the bullets, and at the end of it all, reckoning.",
+    "prereqNames": [
+      "Kalabit Diablo"
+    ],
+    "description": [
+      "Spend 1 Beat to summon 2 Bullets in any free squares in range 3. Any fighter that collides with the bullet suffers 1 Hit, then the bullet vanishes.",
+      "At the end of any Fulmination, you may slide 2 any number of your Bullets in the field.",
+      "Bullet Parasol: +1 Beat to choose a Range 3 Path 3 and place a bullet in each free square in the Path."
+    ]
+  },
+  {
+    "name": "Impale God Stance",
+    "disciplineName": "Baril Witch",
+    "isEnlightenment": false,
+    "lore": "The creator of the Baril Witch art was a blacksmith named Pire, who traveled the length of the Sword Isles and collected knowledge about the art of piercing. He learned a particular gun technique that lets him infuse his bullets with god-killing strength while upon a stand.",
+    "prereqNames": [
+      "Bullet Spirit Art"
+    ],
+    "description": [
+      "Spend 1 Beat to take on the Impale God Stance, wherein you put your gun on a stand. You suffer Stop while in this stance, but you have +2 range to any attacks with range and all ranged attacks convert 1 Hit into a True Hit. When an enemy moves into adjacency of you, you may immediately remove this Stance and Rush 2.",
+      "Piercing Devil: +1 Beat when you take upon the stance to make your attacks Skewering."
+    ]
+  },
+  {
+    "name": "Crimson Steel Rain",
+    "disciplineName": "Baril Witch",
+    "isEnlightenment": false,
+    "lore": "Flash up, and then spin, dance about, send shots in every direction possible. Nothing can escape your path. Guns were invented in the ancient of days by a god, who was killed by the Sage of Spears, who had perfected the art of piercing. \u201cWith this implement piercing shall become a lesser art!\u201d The Sage of Spears hath said. Therefore thou must keep in mind the art of piercing. It is no frail, baser art. It is, in fact, the most perfect art, a forgotten art. The Art of Cutting reminds one of dichotomy. The Art of Piercing shows you that all things can become one.",
+    "prereqNames": [
+      "Impale God Stance"
+    ],
+    "description": [
+      "Spend 1 Beat to leap over your targets: Rush SPD, Fly for the duration of the movement, and then inflict Fray 1 on a single enemy that you move through.",
+      "Scarlet Sundance: +1 Beat to make the following attack at any point during the movement: Area Metal Faith Attack vs all chosen fighters in burst 1.",
+      "Witchpowder Wreath: +1 Beat to gain Stealth (2) after the Rush."
+    ]
+  },
+  {
+    "name": "Shotgun Psalm",
+    "disciplineName": "Baril Witch",
+    "isEnlightenment": false,
+    "lore": "Quoth Mangkukulam: \u201cMy Gun shall go against the Almighty. With this bullet, I shall spit in the face of God. Let Him face the force of the shooting star. I am Mangkukulam, and my flame shall never die. Not even God can extinguish my fire with His drool.\u201d Send a barrage across the entire battlefield, as if you summon bullets and arrows from the gods. You impart the divine grace of your diwata upon the battlefield. 777 arms carry 777 guns about you.",
+    "prereqNames": [
+      "Crimson Steel Rain"
+    ],
+    "description": [
+      "Spend 1 Beat to fire a psalm: Ranged Air Faith Attack vs 1 fighter in range 4, then inflict Fire Vulnerability (2).",
+      "Scarlet Mission: +1 Beat to change the attack to: Area Fire Faith Attack vs all fighters in Path 6.",
+      "Fires of Mangkukulam: +1 Beat to turn the squares of the targets into Fire Terrain."
+    ]
+  },
+  {
+    "name": "Shoot God In The Head",
+    "isEnlightenment": true,
+    "disciplineName": "Baril Witch",
+    "prereqNames": [],
+    "lore": "\u201cAnything it takes,\u201d the ancestors tell you. Anything it takes to win? You\u2019ve forged such an intimate connection with your GUN. \u201cThe gun is but a tool,\u201d BALAHARI GILUSOT tells you. \u201cDo not get attached to beings that have never been human. Fool, kill it! Kill it now! Before it realizes your soul and shoots itself through you! A Gun Diwata is new and excited, and it does not know yet its power. The power to level entire nations. Now KILL IT! Bask in the bullet hell you\u2019ve made, witch!\u201d",
+    "description": [
+      "Whenever you inflict a True Hit, inflict 1 Hit on every enemy adjacent to the target of the True Hit. At Strike 4+, Spend 3 Beats to shoot the god of your gun, releasing bullet hell upon the battlefield: For the rest of violence, whenever an enemy leaves a square, they suffer 1 true hit."
+    ]
+  },
+  {
+    "name": "Firebird Mentala",
+    "disciplineName": "Bladeweaver",
+    "isEnlightenment": false,
+    "lore": "Developed by elite Bladeweavers who went to fight in the Thundering Elephant War in the Southeastern Continent, who incorporated Continental Sorcery and Spirituality.",
+    "description": [
+      "Spend 1 Beat to inflict 1 Hit on a target in range 3, then teleport to a square adjacent to them.",
+      "Fire Yajna: +1 Beat to teleport an adjacent ally with you.",
+      "Boar Offering: +1 Beat to inflict Fire Vulnerability (2) on the target."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Hito Mentala",
+    "disciplineName": "Bladeweaver",
+    "isEnlightenment": false,
+    "lore": "This technique was taught to Bladeweaver Master Sakamada, who earned it after beating a firebreathing naga that lived in the heart of a volcano to submission, and gained its respect. Of course, he was only able to do this after he gained the blessing of an ancient catfish master in the rivers of his hometown, who taught ancient techniques of the Bladeweaver.",
+    "prereqNames": [
+      "Firebird Mentala Spend 1 Beat to grant self or a fighter in range 3 RES Up (2) and immunity to Fray (1)."
+    ],
+    "description": [
+      "Spend 2 Beats to grant yourself and every fighter in burst 3 POS Up (2) and RES Up (2), and immunity to Fray (1).",
+      "Spend 3 Beats to grant every ally in the battlefield, including yourself, immunity to Fray (1), POS Up (2) and RES Up (2)."
+    ]
+  },
+  {
+    "name": "Musang Talon Mentala",
+    "disciplineName": "Bladeweaver",
+    "isEnlightenment": false,
+    "lore": "This was taught to Bladeweavers by a traveling cat who chopped trees with a single claw. Your heart sings: your sword is oiled by the blood of your soul. All your strikes will find their way. When this Mentala is encanted, warriors take upon the fierce visages of wild cats and tigers.",
+    "prereqNames": [
+      "Hito Mentala"
+    ],
+    "description": [
+      "Spend 1 Beat to sharpen your claws against the bones of your enemies: make a Ranged Earth Faith Attack vs 1 fighter in range 3, then Mark yourself until the end of your next Fulmination or an ally in range 3 until the end of their next Fulmination. While marked, all Melee and Ranged Attacks generate Hits on a 4+, even with Dullness.",
+      "Harimau Blessing: +1 Beat to mark yourself until the end of your next Fulmination and all allies in burst 2 until the end of their next Fulmination."
+    ]
+  },
+  {
+    "name": "Flying Blade Mentala",
+    "disciplineName": "Bladeweaver",
+    "isEnlightenment": false,
+    "lore": "You bow low and release your blade. It flies, turning the battlefield into its play space. To Guro Sajawadu, this is the ultimate learning of this style. The battlefield becomes one space.",
+    "prereqNames": [
+      "Musang Talon Mentala"
+    ],
+    "description": [
+      "Spend 1 Beat strike with a flying blade: make a Melee Air Bravery Attack vs 1 adjacent fighter, then, put down a Flying Sword (Size 1/2 object) adjacent to you. You can only have up to 2 Flying Swords at a time. All allies adjacent to Flying Swords gain +1 Attack Tooth on melee attacks.",
+      "Peerless Blade Dance: +1 Beat to make a Bravery + Faith Attack instead.",
+      "Sword Sattva: +1 Beat to put down a Flying Sword in range 4 instead."
+    ]
+  },
+  {
+    "name": "Surat Wanang",
+    "disciplineName": "Bladeweaver",
+    "isEnlightenment": false,
+    "lore": "You summon lightning from your blade to rend space itself, creating portals. Developed by elite Bladeweavers who went to fight in the Thundering Elephant War in the Southeastern Continent, who incorporated Continental Sorcery and Spirituality.",
+    "prereqNames": [
+      "Flying Blade Mentala"
+    ],
+    "description": [
+      "Spend 2 Beats: Choose 2 squares within burst 5 of you. Rips emerge from the chosen squares. These can even be placed underneath fighters or objects to immediately teleport them. The rips last for the entire Violence, though new rips replace old ones. Rip: Terrain. When moved into, immediately teleport into an adjacent square on the other rip."
+    ]
+  },
+  {
+    "description": [
+      "When you make a melee attack, choose 1 ally in range 3 (or yourself). They gain 1 Tiyempo. When they gain 3 Tiyempo, they immediately gain Haste for the next Strike. While they have Haste, they move first in a Strike, before any other fighter. At Strike 3+, spend 1 Beat to can activate Minor Liberation. Every time you Stride, Move, or Rush, you may teleport that much instead. At Strike 4+, inflict 1 True Hit on every enemy in the battlefield when you teleport. If you are Defeated while you have Minor Liberation Activated, you vanish from reality, unravelling from material."
+    ],
+    "name": "Hati Tiyempo",
+    "isEnlightenment": true,
+    "disciplineName": "Bladeweaver",
+    "prereqNames": [],
+    "lore": "An incantation mixed with three mudra that speak of swiftness, cutting, and endings. The target of this benefit is imbued with the speed of an unsheathing sword. An advanced technique that is hard to perfect but unfortunately is probably the most important ability of all Bladeweavers. This is a favorite of Master Samasida, a wily hermit found in the island of Bakara near the Ruins of Samrasat, where he studies with wandering souls of that ancient civilization."
+  },
+  {
+    "name": "Sinful Blade",
+    "disciplineName": "Murderglave",
+    "isEnlightenment": false,
+    "lore": "\"You must remember the pain of this, of trying to discover who you are. For now, keep quiet, fester in your trauma.\" \"Sister, is this healthy?\" \"Healthy? God no. But you are not here to be healthy. You are here to love yourself.\"",
+    "description": [
+      "Spend 1 Beat to strike with the darkness of passion: Melee Earth Faith Attack vs an adjacent fighter, inflicting Provoke (1 +1 per 6+ on the Attack Teeth.)",
+      "Antirepentance: +1 Beat to inflict SPD Down (1) on the target.",
+      "Perversion: +1 Beat to also inflict BRV Down (1) on the target."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Scarlet Edge of Love",
+    "disciplineName": "Murderglave",
+    "isEnlightenment": false,
+    "lore": "Perfect your passion and let it cool. Others might let their passion flare and burn and it will peter out, as all fires do. You? You have tempered it, forged it into steel. This is a technique perfected by Saint Sagrado, who traveled the island chain known as Jamiyun Kulisa\u2019s arrows to learn from the sorcerers of Batu Perairan. He was killed for his heresy, and in his divine suicide he destroyed a cathedral in both a final act of atonement and to spite the Church, which had become nothing more but power-hungry capitalists who cling to the destructive teachings of the Pale Kings. His shade still wanders Virbanwa\u2019s countryside.",
+    "prereqNames": [
+      "Sinful Blade"
+    ],
+    "description": [
+      "Spend 1 Beat to summon the Scarlet Blade: Ranged Earth Faith Attack vs 1 fighter in range 3, then Pull 1 (+1 per 7+ on the Attack Teeth).",
+      "Enforce Penitence: +1 Beat change the attack into: Area Earth Faith Attack vs all enemies in burst 2.",
+      "Atonement Ritual: +1 Beat gain POS Up (2) after the attack."
+    ]
+  },
+  {
+    "name": "Sibat Caligo",
+    "disciplineName": "Murderglave",
+    "isEnlightenment": false,
+    "lore": "Bloody Handed Redemption sings of horrible, horrible love. A love that forces you to give too much of yourself. This is the love of lowly mortals that toil evermore. Evisceration is nothing to the gods, but everything to us. Death is spoken of in soft tunes, like a lover.",
+    "prereqNames": [
+      "Scarlet Edge of Love"
+    ],
+    "description": [
+      "Spend 1 Beat to strike with a spear of pure murder, the Sibat Caligo: Melee Earth Bravery Attack vs 1 enemy in range 2, then mark each target until the end of their next Fulmination. While marked, if they end their Fulmination not closer to you, they suffer 1 True Hit.",
+      "Left Hand of Darkness: +1 Beat to make the attack Area Earth Bravery Attack vs all enemies in Line 2.",
+      "Weight: +1 Beat to inflict Slow (1) on the last target in the line."
+    ]
+  },
+  {
+    "name": "Solemnidad",
+    "disciplineName": "Murderglave",
+    "isEnlightenment": false,
+    "lore": "Mahadiwa Kalakatri Duumanun has never been one for atonement. Only when framed by the Ashen Star religion does she understand. In Virbanwa, Mahadiwa Kalakatri Duumanun is known as Saint Qali, Patron of Vengeance. She doesn\u2019t like it herself. Who are they to name her differently? She cares not, of course. She knows her name, what mortals call her does not change her nature. Thus is the truth of nature.",
+    "prereqNames": [
+      "Sibat Caligo"
+    ],
+    "description": [
+      "Spend 1 Beat to take on the Solemnidad Stance until the end of your next Fulmination. While in this Stance, you have Stability. When you are attacked, inflict 1 Hit back at the attacker.",
+      "Inflict Solmenity: +1 Beat to inflict FTH Down (2) on all enemies in burst 2 when taking on the stance.",
+      "Redeemed Demon: +1 Beat to gain Float while in the Stance."
+    ]
+  },
+  {
+    "name": "Blackened God Body",
+    "disciplineName": "Murderglave",
+    "isEnlightenment": false,
+    "lore": "Saint Qali is based on an ancient Issohappan wariorress who offered her life in exchange for her queen\u2019s freedom. She was the last bulwark against the encroaching invasion of Issohappa. She became beatified for dying for her queen to appease the warriors of her kingdom, and due to her bloodthirst against the Pale Kings, became the Patron Saint of Murderers and Penitents. When the Pale Kings went through the northern central region of Rusunuga they did the same with the faithfuls of Kalakatri, who wielded giant kalises that could bleed even rocks. Kalakatri\u2019s imagery was subsumed with Saint Qali, including her night skin, her triad eyes, and her four arms wielding blades.",
+    "prereqNames": [
+      "Solemnidad"
+    ],
+    "description": [
+      "Spend 2 Beats to sheathe yourself in the Black God Armor: Until the start of your next fulmination, you ignore all difficult terrain and all non-attack Hits, even True Hits. However, all fighters in burst 2 of you become Provoked by you.",
+      "Salt The Earth: +1 Beat to put down a Burst 1 Salted Earth Field centered on your square. All enemies that start their Fulmination in the Field suffer 1 Hit, and Pull 1 to you."
+    ]
+  },
+  {
+    "description": [
+      "Whenever you suffer Melee or Ranged Attacks, every 1-2 on the Attack Teeth inflicts 1 True Hit on the attacker. At Strike 3+, Spend 1 Beat to summon the Shadow of your Self-Love, for who else can love yourself but yourself? Place a Shadow version of you in any square in range 5. The Shadow is you, and Fulminates like you do, has your traits, martial abilties, and techniques. Any thing done to the shadow is considered as done to you instead."
+    ],
+    "name": "Dalagang Bakal: Self-Love",
+    "isEnlightenment": true,
+    "disciplineName": "Murderglave",
+    "prereqNames": [],
+    "lore": "Makayao\u2019s death promises the end of all things, and so you bring it with you. As your bladed armor bites into your skin you remember your penitence. How do you have space for Want? The Dalagang Bakal bleeds. Murderglave armors are living iron maidens: they have spikes that dig deeper into the host, so that one never forgets their lifelong penitence, their pain, their sin for inflicting such violence upon this world. This technique was crafted by the First Murderglave, Saint Lorenzo, who died performing it. His armor still exists somewhere in the Sword Isles, with his corpse kept within, as the Church considered it heresy to keep it in their vaults, and has since thrown it away."
+  },
+  {
+    "name": "Blade Chief Command",
+    "disciplineName": "Senapati",
+    "isEnlightenment": false,
+    "lore": "Rajraya Pintas\u2019 greatest student, Ilakat Salandra, was said to have perfected what the Rajaraya could not in the beginning: she perfected the form of being one with your warband, coordination and cooperation with one another. They moved as one, and she became the warband\u2019s burning spirit, one with Nihawa.",
+    "description": [
+      "Spend 1 Beat to give BRV Up (2) to yourself or a single ally in range 3.",
+      "Spend 2 Beats to give BRV Up (2) to yourself and all allies in burst 3.",
+      "Spend 3 Beats to give yourself and all allies in the battlefield +1 to BRV until the end of Violence."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Lightning Lord Style",
+    "disciplineName": "Senapati",
+    "isEnlightenment": false,
+    "lore": "After Rajaraya Pintas learned what he never could grasp from his student, he began asking Ilakat Salandra to teach what she had learned to the rest of the world, and so she did. She taught cooperation, diplomacy, a continued and cooperative violence that can be the only road to true peace. Not peace in word only, not peace for one or for some, but rather, a peace for all. \u201cTo achieve true peace, one must give up one\u2019s self in some aspects. There is enough for us in this world.\u201d",
+    "prereqNames": [
+      "Blade Chief Command"
+    ],
+    "description": [
+      "Spend 1 Beat to make 1 ally in range 3 rush 2.",
+      "Spend 2 Beats to make yourself and 1 ally in range 3 rush 4. You and the ally can move through enemies. If you and the chosen ally move through the same enemy, inflict 1 True Hit and Unbalance (1) on that enemy."
+    ]
+  },
+  {
+    "name": "Laksaman Whetstone",
+    "disciplineName": "Senapati",
+    "isEnlightenment": false,
+    "lore": "Like Laksaman, the Monkey Warlord General, you lead others to victory, even against those unkillable. Bring to bear the great commander of our times, Laksaman, who led monkey kings to create bridges, and sailed the thunders to reach heaven.",
+    "prereqNames": [
+      "Lightning Lord Style"
+    ],
+    "description": [
+      "Spend 1 Beat to take on the Laksaman Stance until the end of your next Fulmination. Whenever you suffer an attack while in this stance, any 1 or 2 allies that you can see may rush 2. When a fighter makes an attack against you while adjacent to you, consume this stance to Push 3 the attacker, and then rush into any square they vacated.",
+      "Lawana Slaying Whetstone: +1 Beat to give all allies adjacent to you Sharpness on their next attack when you first take on this stance."
+    ]
+  },
+  {
+    "name": "Panglima Palms",
+    "disciplineName": "Senapati",
+    "isEnlightenment": false,
+    "lore": "Strike fast and strike through. Only if you can break your foes can your allies see victory. This is the Conquering King\u2019s primary attack: 7 Panglima Palms that create a burning sigil upon the enemy forces, crafted and passed down by others that would learn his ancient art.",
+    "prereqNames": [
+      "Laksaman Whetstone"
+    ],
+    "description": [
+      "Spend 1 Beat to perform the Panglima Palms: inflict Push 3 on an adjacent fighter and the next attack against that fighter gains Overwhelming.",
+      "Hell-Rending Heaven Palm: +1 Beat to give it the following effect: if the target collides with an ally, they suffer Stun (1)."
+    ]
+  },
+  {
+    "name": "Thunderbolt Spear Pamaagi",
+    "disciplineName": "Senapati",
+    "isEnlightenment": false,
+    "lore": "\u201cThe cosmos, the sky, the heavens and the earths and the hells: they will pass, fade away, like sand washed away by the waves of time. And our kind, all we do is fight. We engage in such violence that the gods look away, and the devils bow down in the grandeur of our bloodshed. Like a river, it flows. It ever cycles: our violence flows to the sea of time, and then simply returns to the peak of the mountain through the rain. Will there ever be a time that our warring nations will achieve peace? Or is peace simply not a portion of our nature? Who is to dictate our nature? I bring this spear and shield before you, great Brother Thunderbolt, so that I may slay you, and perhaps I will free my people from this horrible cycle. The river flows, Diwasin Kilat, God of Lightning, but perhaps I can stop it.\u201d - The Song of the Rajaraya",
+    "prereqNames": [
+      "Panglima Palms"
+    ],
+    "description": [
+      "Spend 1 Beat to push 2 an adjacent enemy, and then an ally in range 3 may inflict violence.",
+      "Yaksha Decapitating Kampilan: +1 Beat to Inflict Violence instead of Pushing.",
+      "Crimson Pudong Attainment: +1 Beat to let all allies that you can see inflict violence if they can or want to instead."
+    ]
+  },
+  {
+    "description": [
+      "Your adjacency is increased to all squares within range 2 of you, instead of just everything within 1 square of you. At Strike 2+, for 1 Beat, you can give the greatest command: All allies in the battlefield gain 5 Thunderbolt Tokens [p. 35]."
+    ],
+    "name": "King",
+    "isEnlightenment": true,
+    "disciplineName": "Senapati",
+    "prereqNames": [],
+    "lore": "\u201cFor many datu in the isles, some sort of divinity is a useful claim to royalty. This is because a ruler\u2019s powerbase in the isles depend on how much virtue or merit the commonfolk see that you have. If they realize that another, different warrior-brave or king has a more powerful claim to royalty, whether it be divine heritage, bloodline, or superior ultraviolence, then they will switch allegiance on a dime, following the more powerful one. Why would you follow a nonvirtuous person? If you followed a virtuous leader, then you will cultivate virtue yourself.\u201d - Sermons on Virtue and Rulership by Sri Kadasiga Mahawagas"
+  },
+  {
+    "name": "Blade of Makaubos | Lawana Shrikes",
+    "disciplineName": "Sword Saint",
+    "isEnlightenment": false,
+    "lore": "All at once a prayer and a spell. With an intercession to Gattalim, Pintakasi (Patron Saint Intercessor) of Blades, Makaubos allows his blades to circle around the target of your scorn, ready to bring them down.",
+    "description": [
+      "Spend 1 Beat to gain a Summoned Sword. While you have Summoned Swords, all ranged attacks against you have Dullness. When a fighter in range 3 suffers an attack, consume 1 Summoned Sword to add +1 Tooth to that attack.",
+      "Sword Hurricane: +1 Beat to instead inflict 1 Hit on all enemies in burst 1, and then gain a Summoned Sword.",
+      "Sword Flurry: +1 Beat to gain 1 Summoned Sword and then fire any number of Summoned Swords at any fighter, object, or terrain in range 4, inflicting 1 Hit on them and then teleporting to a square adjacent to any chosen target."
+    ],
+    "prereqNames": []
+  },
+  {
+    "name": "Sword Judas | Blade of Self-Acceptance",
+    "disciplineName": "Sword Saint",
+    "isEnlightenment": false,
+    "lore": "Preach the Blade Gospel: be as a sword, indiscriminate and betraying. To become a sword you must first betray yourself. The perfection of this technique is a recalling of its past version in the Bladesong: becoming the Sword is to realize one\u2019s self, the perfection of mindfulness within one\u2019s place in nature.",
+    "prereqNames": [
+      "Blade of Makaubos | Lawana Shrikes"
+    ],
+    "description": [
+      "Spend 1 Beat to gain the Sword Judas Token, of which you can only have 1 of at a time. When you are the target of a Melee or Ranged Attack, you may discard the Token to immediately cancel that attack against you, and then inflict Unbalance (2) at the attacker.",
+      "Sword Provocation: +1 Beat to also gain a Burst 2 aura that moves with you. All enemies in the burst gain Provoke to you. Discarding the token removes the aura.",
+      "Betrayal: +1 Beat to also teleport 2 both you and the attacker after discarding the Token."
+    ]
+  },
+  {
+    "name": "Passionflower Dance | Violent Bodhisattva Realm",
+    "disciplineName": "Sword Saint",
+    "isEnlightenment": false,
+    "lore": "The Sword is in a perpetual killing motion, is it not? This is the teaching of the Sword Saints. Of course, as with all things, this is a Corruption. In the Blade Song, from which it was bisected into the two kinds of Sword Saints, the teaching was of the perpetual cutting motion, in the sense that one must always be moving forward, changing things, not just others, but one\u2019s self. The Passionflower Dance is one of the only techniques created by a master from Ba-e, whose name was Passiflora in Virbanwa. He was executed for heresy, but his legacy lives on.",
+    "prereqNames": [
+      "Sword Judas | Blade of Self-Acceptance"
+    ],
+    "description": [
+      "Spend 1 Beat to unsheathe your blade and materialize slashes: make a Ranged Air Faith Attack vs 1 enemy in range 4, then inflict 1 Hit on up to 3 enemies adjacent to thet arget.",
+      "Sword Buddhakshetra: +1 Beat to change the attack to Area Air Faith Attack vs all enemies in blast 3, but you lose the base additional effect.",
+      "Cutting Purelands: +1 Beat to put down a Slashing Field where on the target\u2019s square. All fighters that end their Fulmination in the Slashing Field suffer 1 Hit."
+    ]
+  },
+  {
+    "name": "Sidereal Rosary | BATALA\u2019s Star",
+    "disciplineName": "Sword Saint",
+    "isEnlightenment": false,
+    "lore": "\"Aba, aba, gunitain ka makapangyarihang Makayao! You died for us, we are not worthy of you. Let your corpse bled dry cover us, let the shadow of your torture wrap around us and bring us bliss upon this land of sorrows! Let your broken ribs be my sword, your shattered halo my shield!\" You strike in the form of an Asterfix where great Makayao, the Son of God, was bled and dried until his corpse became desiccated and mummified.",
+    "prereqNames": [
+      "Passionflower Dance | Violent Bodhisattva Realm"
+    ],
+    "description": [
+      "Spend 1 Beat to tether a fighter in range 3 to you by a rosary. At any point, you can sever the tether (removing it) to instantly teleport the fighter to an adjacent square. Any fighter can also spend 1 Beat while adjacent to the tethered fighter to sever it.",
+      "Ashen Binding: +1 Beat to choose an adjacent square. They are tethered to that square instead: they are pulled 3 toward the square and suffer SPD Down while tethered. Asterfixion: +1 Beat to also drive an asterfix through the target\u2019s heart. When the tether is severed, the target also suffers 1 True Hit."
+    ]
+  },
+  {
+    "name": "Thunderhead Keens | Diwahati Eviscerates Makaubos",
+    "disciplineName": "Sword Saint",
+    "isEnlightenment": false,
+    "lore": "You let the tension rise, and the perfect slashing moment approaches, fulminates, echoes. All sound is dulled away, and the only thing you can hear is the screaming keening thunderhead as it reaches an unstoppable crescendo and you cut. This is the Technique taught by the peerless master of sword-murder Alberto Sakaran Penitente, who was bisected in the process.",
+    "prereqNames": [
+      "Sidereal Rosary | BATALA\u2019s Star"
+    ],
+    "description": [
+      "Spend 1 Beat to go into Sheathed Stance until you suffer a Hit. While in Sheathed stance, you cannot make any attacks, but you have +1 to POS.",
+      "Spend 1 Beat while in Sheathed Stance to teleport your SPD. When you teleport, inflict 1 True Hit against all adjacent enemies.",
+      "Spend 2 Beats while in Sheathed Stance to end Sheathed Stance, inflict 2 True Hits to every fighter in blast 4, and then end your Fulmination."
+    ]
+  },
+  {
+    "description": [
+      "When you make an attack against a target, give them a Cut. When a target reaches 3 Cuts, they discard all cuts and suffer 1 True Hit spend 3 beats to revel in the blade: halve the hp of all fighters in the field that have cuts, minimum 1. afterwards, you achieve sword nirvana: any fighter that moves into a square adjacent to you suffers 1 true hit."
+    ],
+    "name": "Sword Nirvana",
+    "isEnlightenment": true,
+    "disciplineName": "Sword Saint",
+    "prereqNames": [],
+    "lore": "There is a secret importance to the Sword dichotomy of the intense study of the blade (to the detriment of everything else). The Bladesong once sang of the Great Unity which contained Dichotomy: unity is thus balance, and balance is achieved with two things against each other. Cause-Effect is a single thing that is not separate from each other: therefore they are not two different things but rather two parts of the same whole. This is exemplified in the beginning of time, where all of existence was nothing but Sky and Sea, both devoid of color or light, an endless undulation, a chaotic dialogue of winds and waves. The Sky and Sea was not separate but part of the same whole, that is the Chaos, the First Cause- Effect. Thus is the importance of learning the Cutting Art of the Sword: the Sword exemplifies that anything that is 2 was once 1, simply cut in twain."
+  }
+]

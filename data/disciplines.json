@@ -1,0 +1,1000 @@
+[
+  {
+    "name": "Beast Hunter",
+    "hp": 12,
+    "style": "Witch",
+    "weaponSuggestions": "Spears, harpoon, bows, guns, crossbows, daggers, gunong, barong, throwing knives",
+    "armorSuggestions": "Shawls, breastplates, sarongs, pants, sandals, war jacket, lamellar",
+    "traits": [
+      {
+        "name": "Hunting Beasts",
+        "lore": "Beast Hunters have with them a powerful companion, a Hunting Beast, usually a dog, but possibly also boars, owls, cats, or any other beast they have created a connection with. These become their Sidereal Companion, the Stars to their Moon dance. These Hunting Beasts are very commonly chosen from birth, and you live all your life with them. They are very often anointed with lunar oils. Beast Hunter fail their best friends sometimes. It is required, a suffering lesson, to reach mastery of the Perfect Hunt.",
+        "description": "You have a Pet that travels with you and begins every violence adjacent to you. Name them. They are Size 1 fighters and share your Martial Abilities. They do not have their own Fulmination, but every end of your Fulmination they are not mounted they will Rush 2 and then inflict 1 True Hit on an adjacent enemy. The first time you switch into this Discipline or during Downtime, choose your Pet\u2019s type to find out what they do when you Command them for 1 Beat, which is the following: 0 Canine: Your beast howls. All enemies in burst 1 of the Canine suffer a -1d to their next Defense Teeth. 0 Feline: Your beast inflicts Eviscerate (1) on all adjacent enemies. 0 Raptor: Your beast swoops down, inflicting Bleed (1) on all adjacent enemies. 0 Reptilian: Your beast flails wildly, inflicting Unbalance (1) on all adjacent enemies. 0 Mauler: Your beast mauls the target, inflicting push 4 to 1 adjacent fighter. You can move into your pet\u2019s space to mount them. You can still command your pet while Mounted. While Mounted, you gain the following benefits: You gain +3 SPD and all your effects with ranges have their ranges increased by 2."
+      },
+      {
+        "name": "Best Friend",
+        "lore": "Hunters in the Sword Isles make best friends with their pets, giving them names and treating them like siblings or their own children. They create lavish burials for their pets that die while in duty.",
+        "description": "When you Stride, your Pet may Stride with you, equaling your SPD."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Crippling Shot",
+        "actionCost": "1",
+        "lore": "Let loose an arrow or shoot a gun to break your prey.",
+        "description": "Ranged Metal Bravery Attack vs 1 fighter in range 5, inflicting SPD Down (1), and then your pet may rush 1."
+      },
+      {
+        "name": "Bleeding Shot",
+        "actionCost": "1",
+        "lore": "Fire a flurry of shots that draws blood.",
+        "description": "Ranged Earth Bravery Attack vs 1 fighter in range 5, inflicting Bleed (2). Your pet may inflict Fray 1 on an adjacent fighter."
+      },
+      {
+        "name": "Evisceration Gun",
+        "actionCost": "1",
+        "lore": "Fire a straight shot that opens wounds.",
+        "description": "Area Earth Bravery Attack vs all chosen targets in line 5, inflicting Eviscerate (1)."
+      }
+    ],
+    "faction": "Akai"
+  },
+  {
+    "name": "Martyr",
+    "hp": 16,
+    "style": "Raider",
+    "weaponSuggestions": "Panabas, gunong, barong, kalis, kampilan, golok, pira",
+    "armorSuggestions": "Bare chest, silk jackets, white headwraps, white bahag, silk slippers",
+    "traits": [
+      {
+        "name": "Death Trance",
+        "lore": "You clad yourself in the raiments of death, white to reach the Moon Goddess\u2019 eternal blissful palace. Breathe now, breathe. If it be your time, then it is your time. Be not afraid. Be not afraid. Who are they to say that your faith-rage is unjustified? This world is sundered and torn: break it even further, and in so doing bring light to bear. This is the Principle of Fury: kill all things indiscriminately to attain true Harmony. Remember, loved one. Your rage is not simply anger, wrath. It is justice, God\u2019s Vengeance, Holy Moon Striving. You fulfill the purpose of your life in this, submit wholly to the Moongleam.",
+        "description": "Performing the Sabil gives you benefits according to what Strike it is. The longer the fight goes, the more powerful you become, but the more reckless you become as well. These benefits are accumulative. Strike 1: Lunar Fury. When you bring a target to 0 HP, you may Rush 2 and Inflict Violence again, ignoring Combo Breaker. Strike 2: Rising Beat. Your Combo Breaker penalty becomes -1 for the Second Attack, and -2 for every third attack and beyond. Strike 3: Glory To God. You gain +2 Attack Teeth to all attacks for the rest of violence, but you lose all Defenses: your POS/RES become 0 and cannot be modified. Strike 4: Ritual Offering. You gain Regen for the rest of violence, but if you are Defeated at this point, you are not removed from play, but you die at the end of violence. Strike 5+: Berserk. All your Attacks are now True Hits, and you may Inflict Violence for free, ignoring Combo Breaker, every end of your Fulmination. Every end of Strike, look if you have suffered any HP loss during that Strike. If not, then you lose the Sabil\u2019s benefits until you suffer HP loss. You can spend 1 Beat to suffer 1 Hit."
+      },
+      {
+        "name": "Whet The Body",
+        "lore": "Wield the Moon\u2019s Holy Blade, which is you. You! This is your strength, let Baginda Sumongsuklay, peace be unto her, wield you and bring the final triumph of victory. Who else could it be but you? With this internalization, you wield the holy blade of tenacity, and nothing shall ever stop your advance.",
+        "description": "1/Fulmination: When you suffer an attack, gain FTH Up (2)."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Holy Berserk",
+        "actionCost": "1",
+        "lore": "Let loose for Goddess!",
+        "description": "Melee Fire Faith Attack vs an adjacent fighter with Skewering, then you suffer Eviscerate (1) afterward."
+      },
+      {
+        "name": "Overwhelming Force",
+        "actionCost": "1",
+        "lore": "Break through, IDA IDA!",
+        "description": "Push 4 a close target, inflict Unbalance (1) on them afterward."
+      },
+      {
+        "name": "Purification",
+        "actionCost": "1",
+        "lore": "Become holy before Goddess!",
+        "description": "Melee Fire Faith Attack vs an adjacent fighter, then gain Block 1."
+      }
+    ],
+    "faction": "Akai"
+  },
+  {
+    "name": "Sarimanok Knight",
+    "hp": 20,
+    "style": "Sentinel",
+    "weaponSuggestions": "Halberd, lance, spears, kampilan, bolo, pira, janap",
+    "armorSuggestions": "Headwrap, cuirass, tassets, pants, metal boots, peaked helmets, elephant hide breastplate",
+    "traits": [
+      {
+        "name": "Raptor Knight",
+        "lore": "Sarimanok eggs are found at the end of a rainbow. They are hatched and trained by a Knight from birth. Sarimanok imprint upon their Knight and will only be ridden by their knight. Their rainbow feathers never disappear, and when they die they turn pale grey, and they bleed their color.",
+        "description": "As a Sarimanok Knight, you might be mounted upon a sarimanok, or some other similar avian, though you can choose to not have a mount at all, and simply channel the spirit of a raptor. When you Rush, you Fly for the duration of the Rush."
+      },
+      {
+        "name": "Arrows of Heaven",
+        "lore": "Sarimanok exist across the isles, under a variety of different names. A king of these sarimanok can be found within Galura, the creator of Stormwinds, who erupts from the depths of volcanoes and summons thunderstorms crackling with crimson lightning. In his heavenly garden Jamiyun Kulisa of the Thunderbolt kept a thousand sarimanok to keep it beautiful. The most skilled of sarimanok knights are run through with the holy ancient lightning bolt of Galura, an aspect of Jamiyun Kulisa (some say mount, others say they have no correlation at all), which bolsters their abilities.",
+        "description": "Twice per your Fulmination, you can Smite a target in range 2: a burning razor feather ready to punish them for misdeeds. Smites don\u2019t stack and vanish at the start of your Fulmination. Choose below: ARROW Smite Indolence: If the target does not move at least 2 squares by the end of their Fulmination, consume the Smite to rush 3 toward them. ARROW Smite Ferocity: If the target makes an attack on an ally, consume the Smite to inflict 1 True Hit on the attacker. ARROW Smite Pride: If the target attacks you, consume the Smite to inflict Fray 2 on them. ARROW Smite Indulgence: If the target is healed or gains Boons, consume the Smite to inflict Slide 1. ARROW Smite Hatred: If the target ends their Fulmination further than 5 squares from you, consume the Smite to you may Pull 3."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Heaven\u2019s Eye",
+        "actionCost": "1",
+        "lore": "Fire a burning weapon.",
+        "description": "Ranged Air Bravery Attack vs 1 fighter in range 4. If the target is exactly 4 squares away, may rush 1 toward them."
+      },
+      {
+        "name": "Lightning Javelin",
+        "actionCost": "1",
+        "lore": "Strike down with your weapon, letting rainbow blades cascade from it.",
+        "description": "Melee Metal Bravery Attack vs 1 adjacent fighter, then cleanse 1 Status from self."
+      },
+      {
+        "name": "Sarimanok Flight",
+        "actionCost": "1",
+        "lore": "Strike up with rainbow blades.",
+        "description": "Melee Air Bravery Attack vs an adjacent fighter, inflicting Juggle (1) per 8+."
+      }
+    ],
+    "faction": "Akai"
+  },
+  {
+    "name": "Strifesinger",
+    "hp": 16,
+    "style": "Medium",
+    "weaponSuggestions": "Instruments, Knives, Kudyapi, Agung, Tolali, Zither, Bamboo Flute, Nose Flute",
+    "armorSuggestions": "Headwraps, sashes, sarong, silk jackets, paruka, malong, skirts",
+    "traits": [
+      {
+        "name": "Thundering Instruments",
+        "lore": "\u201cSword clashes, gunshots, the ringing of war gongs, songs, lies, promises, violence\u2026 These are all things that demand repetition, for no other reason but to be heard, again and again. Love, after all, is at its best when it repeats itself.\u201d",
+        "description": "When you make a Faith Attack, give an ally in burst 2 BRV Up (1)."
+      },
+      {
+        "name": "Song of Sorrows",
+        "lore": "Professional mourners across The Sword Isles are paid to wail and gnash teeth for important figures. This spirit of grief permeates the isles. It penetrates even you. The Song of Sorrow, nevertheless, is a martial art. An art for violence. This violent vesper, which contains two ambahan (a kind of poetry, you should know, that is sung; two lines, 7 syllables each, and make sense if the two lines are interchanged) that feed each other forever, is a song about the truth of battle: violence for violence\u2019s sake is the rule of beasts and the divinity of man. When violence is used to find truths about mortal nature, and not to kill, gain wealth, or accrue power, is when we become more than what we are.",
+        "description": "You have a Singing Aura that is a burst 3 around you that moves with you. At the start of your Fulmination, choose one effect to give to any one ally within the burst: 0 Respite Song. Roll FTH and heal an ally equal to the number of Hits. 0 Thundering Song. 1 ally may Rush 2. 0 Protective Song. Give 1 ally 1 Defense on the next attack against them. 0 Haste Song. Give 1 ally SPD Up (1)."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Thundering Note",
+        "actionCost": "1",
+        "lore": "Strum a reverberating tune.",
+        "description": "Put down a thundering note in a free square in range 3. Allies can move into it to rush 3 (and then continue their movement afterwards) and cannot collide with it. Enemies that collide with the note suffer Fray 1. The note dissipates after it is collided with or moved into."
+      },
+      {
+        "name": "Healing Note",
+        "actionCost": "1",
+        "lore": "Resound a rejuvenating song.",
+        "description": "Put down a healing note in a free square in range 4. Any ally that moves into or collides with it gains Block 2, any enemy that moves into or collides with it suffer 1 True Hit. The note dissipates after it is collided with or moved into."
+      },
+      {
+        "name": "Resound!",
+        "actionCost": "1",
+        "lore": "Let loose a chorus!",
+        "description": "Make a Ranged Air Faith Attack vs 1 target in range 4, and then Slide 2."
+      }
+    ],
+    "faction": "Akai"
+  },
+  {
+    "name": "Swordfish Cavalier",
+    "hp": 12,
+    "style": "Sharpshooter",
+    "weaponSuggestions": "Bows, guns, crossbows, spears, lances, swords, axes, hammers",
+    "armorSuggestions": "Silk jackets, sashes, robes, sarongs, malongs",
+    "traits": [
+      {
+        "name": "Sea Satariya",
+        "lore": "As a Swordfish Cavalier, you might be mounted upon a swordfish, or some other similar piscine creature, though you can choose to not have a mount at all, and simply channel the spirit of a fish.",
+        "description": "Whenever you make a water attack, gain a Deluge, represented by waters flowing about you. You can spend any number of Deluge after a Violence Cast to convert that many non-Hits on your Attack Teeth into Hits, but before cancelling. While you have 1+ Deluge, you may rush 1 once either before or after making an attack. While you have 3+ Deluge, your melee or ranged water attacks splash: inflict 1 Hit on all enemies adjacent to one target of the attack."
+      },
+      {
+        "name": "Stormwind Rider",
+        "lore": "The first Swordfish Cavalier found that the God of the Sea, Hakasalug, known as Varunaraja (King of Waters), took upon the Swordfish as his holy beast form. The first Swordfish Cavalier, a fisher-warrior named Hiling Makar, immediately prostrated and offered sacrifices when he found out, but Hakasalug found this to be endlessly amusing, and so he allowed Hiling Makar to establish the ancient Coral Knight Art, creating the first of the Swordfish Warriors.",
+        "description": "When you Rush, you dive into the earth as a being of water: you ignore all terrain and elevation. Then you gain a Water Form until end of next Fulmination: all your attacks can become Water Attacks and you heal any Hits from Water Attacks instead of suffering them."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Water Spear",
+        "actionCost": "1",
+        "lore": "Strike with a powerful spear of summoned seabrine.",
+        "description": "Melee Water Faith Attack vs 1 adjacent fighter, then Push 1."
+      },
+      {
+        "name": "Sea Javelin",
+        "actionCost": "1",
+        "lore": "Shoot a flying spear of cutting waters.",
+        "description": "Ranged Water Faith Attack vs 1 fighter in range 5, inflict Water Vulnerability (1)."
+      },
+      {
+        "name": "Ocean Blade",
+        "actionCost": "1",
+        "lore": "Summon a curving blade of water through spiritualism.",
+        "description": "Area Water Faith Attack vs all fighters in range 2 path 3."
+      }
+    ],
+    "faction": "Akai"
+  },
+  {
+    "name": "Death Dancer",
+    "hp": 16,
+    "style": "Raider",
+    "weaponSuggestions": "Hands, feet, head, elbows, knees;",
+    "armorSuggestions": "Tattoos, bahag, sarongs, handwraps",
+    "traits": [
+      {
+        "name": "Many Handed Wheel-Turner",
+        "lore": "Let Death speak for one last time: \u201cThere are things that are meant to cycle, such as the flow of the universe, and things that are not meant to cycle, such as the generational evils. Therefore with your internalization of Cyclical Death, you will know which cycles to kill, and which cycles to preserve. Remember, however, that no God shall ever be Immortal. Therefore killing God enacts Cyclical Death as much as severing a slave from their master enacts Cyclical Death. Let all things end with you.\u201d",
+        "description": "Rush 1 when you take a stance. Additionally, you can now take upon more than one Stance at a time. If you do, gain a number of benefits equal to the number of stances you are currently in. These benefits are accumulative: having 3+ Stances means you also have the benefit of being in 2+ and 1 Stance: 0 2+ Stance: While you have at least 2 Stances, when you take on a new Stance, you may immediately rush 2, moving through enemies and hindering terrain. 0 3+ Stances: Once you gain 3 Stances, you may inflict violence for free. When you end your Fulmination with 3+ Stances, inflict 1 Hit on all adjacent enemies. 0 4+ Stances: While you have 4+ Stances, you are immune to Unbalance and Daze and all your melee attacks have Overwhelming."
+      },
+      {
+        "name": "Body As Weapon Paagi",
+        "lore": "You take upon yourself the initiation of cyclical death. What does the cycles of violence see now? Dance along the lines of death.",
+        "description": "Choose whether your practicing the Heavy Handed Executioner or the Lightning Death Movement style when you go into combat: 0 Heavy Handed Executioner: Your Hundred Hands of Yamadiraja is slower but more powerful: Melee Earth Faith Attack vs 1 close Fighter, with Overwhelming, but you have -1 SPD. 0 Lightning Death Movement: Your Hundred Hands of Yamadiraja is quicker but weaker: You may teleport 1 then make a Melee Air Faith Attack vs All Enemies in Burst 1 with Dullness."
+      }
+    ],
+    "violence": [
+      {
+        "name": "The Hundred Hands of Yamadiraja",
+        "actionCost": "1",
+        "lore": "There are a thousand deaths a day, and that is how many strikes you unleash.",
+        "description": "This is dictated by your chosen Body As Weapon Paagi style."
+      },
+      {
+        "name": "Sunyata Palm",
+        "actionCost": "1",
+        "lore": "Breathe and meditate upon the emptiness taught by Destined Death.",
+        "description": "Make a Melee Metal Faith Attack (1 adjacent fighter) and then inflict RES Down (1)."
+      },
+      {
+        "name": "Diamond Body",
+        "actionCost": "1",
+        "lore": "Perform an anyo ritual, striking each point of your body and hardening it to a thunderbolt.",
+        "description": "Take on the Diamond Body Stance until the end of your next Fulmination. While in the Stance, you cannot be forcibly moved and when you move into an enemy\u2019s square, you collide with them (do not suffer Hits) but your movement does not end, and you push them 1. You can only use this 1/Fulmination."
+      }
+    ],
+    "faction": "Apumbukid"
+  },
+  {
+    "name": "Headtaker",
+    "hp": 16,
+    "style": "Raider",
+    "weaponSuggestions": "Headtaking Axe, sickle, tabak, golok, pinute",
+    "armorSuggestions": "Cloaks, rain capes, breastplates, silk",
+    "traits": [
+      {
+        "name": "Ritual Kill",
+        "lore": "The Headtaking Rite is an endlessly difficult martial art to master, and it is not taught to just anyone. Everyone that becomes a Headtaker understands combat-as-ritual, and does not and will never take it lightly. They will only take heads if they must, if they need to, if the ancestors command it. The Decapitation Rite is a martial art that uses venoms, shadows, bamboos, combined with large strides and a low stance to defeat opponents.",
+        "description": "At the start of Violence, designate a single fighter that you can see as your Ritual Kill. You can only have 1 Ritual Kill at a time. You can mark a new Ritual Kill whenever you end your Fulmination. When you mark a new Ritual Kill, your last Ritual Kill disappears. Whenever you make a melee attack against your Ritual Kill, your attack gains Skewering. If it already has Skewering, gain +1 Hit on the attack."
+      },
+      {
+        "name": "Shadowstep",
+        "lore": "The Decapitation Rite teaches that the shadows are your friends. The darkness is not evil; in fact, it is a respite and a safe space from the overbearing hegemony of the sun\u2019s scorching rays. Therefore use it to your advantage, and let your axe burn with love.",
+        "description": "When you Stride, you can choose to teleport 3 instead. Additionally, you can now move through enemies but not end in their squares."
+      },
+      {
+        "name": "Smoke and Bamboo Style",
+        "lore": "Headtakers are trained in the art of leaping from tree to tree, bough to bough, finding the perfect angle to strike down and end things.",
+        "description": "While adjacent to blocking or cover terrain, or when not within line of sight of any enemy, spend 1 Beat to gain Stealth (2). All your attacks from Stealth gain +1 Attack Tooth."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Cleave and Eviscerate",
+        "actionCost": "1",
+        "lore": "Go for the fucking throat.",
+        "description": "Melee Metal Bravery Attack vs an adjacent fighter. If the target is Staggered, this attack generates 2 Hits on 9+ instead of 1."
+      },
+      {
+        "name": "Ambush",
+        "actionCost": "1",
+        "lore": "You leap out and strike from the shadows.",
+        "description": "Melee Earth Bravery Attack vs an adjacent fighter. If attacking from Stealth, this attack gains +1 Hit."
+      },
+      {
+        "name": "Dancing Weapon",
+        "actionCost": "1",
+        "lore": "Throw a weapon imbued with ritual shadows.",
+        "description": "Ranged Metal Bravery Attack vs 1 fighter in range 3. If the target is Staggered, may teleport to a square adjacent to them."
+      }
+    ],
+    "faction": "Apumbukid"
+  },
+  {
+    "name": "Makinaadmanon",
+    "hp": 12,
+    "style": "Witch",
+    "weaponSuggestions": "Meditations, vajras, staffs, mudras, mantras, bamboo prayer strips, burning bolts of energy",
+    "armorSuggestions": "Meditational Robe, silk jackets, voluminous cloaks, flowing sarongs, gleaming paruka",
+    "traits": [
+      {
+        "name": "Thunderbolt Body",
+        "lore": "The most common expression of Kinaadman is through sheer spiritual power. As a Makinaadmanon, your body changes in conjunction with the growing kinaadman within you. This is where the martial art Kimat Kinaadman gained its name: their bodies very often turned into burning lightning as they fought, as they cultivated their kinaadman to burning heights. They command the elements of the world as a poet commands words, with a mixture of stances and flowing body movements that replicate the characteristics of the elements they control. Sometimes they also rely on the use of palm leaf magic strips to empower their attacks.",
+        "description": "At the start of your Fulmination, gain 1 Kinaadman, a mote of spiritual power. You can spend any number of Kinaadman when you make a Faith Attack to add that many dice to the Attack Teeth, or when you inflict a Bane to add that much duration to the Bane. 0 At 1+ Kinaadman: your powers are bolstered. All your faith attacks inflict Slide 2. 0 At 2+ Kinaadman: all your Faith Attacks inflict Fray 2. 0 At 3+ Kinaadman: you start hovering as well, gaining Float (2). 0 At 4+ Kinaadman: your body becomes a Thunderbolt: all your Faith Attacks gain Overwhelming and you inflict 1 True Hit per Bane inflicted. 0 At 5+ Kinaadman, your body is overwhelmed, and you explode: you fall to Critical and inflict 3 True Hits on all fighters in burst 5."
+      },
+      {
+        "name": "Elemental Perfection",
+        "lore": "The Makinaadmanon perfects the natural world around them, so that they can reach harmony through the violence they inflict.",
+        "description": "When you make a Faith Attack, you can choose what the Element of the attack will be."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Kinaadman Blast",
+        "actionCost": "1",
+        "lore": "You blast down with overflowing kinaadman.",
+        "description": "Make an Area Metal Faith Attack vs all fighters in range 4 burst 1, then inflict Vulnerability on each target to the element of this attack."
+      },
+      {
+        "name": "Curse",
+        "actionCost": "1",
+        "lore": "Inflict spite and perversion and make them bleed.",
+        "description": "Mark 1 fighter in range 5 until the end of your next Fulmination. While marked, they suffer Eviscerate and cannot gain Boons."
+      },
+      {
+        "name": "Clawed Witchstrike",
+        "actionCost": "1",
+        "lore": "With your hand in a clawed mudra, you rake at the victim of your scorn.",
+        "description": "Make a Ranged Earth Faith Attack vs 1 fighter in range 5, and then slide them 2 (+ 1 per 7+)."
+      }
+    ],
+    "faction": "Apumbukid"
+  },
+  {
+    "name": "Tigpana",
+    "hp": 12,
+    "style": "Sharpshooter",
+    "weaponSuggestions": "Sikarom (bamboo longbows), shortbows, blowguns, guns, lobbers",
+    "armorSuggestions": "War jackets, vests, padded shirts, sarongs, natural mantles",
+    "traits": [
+      {
+        "name": "Panganoron Pana",
+        "lore": "The Art of Piercing Petals with your Arrows was famously created by an ancient longbow master in the peninsula of Ibalnong, SRI DIWA SAMAYAW, God of Hunting and said to be an aspect of Rajaraya Pintas, who elevated the simple art of bow fighting to a god-beast hunting martial art with the help of the dark-skinned Mayaran folk in the hinterlands of Rusunuga, who have perfected the bow and arrow art. This art requires the practitioner to be at least not Dihiyang, and at best, completely Naghiyang, or Concordant With the Universe\u2019s Flow or Nihawa, to become the most accurate martial artists.",
+        "description": "At the start of combat, gain 1 Flow. Every start of your Fulmination after your first, gain 1 Flow. You can only have up to 5 Flow. You can use Flow to empower the strength of your arrows. Flow represents your attunement to nature and violence as the fight progresses. Harmonious Arrow Meditation: While you have Flow 2+, all your ranged attacks have Sharpness. Venerable Sri Magayon Stability: You can spend 1 Flow when you are Pushed or Pulled to ignore that forced movement. Boltavara Fury: When you make a ranged attack against a fighter that is at least 3+ squares from you, spend X Flow to gain Xd on the Attack Teeth. One With Nature: Spend Flow to gain Stealth (1 + Flow spent)."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Snipe",
+        "actionCost": "1",
+        "lore": "Shoot and kill from above.",
+        "description": "Ranged Air Bravery (+1 Attack Tooth if from Stealth) Attack vs 1 fighter in range 6, ignoring cover and blocking terrain."
+      },
+      {
+        "name": "Aim",
+        "actionCost": "1",
+        "lore": "Ready death.",
+        "description": "Gain 1 Flow. Your next Ranged Attack gains Sharpness. If it already has Sharpness, it instead generates double Hits on 9+."
+      },
+      {
+        "name": "Quick Shot",
+        "actionCost": "1",
+        "lore": "Shoot and then flip back.",
+        "description": "Ranged Metal Bravery Attack vs 1 fighter in range 3, then rush 3 backwards, away from the target."
+      }
+    ],
+    "faction": "Apumbukid"
+  },
+  {
+    "name": "Warspeaker",
+    "hp": 12,
+    "style": "Witch",
+    "weaponSuggestions": "Staff, fan, words, whispers, mockery, swords, daggers, hammers",
+    "armorSuggestions": "Cloaks, silk jackets, silk pants, sarongs, headwraps, diadems, silk slippers",
+    "traits": [
+      {
+        "name": "God Mantras",
+        "lore": "The conception of Batala as the Supreme God arrived in the Isles after the Ashinin Missionaries brought the term BHATTARAKA meaning Noble Lord in through religious work. BHATTARAKA is one of the names they used for their Auspicious God, the Absolute Reality, known as SRIWA. The name SRIWA never caught on in Rusunuga, and when the teachings of the Sage of Violence Himayanon Annuvar arrived through the Annuvaran Missionaries, they kept used the term BATALA HIMAYANON BATALA to refer to the Eternal Himayanon, the Cosmic Sage that embodies all of Divine Law and is where all of reality arises from, and that kalibutan is a consequent of this. With the syncretization of BATALA to refer the Absolute Reality of Divine Law, the name stayed.",
+        "description": "When you start your Fulmination, choose which mantra you are chanting until the start of your next Fulmination. 0 OO SIW GULURAD. Every enemy in burst 2 of you suffers -1d to their Defense Teeth. 0 OO ARA SIGLA. Every enemy in burst 2 of you suffers -1d to their Attack Teeth. 0 OO KUSG HAREYA. When a fighter starts their Fulmination in burst 2 of you, inflict Slide 1. 0 OO MATA MATA. When an enemy starts their Fulmination adjacent to you, they suffer Unbalance (1)."
+      },
+      {
+        "name": "Biting Commands",
+        "lore": "Constantly speaking, you know the secrets of the Sword of Diplomacy and Mediation. With the proper words, you strike at the hearts of men.",
+        "description": "Whenever you forcibly move an enemy, inflict 1 Hit on them, once per enemy per Fulmination."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Mock",
+        "actionCost": "1",
+        "lore": "Utter mocking phrases.",
+        "description": "Ranged Air Bravery Attack vs 1 fighter in range 5, then inflict Provoke (1) on them, choosing any ally as the one they\u2019re provoked to."
+      },
+      {
+        "name": "Fast Friends",
+        "actionCost": "1",
+        "lore": "Now confuse them and make them drop their guard.",
+        "description": "Mark one fighter in range 4 until the end of your next Fulmination. While marked, they suffer POS Down and BRV Down."
+      },
+      {
+        "name": "Sword",
+        "actionCost": "1",
+        "lore": "When all else fails, unsheathe the sword mantra.",
+        "description": "Ranged Fire Bravery Attack vs 1 fighter in range 3, inflict Bleed (2)."
+      }
+    ],
+    "faction": "Apumbukid"
+  },
+  {
+    "name": "Flower Balyan",
+    "hp": 12,
+    "style": "Witch",
+    "weaponSuggestions": "Mudras, ritual knives, gunong, kris, prayer strips, sampaguita wreaths, flower thorns, laurels",
+    "armorSuggestions": "Ritual vestments, raiments, shawls, robes, sashes, malong, tapis, sarong",
+    "traits": [
+      {
+        "name": "Flower Garden",
+        "lore": "Flower Balyan very often cultivate gardens of their own, either in their own houses or perhaps in their own settlements. These gardens are pieces of wonder, though their most striking part will always be a corpse flower in the middle of it all. Flower Balyan are fond of sampaguita, or jasmines, as they are the flowers of the dead. They cultivate the gardens because it is very often taught that to take a life, you must bring something else to life. You have captured wandering souls that wish to offer their ghostly consciousnesses for a virtuous cause. They are always 5. You know each of their names. You fight with them, and they manifest as beings clad in flower and soil.",
+        "description": "When you start violence, place a Flower Ghost in a square adjacent to you. You can put down another Flower Ghost for 1 Beat. You only have 1 of each Ghost type per Violence. You cannot have more than 3 at a time. Each Flower Ghost is a Size 1 Summon. You can make any number of your Ghosts rush 3 for 1 Beat. Sampaguita Ghost:The Sampaguita Ghost is Hindering Terrain. Lotus Soul: Leaving adjacency of the Lotus Soul costs +1 Speed. Hibiscus Goblin: At the start of your Fulmination, the Goblin may rush 2 and inflict Unbalance (1) on an adjacent enemy. Jade Vine Serpent: Every end of Fulmination, the serpent leaps and inflicts SPD Down (1) on an enemy in range 2. Waling-Waling Brute: The brute is considered blocking terrain."
+      },
+      {
+        "name": "Plant Blossoms",
+        "lore": "Flower Necromancers carry with them flowers inlaid with sorcerous script. When fired, they burn and execute a variety of magical effects. These sorcerous scripts are also very often found written in palm leaf strips, which Flower Necromancers very often rip or tear to perform a variety of effects.",
+        "description": "When you inflict any number of Hits on a fighter, you may plant a flower within them. Any single fighter can have up to 3 flowers on them. When a fighter with a flower attacks, make any number of flowers on them blossom, canceling a Hit per blossom. Flowers wither away after a blossom."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Rose Thorn",
+        "actionCost": "1",
+        "lore": "Let fly a petal that buries into an enemy.",
+        "description": "Inflict Fray 1 on a target in range 5."
+      },
+      {
+        "name": "Jade Vine Whip",
+        "actionCost": "1",
+        "lore": "Throw a jade vine and whip an enemy about.",
+        "description": "Slide 3 a target in range 4."
+      },
+      {
+        "name": "Floral Blade",
+        "actionCost": "1",
+        "lore": "Cut with a weapon made of petals.",
+        "description": "Area Earth Faith Attack vs all chosen targets in path 5, inflicting Eviscerate (2)."
+      }
+    ],
+    "faction": "Ba-e"
+  },
+  {
+    "name": "Heavenspear",
+    "hp": 14,
+    "style": "Raider",
+    "weaponSuggestions": "Sibat, bangkaw, tridents, barbed spears, kalises, gunongs, longknives, lances, pinamaskan, lances, halberds, glaves, sodok",
+    "armorSuggestions": "Breastplates, sarongs, pants, slippers, bracers, headwraps",
+    "traits": [
+      {
+        "name": "Liberation",
+        "lore": "The final lie is the Earth-Binding. That one must stay bound to the earth. That one must fall down. BATALA, the Absolute Reality, tells that this reality is nothing but phenomenon that we can overcome. However, to achieve that, they must learn the truth of the Waling-Waling Surat: that they themselves are not real. That they travel and can perform feats of grand God-killing because reality as they know it is a structure of their own souls crafting reality around them. Only then can they truly unchain themselves from the shackles of the earth.",
+        "description": "You can spend 1 Beat to Unbind yourself. While Unbound, you are considered Flying. While Unbound, when you attack a Juggled enemy, you can consume the Juggled to immediately inflict Stop (1) and +1 True Hit on them. If you Rush while Unbound, you may inflict 1 Hit on an adjacent enemy at any point in the movement for free, 1/ Fulmination. Your weapon is constantly striking out as you rush forward, like a disaster dragon. You lose Unbound when suffer a single attack that deals 3+ Hits, post-canceling."
+      },
+      {
+        "name": "Skydancer",
+        "lore": "The 41st Tenet of Heaven Rending: Stillness is illusion, as with all things. To Achieve Conjunction you must learn to be unbound.",
+        "description": "1/Fulmination: When a fighter leaves a square that is within Burst 2 of you, you may Rush 1."
+      },
+      {
+        "name": "Unbridled Alacrity",
+        "lore": "The 37th Tenet of Heaven Rending: Dig deep until the wind billows and the thunderhead keens. You will know your time to strike.",
+        "description": "When you end your Fulmination and have moved at least 5 squares, gain 1 Defend. You are immune to SPD Down and Stop."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Extremespeed",
+        "actionCost": "1",
+        "lore": "Move quicker than sound.",
+        "description": "Rush 3."
+      },
+      {
+        "name": "Thunderspear",
+        "actionCost": "1",
+        "lore": "Strike so quick that it is like lightning, and your victim feels the thunder.",
+        "description": "Melee Air Bravery Attack vs 1 fighter in range 2. Push 1, and then Rush 1 toward the target."
+      },
+      {
+        "name": "Lightning Lance",
+        "actionCost": "1",
+        "lore": "Twirl your weapon and then strike forward, piercing through.",
+        "description": "Area Metal Bravery Attack vs 2 targets in line 2."
+      }
+    ],
+    "faction": "Ba-e"
+  },
+  {
+    "name": "Mender",
+    "hp": 16,
+    "style": "Medium",
+    "weaponSuggestions": "Jade beads, parasols, clothing, sashes, fans, hats, oils, perfumes",
+    "armorSuggestions": "Ritual vestments, healer tunics, cloaks, hoods, sashes, robes, gowns",
+    "traits": [
+      {
+        "name": "Mixture Master",
+        "lore": "All magical effects are just a matter of the correct combination of herbs, knowledge of the soul, and twisting of your own ghost. As a master healer, use this to your advantage, and channel Sri Dewa Sarripada Agas.",
+        "description": "Begin combat with 1 of each Concoction, which you can use on yourself or throw it at fighters in range 3. Using these does not use Beats. 0 Healing Mixture: Surge for free. 0 Protective Mixture: Gain 1 Defend. 0 Cleansing Mixture: Cleanse all negative effects (including Fray). 0 Fire Mixture: Gain +1 Hit on next attack. 0 Water Mixture: Gain Stealth (2)."
+      },
+      {
+        "name": "Healer Meditation",
+        "lore": "The Palm of Rumsua is the perfection of the healing mantle. They can heal even more than the balyan can. They are born as inherent rejection of the Eighth Star Era\u2019s violence. You are taught to be the perfect places to hit, strike, massage, as well as the right oils to use, to soothe your allies.",
+        "description": "When an ally falls to Staggered in the first time in the Violence, give them Block 2."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Palm",
+        "actionCost": "1",
+        "lore": "Strike with a mystic palm.",
+        "description": "Melee Fire Faith Attack vs an adjacent fighter, and then inflict SPD Down (1)."
+      },
+      {
+        "name": "Cloth Flurry",
+        "actionCost": "1",
+        "lore": "Strike with sleeves and clothing to turn enemies about.",
+        "description": "Melee Metal Faith Attack vs 1 fighter in range 2, then Slide 2."
+      },
+      {
+        "name": "Fending Spell",
+        "actionCost": "1",
+        "lore": "Let go of jade beads, parasols, a hat, or anything else that might protect. It flies out and protects an ally.",
+        "description": "Give 1 ally in range 3 a Fend Token. The ally can spend the Fend Token at any point to cancel 1 Hit."
+      }
+    ],
+    "faction": "Ba-e"
+  },
+  {
+    "name": "Starshooter",
+    "hp": 12,
+    "style": "Sharpshooter",
+    "weaponSuggestions": "Balls, stones, motes of dust, embers, kicks, knees, elbows, forehead",
+    "armorSuggestions": "Silk jackets, silk vests, feetwrap, handwraps, headwraps",
+    "traits": [
+      {
+        "name": "Astral Volley",
+        "lore": "The Star of Morning is a style that turns play into violence. An important aspect of Sipa is the rule that you lose if you lose your volley. The ball must always be in the air. Therefore so do you keep your burning star aloft. This volley increases your momentum, and makes your strikes stronger.",
+        "description": "When you make a ranged attack, you may place a Ball in the battlefield adjacent to the target. You can only have 1 Ball at a time in the battlefield. The Ball is a Size 1/2 Object with infinite durability. Whenever the Ball is forcefully moved or suffers Hits, it gains 1 Momentum Charge. When it reaches 6 Momentum, the next time it would gain Momentum Charge, it instead turns into a shooting star, flying in a Path 10 from its square, dealing 2 True Hits to all fighters it moves through. Then, you lose the Ball."
+      },
+      {
+        "name": "Bouncing Lightning",
+        "lore": "Every part of the battlefield is fair game. As a Starshooter, your volley continues as long as your ball does not fall to the ground. In the same way, life goes on.",
+        "description": "You can target blocking terrain now with your ranged attacks. If you do, you can choose that blocking terrain as the origin square for that ranged attack."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Lightning Kick",
+        "actionCost": "1",
+        "lore": "Kick with forceful reckoning.",
+        "description": "Melee Air Bravery Attack vs an adjacent fighter, push 4."
+      },
+      {
+        "name": "Shooting Star",
+        "actionCost": "1",
+        "lore": "Pick up any projectile: a bead, a mote of dust, a leaf, ember from a flame, and kick it at a target.",
+        "description": "Ranged Air Bravery Attack vs 1 fighter in range 5, and then inflict 1 Hit on another fighter in range 2 of the target."
+      },
+      {
+        "name": "Rope Dart",
+        "actionCost": "1",
+        "lore": "Kick out a rope dart and whip it around.",
+        "description": "Ranged Metal Bravery Attack vs 1 fighter in range 3. Slide 2."
+      }
+    ],
+    "faction": "Ba-e"
+  },
+  {
+    "name": "Warsmith",
+    "hp": 12,
+    "style": "Witch",
+    "weaponSuggestions": "Hammers, axes, pestles, anvils (tied to a rope), shields, blunt swords, maces, mallets, bludgeons",
+    "armorSuggestions": "Silk jackets, silk vests, feetwrap, handwraps, headwraps",
+    "traits": [
+      {
+        "name": "Wield The Hammer",
+        "lore": "Channel Wisnu, great Hari, who created this world according to the Niharis (the worshippers of Hari). In addition to creating the world, He is also sanctioned to protect it at all times from every possible danger from outside the Trichiliocosm. As a Warsmith, claim the Blood-Soaked Hammer, and pave a way for a better world. Thus is the only way to preserve it.",
+        "description": "When you forcibly move an enemy, inflict Stop, or SPD Down, gain Block 2 and one of the squares adjacent to you becomes Metal Terrain."
+      },
+      {
+        "name": "War Crafting",
+        "lore": "The Warsmith revels in the holy act of Creation, that thing that happened without anyone performing. The sacred act, the first act, done without an extant cause. With hammer and anvil and ingenuity they become more than what they are.",
+        "description": "At the start of Violence: place down 3 Materiel in the battlefield at least 4+ squares away from you, and you begin with 2 Materiel. Every start of Strike, put down another Materiel within 4+ squares of you. Whenever a fighter goes through a Materiel\u2019s square, they pick up the Materiel. Attacking an enemy with materiel lets you gain 1 Materiel from them. Any adjacent ally can spend 1 Beat to give you Materiel as well. You can spend 1 Materiel immediately to do the following: 0 Quick Craft: Raise or lower 1 adjacent square by +1 or -1 Elevation. You cannot put an elevation to +4 or -3 in this way. 0 Mystic Prasad Fabrication: Put down cover terrain in an adjacent square. 0 Lissome Pneumatics: Push 1 an adjacent enemy. 0 Fire Billows Form: Rush 1, ignoring terrain."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Siwa\u2019s Hand",
+        "actionCost": "1",
+        "lore": "Destroy earth.",
+        "description": "Choose an adjacent square and turn it into difficult terrain. If it\u2019s already Difficult, it becomes Dangerous. If already Dangerous, it becomes Hindering. If already Hindering, it becomes a Chasm."
+      },
+      {
+        "name": "Brahma\u2019s Fist",
+        "actionCost": "1",
+        "lore": "Strike forcefully, with pride.",
+        "description": "Melee Earth Bravery Attack vs an adjacent fighter, and then push 3."
+      },
+      {
+        "name": "Rudra\u2019s Trident",
+        "actionCost": "1",
+        "lore": "Unleash a gleaming lance with a quick breaking kata.",
+        "description": "Area Metal Bravery Attack vs all chosen targets in line 2, inflict Unbalance (1) on the target on the last square of the line."
+      }
+    ],
+    "faction": "Ba-e"
+  },
+  {
+    "name": "Buwaya Lancer",
+    "hp": 20,
+    "style": "Sentinel",
+    "weaponSuggestions": "Tridents, harpoons, fishing rods, shields",
+    "armorSuggestions": "Tattoos, Cotton-padded armor, silk jackets",
+    "traits": [
+      {
+        "name": "Crocodile Rider",
+        "lore": "As a Buwaya Lancer, you might be mounted upon a crocodile, or some other similar draconic creature, though you can choose to not have a mount at all, and simply channel the spirit of a crocodile.",
+        "description": "1/Fulmination, when a fighter leaves a square adjacent to you, you may inflict violence on them for free. Additionally, when fighters collide with you, you do not suffer Hits."
+      },
+      {
+        "name": "River God",
+        "lore": "Crocodiles are hardy and they are not hampered at all by water and hard to cross terrain. Even more, their tails work as powerful weapons. When used in tandem with spears, buwaya lancers are a force to be reckoned with.",
+        "description": "When you Stride, choose 1 adjacent fighter. You may pull them with you, maintaining adjacency as you stride."
+      },
+      {
+        "name": "Snapping Dragon",
+        "lore": "Even in land, the crocodile beast can gallop, quick and unstoppable. The Crocodile is one of the most well-respected beasts: they are very often considered to be avatars of the ancestors themselves, and are treated like Grandfathers\u2014that is, with utmost care and respect. They are the great masters of both sea and land, protectors of the places where water and earth meet.",
+        "description": "When you Pull any fighter to a square adjacent of you, inflict 1 Hit, 1/Fulmination."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Spearing Dragon",
+        "actionCost": "1",
+        "lore": "Strike with a trident or other polearm.",
+        "description": "Make a Melee Water Bravery Attack vs 1 fighter in range 3, then pull 1."
+      },
+      {
+        "name": "Barreling Dragon",
+        "actionCost": "1",
+        "lore": "Barrel forward with a sudden burst of speed.",
+        "description": "Rush half your Speed. If you move through fighter or object, inflict 1 Hit on the target, and inflict Push 1 on them."
+      },
+      {
+        "name": "Fishing Rod",
+        "actionCost": "1",
+        "lore": "Pull out a fishing rod, wrap it around a target, and then sling them to the side.",
+        "description": "Choose a fighter in range 3 and slide them up to 2 squares."
+      }
+    ],
+    "faction": "Gatusan"
+  },
+  {
+    "name": "Kawal",
+    "hp": 20,
+    "style": "Sentinel",
+    "weaponSuggestions": "Treasured Spears, large barongs, giant panabas, kalasag, taming",
+    "armorSuggestions": "War Hats, Buffalo Cuirasses, Bamboo Legplates, Plated Tassets",
+    "traits": [
+      {
+        "name": "Perfect Lokapala Shield",
+        "lore": "You meditate and perfect the movements of the eight perfect guardians. Guard all those around you. You meditate upon the guardian deities of nature and perfect the guardian art that they have taught.",
+        "description": "You have the Lokapala Aura that extends to every square within burst 1 of you. Your Lokapala Aura gives you the following benefits: 0 Any enemy that enters your lokapala aura has their movement immediately ended and they cannot leave your aura until the end of their Fulmination. 0 When you suffer an attack from an enemy within your Lokapala Aura, gain +1 Defend against that attack. 0 If an enemy in your Aura Moves out of the Aura or makes an attack that does not include you as a target, you may inflict violence on them, 1/Fulmination."
+      },
+      {
+        "name": "Gajasangkra\u2019s Meditation",
+        "lore": "Gajasangkra is the Guardian Lord of the Northwest, which is the land of constant monsoons and whirlpools. If she doesn\u2019t guard that place with her thousand hands, the seas will drain into wine and milk, killing all Folk in Gubat Banwa. And so she keeps the sea from overflowing, and so does she suffer the corroding chaos of wine.",
+        "description": "When you are forcibly moved, roll a Chance Die. On a 7+, you ignore that forced movement."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Shield Bash",
+        "actionCost": "1",
+        "lore": "Slam with a shield.",
+        "description": "Make a Melee Earth Bravery Attack vs 1 adjacent Fighter, push 1 [+1 per 7+ on the attack teeth], then Rush 1 per square pushed."
+      },
+      {
+        "name": "Skewer",
+        "actionCost": "1",
+        "lore": "Impale with a longspear.",
+        "description": "Make an Area Metal Bravery Attack vs all enemies in Line 2."
+      },
+      {
+        "name": "Shield Charge",
+        "actionCost": "1",
+        "lore": "Raise your shield and charge forward.",
+        "description": "Rush 3 in a straight line. If you move into any enemy\u2019s square, push them 1 + number of rush left. Then gain 1 Defend."
+      }
+    ],
+    "faction": "Gatusan"
+  },
+  {
+    "name": "Mangangayaw",
+    "hp": 16,
+    "style": "Raider",
+    "weaponSuggestions": "Kampilan, Kerambit, Balaraw, Gunong",
+    "armorSuggestions": "War Jackets, flowing bahag, crimson headwraps, bamboo bracers, golden trinkets",
+    "traits": [
+      {
+        "name": "Bloodlust",
+        "lore": "A mangangayaw must always be showing off, or else they die. No, really: if a sea raider slows down, they will be consumed by the waves of war. And so they must keep moving, so that they are above water. Mangangayaw are born into violence. They are the purest manifestations of strength, vigor, and ferocity. Their swords are always ready, nothing can ever catch them off guard. They are the peerless warriors of the Sword Isles. All will fall to their blades.",
+        "description": "Whenever you make a melee attack, gain a Bloodlust Level. Bloodlust is a measure of your battle hype. Bloodlust Levels can only go up to 5. When you make a Melee Attack, you can spend all your Bloodlust Levels to add that many Hits to the Attack. As long as you have Bloodlust, you may rush 2 before and after every attack. Additionally for every 2 Levels of Bloodlust, you gain +1 to your SPD."
+      },
+      {
+        "name": "Counterstrikes",
+        "lore": "A common teaching when fighting against premier mangangayaw is this: never get too close to them. This is how the mangangayaw sea raiders rule the waters.",
+        "description": "1/Fulmination, when a fighter makes a melee attack against you, you may eschew rolling POS to roll your BRV value instead as Defense Teeth. 6+ on this roll does not cancel Hits but rather, inflicts Hits on the attacker."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Multistrike",
+        "actionCost": "1",
+        "lore": "You unleash a thousand lightning strikes in a moment.",
+        "description": "Make a Melee Water Bravery Attack vs 1 adjacent fighter."
+      },
+      {
+        "name": "Open Up",
+        "actionCost": "1",
+        "lore": "Perform a quick vacuuming movement, lead them to their death.",
+        "description": "Pull 1 fighter in burst 2. If the fighter is already adjacent, inflict Eviscerate (1) instead."
+      },
+      {
+        "name": "Thundering Stomp",
+        "actionCost": "1",
+        "lore": "You surge forward and stomp, breaking defenses.",
+        "description": "Rush 1 and then inflict POS Down (1) on an adjacent fighter."
+      }
+    ],
+    "faction": "Gatusan"
+  },
+  {
+    "name": "Sword Poet",
+    "hp": 20,
+    "style": "Sentinel",
+    "weaponSuggestions": "Singing Kalis, kudyapi, string lutes, chopping swords, anything that resonates",
+    "armorSuggestions": "Long robes, cloaks, headwraps, breastplates, wooden sandals",
+    "traits": [
+      {
+        "name": "Song of Swords",
+        "lore": "When you leap into violence, you begin singing a song of war. A song of your warband overcoming overwhelming odds. A song of you and your friends fighting for a better world. A song of you and your family, your closest loved ones, proving their conviction in a world of death and war. Your words truly now become edges, cutting points. You wave away spear strikes with a deft tongue, you parry blades with broken rhythms. You are always singing the song of swords, a horrible sword rhetoric.",
+        "description": "At the start of Violence, give Sword Rhetoric to every ally in the battlefield. Whenever an ally with Sword Rhetoric is the target of an attack from an enemy, you may consume Sword Rhetoric and gain 1 Reprisal. You can spend Reprisal on the following, at any point: 0 Biting Verse. Spend X Reprisal when an enemy attacks you to convert X of your non-Defends into Hits against the attacker. 0 Invigorating Verse. At the end of your Fulmination, spend 1 Reprisal to give all allies in burst 2 Block 1. 0 Mocking Verse. After making an attack, spend 1 Reprisal to inflict Dullness on the target until the end of their next Fulmination. 0 Siren Song. When an enemy in the battlefield starts their Fulmination, spend up to 3 Reprisal to pull them that many squares. At the end of your Fulmination, give Sword Rhetoric to every ally that does not have it."
+      },
+      {
+        "name": "Animating Song",
+        "lore": "Your song keeps you going.",
+        "description": "You may Surge 3 times per Violence."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Singing Swords",
+        "actionCost": "1",
+        "lore": "Strike while singing.",
+        "description": "Make a Melee Air Faith Attack vs 1 adjacent fighter, then you may rush into the target\u2019s square and slide them into the square you vacated."
+      },
+      {
+        "name": "Mocking Swords",
+        "actionCost": "1",
+        "lore": "Strike and mock the target.",
+        "description": "Make a Melee Air Faith Attack vs 1 adjacent fighter. Inflict Provoke (1) on the target."
+      },
+      {
+        "name": "Sword of Diplomacy",
+        "actionCost": "1",
+        "lore": "Strike and instill a better world with your poetry.",
+        "description": "Make a Melee Air Faith Attack vs 1 adjacent fighter. Slide 1 (+1 stack per 9+ on the Attack Teeth.)"
+      }
+    ],
+    "faction": "Gatusan"
+  },
+  {
+    "name": "Warrior Balyan",
+    "hp": 16,
+    "style": "Medium",
+    "weaponSuggestions": "Ritual staffs, wreaths, bundles of grass, incense, tattooed hands, vajras, monk staffs, bells, ritual knives",
+    "armorSuggestions": "Multicolored robes, cloaks, golden sandals, flower diadems, breastplates, ritual war jackets",
+    "traits": [
+      {
+        "name": "Xenoglossy",
+        "lore": "During the alabay stages of training (apprenticeship), each balyan undergoes a vision quest under a strangler fig, or balete tree, and there in the abode of spirits they are expected to find their familiar, or their abayan, their companion. When they do, the familiar often manifests as a physical animal, such as a small snake, or an owl, a bird, or a young monkey, or even a dog. Balyan go into a state of divine trance as they channel the gods. The gods are divinity, unfit for our mortal bodies, and so when a mortal channels a god, their body contorts in inhuman ways to try and accommodate the god\u2019s being. Warrior Balyan have perfected the art of going into a violent trancedance in the middle of combat, and use that erratic movement to both channel the strength of the gods to their allies, as well as to make their own attacks unpredictable.",
+        "description": "At the start of Violence, summon a Spirit Familiar from the list below in a square adjacent to you. At the end of your Fulmination, you can change what Spirit you have summoned. Spend 1 Beat to summon another adjacent to you. You can only have up to 2 spirits at a time, though a fighter can only achieve xenoglossy with 1 spirit at a time. All your effects can begin from your familiars. Familiars are summons. Whenever you or an ally moves into a spirit\u2019s square (or the spirit moves into your or an ally\u2019s square), you can allow the spirit to possess them, allowing you or the ally to achieve Xenoglossy. The possessing spirit shares a square with the possessed fighter. When the possessed fighter becomes Critical, the spirit dissipates. You can ask the spirit to leave a fighter for 1 Beat, putting them in an adjacent square. Wheen you Stride, any Spirit of yours in the field may Rush 3. This can be used even if the Spirit is in Xenoglossy, letting both the spirit and the possessed rush. 0 Serpent. Xenoglossy grants Earth Conditioning, +1 Attack Tooth on Earth Attacks, and +2 POS. 0 Owl. Xenoglossy grants Air Conditioning, +1 Attack Tooth on Air Attacks, and +2 SPD. 0 Deer. Xenoglossy grants Metal Conditioning, +1 Attack Tooth on Metal Attacks, and +2 RES. 0 Rooster. Xenoglossy grants Fire Conditioning, +1 Attack Tooth on Fire Attacks and +2 BRV. 0 Naga. Xenoglossy grants Water Conditioning, +1 Attack Tooth on Water Attacks and +2 FTH."
+      }
+    ],
+    "violence": [
+      {
+        "name": "War Trance",
+        "actionCost": "1",
+        "lore": "Dance a horrid dance to curry the favor of the gods.",
+        "description": "Choose any spirit on the field and perform the following effect based on the spirit chosen, with the target being 1 fighter in range 3, or the fighter currently in Xenoglossy with that spirit. Serpent: Slide 1. Owl: Teleport 1. Deer: Give POS Up (1). Rooster: Heal 1. Naga: Inflict RES Up (1)."
+      },
+      {
+        "name": "Ritual Weapon",
+        "actionCost": "1",
+        "lore": "Strike with a blessed weapon.",
+        "description": "Melee Fire Faith Attack vs an adjacent fighter, +1 Attack Tooth if the target has Banes."
+      }
+    ],
+    "faction": "Gatusan"
+  },
+  {
+    "name": "Baril Witch",
+    "hp": 12,
+    "style": "Sharpshooter",
+    "weaponSuggestions": "Terakuls, matchlocks, arquebuses, lantakas, cetbangs, baril",
+    "armorSuggestions": "Silk jackets, war jackets, war hats, aristocrat vestments, sarongs, bahag, pants, boots",
+    "traits": [
+      {
+        "name": "Gun Mastery",
+        "lore": "You have peerless control of your gun, surpassing the limits of matchlock, flintlock, and arquebus. Through your skill, you bond with a spirit that has arisen from your gun. Guns were invented in the ancient of days by a god, who was killed by the Sage of Spears, he who had perfected the art of piercing. \u201cWith this implement piercing shall become a lesser art!\u201d The Sage of Spears hath said. Therefore thou must keep in mind the art of piercing. It is no frail, baser art. It is, in fact, the most perfect art, a forgotten art. The Art of Cutting reminds one of dichotomy. The Art of Piercing shows you that all things can become one.",
+        "description": "When you make an attack against any marked target, gain Skewering for that attack."
+      },
+      {
+        "name": "Channel The Gun god",
+        "lore": "The originator of the Baril Witch\u2019s Blasphemous Bullet was a gun foundry owner in old Tundun who communed with Balahari Gilusot, the King of Bullets, and learned the secrets of piercing, an ancient art that is sister only to the sacred act of cutting. The secret of piercing has a branch of knowledge that deals with bullets, which always pierce through. It is called the art of Lodging.",
+        "description": "Whenever you start your Fulmination you load your Gun: gaining 1 Guncharge. Every 1-3 on Fire Attack Teeth grants 1 Guncharge. You can gain up to 6 Guncharges. If you gain a Guncharge that puts you over 6, your gun explodes, dealing 2 True Hit to you and all fighters in burst 2. While you have Guncharges, gain the following benefits, equal to the number of Guncharges you currently have: 1+ Guncharge: Mark all enemies that you Hit with your ranged and area attacks. 3+ Guncharge: When you make a ranged attack, spend all Guncharge to give the attack Overwhelming. 5+ Gun Charge: When you make a ranged attack, spend all Guncharge to make another Inflict Violence immediately after, ignoring Combo Breaker."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Sinful Bullet",
+        "actionCost": "1",
+        "lore": "Shoot a bullet infused with the sins of your own excess.",
+        "description": "Ranged Metal Faith Attack vs 1 fighter in range 5, inflict 1 Hit on a square adjacent to the target, then gain 1 Guncharge."
+      },
+      {
+        "name": "Impyerno",
+        "actionCost": "1",
+        "lore": "Overload your gun and let out a stream of flame.",
+        "description": "Area Fire Faith Attack vs all fighters in blast 3."
+      },
+      {
+        "name": "Juggle Guns",
+        "actionCost": "1",
+        "lore": "Shoot, toss, reload, then shoot again using your kinaadman to telekinetically pull the trigger while the gun twirls in the air.",
+        "description": "Area Fire Faith Attack vs all fighters in burst 1, then gain 1 Defend until the start of your next Fulmination."
+      }
+    ],
+    "faction": "Virbanwa"
+  },
+  {
+    "name": "Bladeweaver",
+    "hp": 16,
+    "style": "Medium",
+    "weaponSuggestions": "Kalis, prayer beads, prayer strips, mudras, ululations, pinute, ginunting, long kampilan",
+    "armorSuggestions": "Shawls, boots, sandals, pants, war jackets, breastplates, war hats, peaked helmets, cuirasses",
+    "traits": [
+      {
+        "name": "Sword and Sorcery Cast Aloft!",
+        "lore": "The Perfect Meditation of the Blade is this: remember the teaching of Conjunction. The sword is nothing but a tool. In fact, it was not made for killing in the first place. Therefore reap and sow and clear new branches, and become a Sword that creates harmony and life.",
+        "description": "When you make a Faith Attack, your next Bravery Attack gains +1 Attack Tooth. When you make a Bravery Attack, your next Faith Attack heals you 1 HP. When you make a Bravery + Faith Attack, all allies in burst 3 gain Skewering on their next attack."
+      },
+      {
+        "name": "Sword Mage",
+        "lore": "Mastery of the sword is much more than just mastery of the weapon. It is, in fact, mastery of self, of tradition, of culture. It is the mastery of the principle of cutting, like a rock, oneness with the nature of something. Achieve Hiyang through swordmastery. You are not a weapon to kill, but rather, a weapon to cut away the brambles and tangles that bar you and your people from the future.",
+        "description": "At the start of violence, you have 1 Weaving. When you make a melee attack, gain 1 Weaving. You can only have up to 5 Weaving at a time. You can spend Weaving on any of the following at any time, as an immediate effect. 0 Shield Weave: Spend 1 Weaving when an ally you can see rolls POS or RES to add your FTH to the roll. 0 Sword Weave: Spend 1 Weaving when an ally you can see rolls their BRV or FTH, add your BRV to the roll. 0 Suture Weave: Spend 1 Weaving to heal 2 an ally in range 3."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Magicked Blade",
+        "actionCost": "1",
+        "lore": "Sorcery streaks from your blade.",
+        "description": "Melee Metal Bravery or Faith Attack vs 1 fighter in range 3. If you use this while you are Staggered or Critical, this uses Bravery + Faith instead."
+      },
+      {
+        "name": "Kinnara Slash",
+        "actionCost": "1",
+        "lore": "Slash while retreating in a crosslegging mystick dance.",
+        "description": "Melee Air Bravery Attack vs an adjacent fighter, then you must Teleport 1 out of adjacency of the target."
+      },
+      {
+        "name": "Dragon Whip",
+        "actionCost": "1",
+        "lore": "Strike in a horrible forward arc, like the naga cutting down with its tail.",
+        "description": "Melee Fire Bravery or Faith Attack vs 1 fighter in range 2. Then, pull 1 the target toward 1 ally that you can see."
+      }
+    ],
+    "faction": "Virbanwa"
+  },
+  {
+    "name": "Murderglave",
+    "hp": 16,
+    "style": "Sentinel",
+    "weaponSuggestions": "Colossal hammers, giant panabas, ceremonial swords, executioner\u2019s axes, straight sword",
+    "armorSuggestions": "Cuirasses, peaked helmets, greaves, tassets, steel sabatons, boots, shoulderguards, bracers, gloves",
+    "traits": [
+      {
+        "name": "Murder Monstrance",
+        "lore": "Saint Qali is the Fell Lady of Murder, known as Mahadiwa Kalakatri Duumanun in the religions of the Central Sword Isles. Bloody Handed Redemption teaches all Murderglaves to properly channel them by piercing themselves. A Murderglave channeling Saint Qali is sheathed in night blackness, like a penitent veil, choking them as the one million hands of Kalakatri reach out into the field. Murderglave armors are living iron maidens: they have spikes that dig deeper into the host, so that one never forgets their lifelong penitence, their pain, their sin for inflicting such violence upon this world.",
+        "description": "At the beginning of violence, the Murderglave chooses either ST QALI or MAKAYAO, taking upon their aspect. They can shift into the other Aspect by spending 1 Beat. MAKAYAO/MAHAKALA: Multiple hands, Murderous Intent, Peaceful Smile. While in this aspect, When you suffer an attack, gain a Murder Charge, up to 5. You have +1 Defend against all attacks, but suffer -1 Speed. ST. QALI/KALAKATRI: Wicked Grin, Burning Eyes, Razor Weapons. While in this aspect, whenever you make a melee attack, you may consume X Murder Charges to turn X Hits on a Melee Attack into True Hits. Additionally, you have +1 Speed."
+      },
+      {
+        "name": "One With Murder",
+        "lore": "Mahakala is a forgotten aspect of Bloody Handed Redemption, but Ba-enon Murderglaves remember. Mahakala is the ancient destroyer aspect of BATALA-MALAUN, who together, creates The Time That Destroys, or Inevitability. He is conflated with MAKAYAO, the Child of God who has died once and will return to bring the ending of all things, known also as the Inevitability Maitreya.",
+        "description": "When reduced to 0 HP, roll BRV + FTH, healing 1 HP per 8+ rolled, and 3 HP per pair rolled. This only triggers 1/ Violence."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Lance of Darkness",
+        "actionCost": "1",
+        "lore": "Strike with a giant weapon.",
+        "description": "Area Earth Faith Attack vs all fighters in blast 2."
+      },
+      {
+        "name": "Hand of Darkness",
+        "actionCost": "1",
+        "lore": "Rush forward upon wings of murder.",
+        "description": "Melee Earth Faith Attack vs 1 close target. Push 1, and then Rush 1 into the square they vacated."
+      },
+      {
+        "name": "Censer of Purity",
+        "actionCost": "1",
+        "lore": "Test your victim\u2019s purity.",
+        "description": "Choose 1 adjacent fighter. They can inflict 1 Hit against you. If they do, inflict 1 True Hit back at them and inflict Provoke (1). If they choose not to, they suffer Stun (1)."
+      }
+    ],
+    "faction": "Virbanwa"
+  },
+  {
+    "name": "Senapati",
+    "hp": 16,
+    "style": "Medium",
+    "weaponSuggestions": "Bodyong, chopping swords, straight swords, bolo, gunong, barong, sundang",
+    "armorSuggestions": "Baroti (cotton), baroti (bamboo), elephant hide pakil, cuirass, paruka, bahag, tampi, sarong, headwrap",
+    "traits": [
+      {
+        "name": "Conquering King\u2019s Teachings",
+        "lore": "The Conquering King Art was said to have been codified by Rajaraya Pintas, the First Lord, after he returned to the earth and traveled it even as the Cycles of Violence flowed. He gave it to those that would have the Bloody Want strong enough to conquer heaven once again, and find a means to end the Cycle of Violence. Each Strike is at the same time a proclamation, a Technique, and a commandment. Yet Rajaraya Pintas learned one thing as he conquered heaven: that he could not do it alone.",
+        "description": "At the beginning of Violence, gain 2 Commands. Spend 1 Beat to gain 1 Command. You can only have up to 5 Command at a time. At any point, you can immediately spend any number of Command to do the following, with X being the number of Command spent: 0 General's Crown: Heal one ally in range 2 equal to X+1. 0 Bravura's Sword: Give 1 ally in range 3 +X to their BRV on their next attack. 0 Maverick's Shield: Give 1 ally in range 3 +X to their POS against the next attack. 0 Charging Lancer: Let 1 ally in range 3 Rush X."
+      },
+      {
+        "name": "Sound The Gongs of War!",
+        "lore": "Your mastery of the battlefield is apparent and well known. However, the most important thing is actually your mastery of your allies. With the proper maneuvers and training, you command the battlefield through the strength of your bonds.",
+        "description": "Spend 1 Beat to make an ally in range 3 inflict violence."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Blow The Horns",
+        "actionCost": "1",
+        "lore": "Make some noise as violence begins!",
+        "description": "Melee Metal Bravery Attack vs an adjacent fighter, then 1 ally that you can see may rush 1."
+      },
+      {
+        "name": "Burning Hearts Assault",
+        "actionCost": "1",
+        "lore": "Strike and lead your allies to victory!",
+        "description": "Ranged Fire Bravery Attack vs 1 fighter in range 3. The next attack against that target gains +1 Attack Tooth."
+      },
+      {
+        "name": "Rajaraya Palm",
+        "actionCost": "1",
+        "lore": "Strike with a palm.",
+        "description": "Push 1 a fighter in range 3. If they collide with an ally, the ally doesn\u2019t suffer Hits."
+      }
+    ],
+    "faction": "Virbanwa"
+  },
+  {
+    "name": "Sword Saint",
+    "hp": 12,
+    "weaponSuggestions": "Sundang, bolo, pinute, garol, ginunting, katana, kampilan, kalis, barong, pira",
+    "armorSuggestions": "War jacket, war pants, sarongs, war boots, war hat, loose robes, swordpriest vestments",
+    "traits": [
+      {
+        "name": "Sword Avatars",
+        "lore": "\u201cThe Principle of the Sword is this: if your soul is not sharp enough to cut your own flesh, then you have not learned the true principle of the sword. The Principle of Gattalim is this: if your flesh is cut by your own soul, then you have achieved the Sword Nirvana: that you are now worthless and harm all those around you. Have you ever noticed why you cannot cut down trees with your techniques?\u201d \u2013 The 77 Tenets of Gattalim",
+        "description": "At the start of violence, take on a single Sword Form. You can change Sword Forms by spending 1 Beat, 1/ Fulmination. 0 Gospel Swordstance of Amaley/Bladesong Form of Apolaki: When you end your Fulmination, up to 2 squares that you can see become Metal Terrain, chopped up by invisble blades. 0 Gospel of Amacor/Bladevesper of Mayari: You may teleport 1 after making an area attack. 0 Gospel of Azaragoe/Bladehymn of Tala: When you are the target of a melee attack from an adjacent fighter, you may inflict violence before the attack, 1/ Fulmination."
+      },
+      {
+        "name": "Principle of Cutting",
+        "lore": "\u201cThe Principle of Diwahati, the diwata who lives in all Bisections, is this: we are cause-effect, love-evisceration. We are both bisected and the whole. Therefore the Sword\u2019s final Mastery is this: who are we but all in that eternal process of the cut? The cut ends when we die, this is the final Mastery of our truths. We are in a perpetual cutting motion: that is life. Changing and hurting and dying. Therefore apply this cutting motion to everything else: to bamboo, to politics, to datu, to love. For what else are we but bisections?\u201d",
+        "description": "Enemies can move through you (but not you through them). If they do, they suffer 1 True Hit. This triggers once per enemy per Fulmination. Enemies therefore cannot collide with you. If they end movement in your square, rush 1."
+      }
+    ],
+    "violence": [
+      {
+        "name": "Damnation Cut",
+        "actionCost": "1",
+        "lore": "Cut the air, send a slash across the field.",
+        "description": "Area Fire Faith Attack vs all fighters in path 4."
+      },
+      {
+        "name": "Archangel Cutting",
+        "actionCost": "1",
+        "lore": "Cut a distant target.",
+        "description": "Ranged Air Faith Attack vs 1 fighter in range 4."
+      },
+      {
+        "name": "Castigation Cut",
+        "actionCost": "1",
+        "lore": "Unsheathe your blade and send slashes everywhere.",
+        "description": "Area Metal Faith Attack vs all fighters in range 2 burst 1."
+      }
+    ],
+    "faction": "Virbanwa"
+  }
+]
