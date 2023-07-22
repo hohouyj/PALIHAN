@@ -1,0 +1,621 @@
+[
+  {
+    "name":"gatusan",
+    "honorifics": "Laki [la-KEE] (Masculine), Bayi [ba-YEE] (Feminine), Sri (General, for Nobles)",
+    "namingConvention": "Gatusanon are given names that describe qualities the family wants for them, a particular natural phenomenon that happened during the birthing, a beautiful tree or other natural item or the craving or fascination of the mother while pregnant. This can be a single word, or two, or sometimes entire sentences. Gatusanon can choose names for themselves as well.",
+    "names": [
+      "Siga",
+      "Liluan",
+      "Bagul",
+      "Aliluyuk",
+      "Mahimayaon",
+      "Haraw",
+      "Salug",
+      "Hinagiban",
+      "Daya",
+      "Hamabad",
+      "Kagiw",
+      "Gaang",
+      "Idyap",
+      "Alangilan",
+      "Bulsuk",
+      "Kutlu",
+      "Tanaman",
+      "Adilpa",
+      "Daganas",
+      "Nasirakna",
+      "Idda"
+    ],
+    "tips": [
+      "You are prone to song.",
+      "The Datu must always be respected, unless you have the strength to do otherwise.",
+      "All loot must be shared with the datu.",
+      "Respect those with skill.",
+      "Fuck with others."
+    ],
+    "startingEquipment": "As a Gatusanon you begin with two: A set of crafting tools, an anvil, a bag of trinkets, a tutubi necklace (gold necklace that resembles dragonflies), flowers and herbs for dyes, jade earrings, something you’ve created, a pouch of failed inventions, a boat lute (kudyapi), a bamboo flute, a jaw harp, palm leaf scrolls, writing implements, a ceremonial staff, tinder, a piece of the sky",
+    "subculture": [
+      {
+        "name": "Mantiwan",
+        "description": "Mantiwan. The Isle of Ghosts and Phantasms and undead. A cursed island, any settlement that arises from here is immediately destroyed save for a single harbor principality, named Mantiwmantiw, led by Datu Kinatak, which is said to have created an accord with the death diwata that lives within. You can speak Mantiwanun and start with ritual deathrope."
+      },
+      {
+        "name": "Sagkabanun",
+        "description": "The Isle of Sea Warriors, who have the capacity to travel the Vastness of Wine, who live in the isle of Mairete. They are unmatched in their boat building capabilities and have become important allies for Kangdaya: most of their boatwrights come from here. You can speak Sagkbanun and start with an adze."
+      },
+      {
+        "name": "Noroknon",
+        "description": "Noroknon. You come from the monastic village of Norok. A popular polity led by Courtesan- Datu Sinhata. It can be found in Salima Falls, one of the steepest and tallest waterfalls in all of The Sword Isles. There, the Salima Hotsprings lie at the base, heated by the volcano Duluum. The people of Norok have monastic-sages named Tigtimbang, those that weigh or keep the balance, and preach the holy faith of Hiyang, oneness and balance with nature, otherwise known as Conjunction. They are most known for worshipping the holy mountain of Ubir, whereupon a great Dakbalete can be found, said to house a number of spirits within. The Dakbalete, known as the Spirit’s Bathhouse, is said to be a gateway into the realm of the spirits, as well as to Sulad. Norok is the constant giver and receiver of trades against Pannai. You can speak Noroknon and start with flowering staff."
+      },
+      {
+        "name": "Put’wanon",
+        "description": "Put’wanon. You come from Put’wan. Once a burgeoning kingdom of their own, they have since fallen in glory. Ancient Put’wan once rivalled Ba-e in glory, and had great Annuvaran Kings of Righteous Merit. Much of the Put’wan warlords have traveled to Akai, where they grew in power and fealty to the Sultanate. The current Lord of Put’wan, Sarripada Sahaya, is the current brother of Raja Batara Ambasi. Thus while he pays fealty to the Rajah, he still commands a great deal of autonomy. Put’wan itself was known as the City of Gold before Kangdaya. Built kilometers along the Inagos River, the river itself yields gold by just panning. Thus, gold was used as decoration for houses, for plates, for weapons and armor and more. Even debtors. A great number of goldsmiths, showing off their skill in their craft with their ability to fashion and craft gold like silk, come from Put’wan. In ancient times, Put’wan also had regular contact with Baik Hu and Loc Luang, trading and raiding their shores. You can speak Put’wanon and begin with a kalis with a pearl hilt."
+      },
+      {
+        "name": "Gandaranon",
+        "description": "Gandaranon. You come from Gandara. A small fishing polity led by the Fisher-King Datu Balahura, who has a pet whale shark. Every year, someone is abducted by the forest, never to be seen again. None question this, although they say it is so that fishing remains bountiful, and that it is the unglu, lithe and tall shadowfolk that live in the mountains and the forests that need to be appeased. Many missions are sent there by the Lakanate but so far none have succeeded. At night, people speak of a mysterious City of Lights, which they have come to call Lungsod-Liwanag. Shining City. It trades amiably with the polities of Ibalnong. You can speak Gandaranon and begin with a fishing rod."
+      },
+      {
+        "name": "Sinugpuanon",
+        "description": "Sinugpuanon. You come from Sinugpo. A city-state ruled by a long line of blue-blooded Datu, in the western peninsula of the Ramasa Island. They hold diplomatic relations with Naksuwarga and are known to train the fiercest of warriors. They conduct raids along the coast of Virbanwa, leading them to become hated enemies. They are masters of sea raiding and are known to hold good relations with almost all the other city-states, making them a formidable force to anger. Their current Datu, Datu Sangbagsik, is rumored to be plotting to overthrow the current Rajah and become the next one. You can speak Sinugpuanon and begin with a porcelain jarlet of palm wine."
+      },
+      {
+        "name": "Panglawanon",
+        "description": "Panglawanon. Panglaw is the great city across the Strait of Kangdaya, upon the isle of Buwol, where the great Raja Sri Gatun fended off a contingent of Pale Kings during the First Albanon Arrival. They reckon a bloodline straight to Rajaraya Pintas, the first Conquering King, and their warrior pride matches even those of Kangdaya. A number of martial arts settlements have arisen in Buwol for this reason. You can speak Panglawanon and start with a tasseled ceremonial spear."
+      },
+      {
+        "name": "Kangdayanon",
+        "description": "Kangdayanon. You belong to the great city of Kangdaya, the beast of our times, the one that shall eat the dawn. While not blessed with the great stupas and pagodas of Ba-e, the city stretches up the grand river and across the bay of Mantawili, and over even to the isle of Opon. A giant sword turned lighthouse sticks up from its bay. It has fended off the Pale Kings before, and thus it has never known defeat. The grand palace of the Hari belongs here, burgeoning with alloyed gold and bronze, unfellable, guarding the oldest strangler fig tree, known also as Malaun. You can speak Kangdayanun and start with city clothing (a sarong, a silk jacket, and a headwrap). The largest city of the Rajahnate on the western island of Tauhaw. Kangdaya is the richest settlement in the Rajahnate, ruled by the Rajah Batara Ambasi from within its golden walled pagodas. Known as the City of Gold, they are in position of large amounts of iron from mining, gold from their homes and rivers, and weapons from their diplomatic relations with the Baik Hu Hegemony, of which they have become an honored vassal state, thus giving Rajah Batara Ambasi the title of Hwang, and also thus being recognized as King by not just his own people, but also by the Hegemony of the Baik Hu Empire. Those that live in Kangdaya enjoy greater pleasures and privileges when it comes to trade and import. One can find bamboo-and-balete magdantang (communal spirit houses) and layered city walls in Kangdaya, They have since become a major target of Naksuwarga and Virbanwa during the Second Star Era. Destabilizing Kangdaya is the key to conquering all of Rajahnate. The greatest of the Rajahnate’s Kadungganan, all of which are called timawa, are trained here in the Monastery of Winds."
+      }
+    ],
+    "lineage": [
+      {
+        "name": "Warior Lineage",
+        "description": "Warrior Lineage. You come from a family of warriors faithful to the Rajahnate, who treat the new Hari as a close family friend and have pledged blood compacts with. Your tattoos sing of your courage and prowess."
+      },
+      {
+        "name": "Merchant Nobility",
+        "description": "Merchant Nobility. You come from a family of rich merchant princes who have traveled as far as the distant lands of Baik Hu, and perhaps have enterprises in Jamiyun Kulisa\u2019s Arrows."
+      },
+      {
+        "name": "Tattoo Artists",
+        "description": "Tattoo Artists. You come from a long line of tattoo artist professionals, or mamamatuk. You inscribe stories and traditions upon skin. Outsiders of the Sword Isles see that they didn\u2019t practice painting on paper, but that is because the islanders paint upon living canvas."
+      },
+      {
+        "name": "Singers",
+        "description": "Singers. You come from a family of professional singers, who sing both epics and traditions, both glories and dirges."
+      },
+      {
+        "name": "Traveler",
+        "description": "Traveler. You come from a family of skilled travelers, who ventured from isle to isle selling wares or offering their services. A very uncommon lineage in the isles, but they are more than happy to offer their barges to those that need it and can offer to pay."
+      },
+      {
+        "name": "Sensitives",
+        "description": "Sensitives. You come from a family touched by the spirits of the world, the diwata, and are inherently in tune with Diwa, the world\u2019s Strike. Your parents might have been the balyan (shamans) that channeled and performed concordance with the greater beings of nature."
+      },
+      {
+        "name": "Adopted",
+        "description": "Adopted. You were adopted into a family of courtesans and singers instead of warriors. You\u2019ve never known your real family."
+      },
+      {
+        "name": "Tiger-Blooded",
+        "description": "Tiger-Blooded. You are a scion of the legendary tiger blood of Raja Batara Ambasi, and you might be eligible to take the Dawn Eater Crown. You are born deep into the courtly intrigues and intersettlement politics of Gatusan."
+      }
+    ],
+    "socialStanding": [
+      {
+        "name": "Bihag",
+        "description": "You were the victim of the Eighth Star Era\u2019s burgeoning violence, and have become nothing but wealth to be traded. You begin with nothing."
+      },
+      {
+        "name": "Hayohay",
+        "description": "You were indebted or were born into debt of a powerful person, whether it be a famed warrior, merchant, or aristocrat. Your hands are calloused from your work. You begin with a small push dagger."
+      },
+      {
+        "name": "Tuhay",
+        "description": "You were a loyal worker to your communities\u2019 chief. You had your own house within the community, and offered part of your labor to him. You begin with a farming implement."
+      },
+      {
+        "name": "Timawa",
+        "description": "You were a freeman, working as a warrior for the datu that you have chosen. The datu shares their spoils with you, their fellow warriors, and you earn your own house with your own wealth, though you answer to the datu\u2019s beck and call and sometimes toil for them. Gain a weapon."
+      },
+      {
+        "name": "Tumao",
+        "description": "You were born into richness, into the blood of the datu of your settlement. You are connected to the datu either through blood or social connections, and enjoy the benefits of nobility. You do not toil for the datu but you must pick up arms when called to battle. You have enjoyed the ability to take on multiple arts. You begin with a golden ear ornament."
+      },
+      {
+        "name": "Kedatuan",
+        "description": "You are directly connected to your settlement\u2019s datu, either the datu is your uncle, grandparent, or parent. You are revered as an Aristocrat, although the expectation for you is much higher. If you are born female then you were treated as a binukot, a veiled maiden, hidden from the rest of the world until you were to be wed to someone your parents decided is fit for their social class. If you are born male you were trained in the arts of war and leadership. You begin with a royal heirloom."
+      }
+    ]
+  },
+  {
+    "name": "apumbukid",
+    "honorifics": "Aplake [ap-la-KEH] (Masculine), Akbaye [ak-BA-yeh] (Feminine)",
+    "namingConvention": "Similar to the Rajahnate’s, although the individual choosing a name for themselves after their first conquest in love or war is common.",
+    "names": [
+      "Felindag",
+      "Metegdaw",
+      "Asi",
+      "Atulun",
+      "Dengeg",
+      "Dagit",
+      "Fuga",
+      "Apaw",
+      "Kilut",
+      "Anyag",
+      "Abbal",
+      "Bansag",
+      "Buni-Buni",
+      "Darudu",
+      "Hifara",
+      "Tangu",
+      "Tobok",
+      "Mayasi",
+      "Baguybuy",
+      "Yomog",
+      "Fatu"
+    ],
+    "tips": [
+      "You are well acquainted with the movements and breaths of harmony.",
+      "Corrective action must be followed to heal harmony.",
+      "The spirits prefer the cold, unsalted, and quiet.",
+      "Scrutinize disharmony.",
+      "Reprimand those that defile nature."
+    ],
+    "startingEquipment": "As an Apumbukidnon you begin with two: A rattan rain cape, a fishing rod, a sash of gold worn across the torso, an abaca fiber bag, a broad-rimmed hat (salakot), a sword with a shattered blade, spectacles from foreign nations, a walking stick, a magenta cloak, a pouch of tea leaves, a golden balance hanging around your neck, a push dagger (balaraw), a waist sash of gold, incense sticks, three jarlets",
+    "subculture": [
+      {
+        "name": "Niyawa",
+        "description": "Niyawa. You come from the great Niyawa, the city of strangler fig worship houses, where those that wish are taught in the arts of spirituality and how to achieve Conjunction. The river of Niya runs through it, coming from the cleansing falls that fall from Apu itself. You understand Niyawanun and begin with a textile cloak."
+      },
+      {
+        "name": "Samring",
+        "description": "Samring. You come from grand Samring, principality of Sages, created with five sides to create perpetual Conjunction, those who seek knowledge and teach it to create a better world. They create blacksmiths and administrators, and teach those in the arts of necessary leadership, to lead the world to a place that doesn\u2019t need it. You can speak Samringnun and begin with palm leaf scrolls."
+      },
+      {
+        "name": "Pagariwara",
+        "description": "Pagariwara. You come from majestic Pagariwara, the principality of warlords, where giant spears stake the earth, as if the gods pierced demons deep within the lands. Pagariwaranun achieve Conjunction by perfecting violence so that the violence inflicted is only necessary and not excessive. You can speak Pagariwaranun and begin with a ceremonial kampilan."
+      },
+      {
+        "name": "Diwangga",
+        "description": "Diwangga. You come from ancient Diwangga, once the border of all things, the greater extremities, the nexus of all paths that eventually lead to Apu. Here those willing are taught in the ways of connection, of unity, of concordance. They achieve Conjunction by creating connections between those that would otherwise be enemies. They shall unite the world. You can speak Diwangganun and begin with a dragonfly necklace."
+      },
+      {
+        "name": "Usambangsa",
+        "description": "Usambangsa. You come from Usambangsa. This Kedatuan sits upon Apu itself. Upon the Central Pillar of the World. The city itself is actually mostly empty, but kept spotlessly clean by attendant spirits and a population of 5,000 mortal tawo, who provide stewardship and cleaning. In the middle of it is a great black stone that looks as if the god Apu Dayaw struck the mountain with an obsidian spear. It is said that the stone leads to the sleeping place of Apumbukid himself, a grand city of glittering crystal within The Sword Isles. It is said that They will rise only when The Sword Isles need Them the most. You can speak Usambangsanun and begin with an obsidian knife."
+      },
+      {
+        "name": "Nerakihon",
+        "description": "Nerakihon. You come from Nerakihon. The settlement of Nerakihon is a large village surrounding a single tree that grows atop the Berumer Mountain. The tree, known as Punung-Neraka, has a hole upon its gigantic trunk that, when entered, sends you plummeting deep into its root systems. Villagers say it sends you straight to Nerak, hell, and that every once in a while a busaw bursts out from the trunk. The villagers have thus created a special force of demon slayers just to protect Nerakihon--and the rest of The Sword Isles-- from the assaults of the otherworlds. You can speak Nerakihonon and begin with a spiritsilk shawl."
+      },
+      {
+        "name": "Sanggasanggsa",
+        "description": "Sanggasanggsa. You come from Sanggasangga, a warrior city-state. It is a city-state to the furthest west of The Sword Isles, by the base of the mountain of Pinukal. Here, everyone is trained from birth to become a Sentinel against the evil creatures from beyond the mountain barriers, known as the magalo, fae-demons from the Forests Beyond the World. Warriors here are trained to be magalo hunters, with the intent of protecting nature and defeating the unnatural. Everyone in Sanggasangga knows full well their responsibility, and carry the burden with pride, always consorting with spirits of the forest, their own guardian spirits, and spirits of war to make sure The Sword Isles is safe. But the tides have become stronger.... You can speak Sanggasangganun and begin with an ironwood kalasag."
+      },
+      {
+        "name": "Lawahun",
+        "description": "Lawahun. You come from Lawahun, the village of frost. A village by the mountain of Wahang, where the Sage of the Mountains lives. The bone-biting cold here requires the warming magics of the Sage. Upon Lawahun, you consort with the wind spirits of the moon, and live side-by-side with ice spirits, surviving and dealing with snow and ice. They engage in ritual headhunting with the state of Vuyu. You can speak Lawahunun and begin with a spear of ice."
+      }
+    ],
+    "lineage": [
+      {
+        "name": "Ritualist Parents",
+        "description": "Your parents were those that attended and joined and performed ritual killing, whether in revenge or to appease the gods. You have been taught this graceful responsibility, and you must never let it fall into the wrong hands."
+      },
+      {
+        "name": "Makinaadmanon Heritage",
+        "description": "Your parents were Makinaadmanon, the Peerless Sages who chose to teach the ways of Achieving Conjunction instead of transcending the world itself and becoming One with All. They are gone now, but they have left some invaluable insights to you about Ang Hiyang, the divine law of the world."
+      },
+      {
+        "name": "Feast Patrons",
+        "description": "Your parents are wealthy patrons of feasts, most likely aristocrats. You\u2019ve enjoyed traveling to a great number of settlements to set up feasts, and you\u2019ve met a large number of people due to it. You have been taught to be kind, always."
+      },
+      {
+        "name": "Servitude",
+        "description": "You come from a family of servants, who serve a noble warrior who treats your family well. You were in essence that warrior\u2019s squire, carrying their armor and doing their chores. You cannot begin as an Aristocrat."
+      },
+      {
+        "name": "Elder Balyan",
+        "description": "Your parents were the elder balyan, usually called Katuuran, of your settlement, and they provided guidance in the midst of the chaotic dance of nature, war, and spirituality. You\u2019ve grown up close to the spiritfolk all your life."
+      },
+      {
+        "name": "Deep Forest Diwata",
+        "description": "You have the blood of diwata, actually. Your parent was a forest guardian. It shows in your eyes, in your mortal form. What peers through? You have never met your parents but they speak to you in your dreams. There\u2019s a destiny you need to fulfill."
+      },
+      {
+        "name": "Outcast",
+        "description": "You were an outcast, even in your own settlement. However, the folk of various Apumbukid settlements have always taken care of you and provided you some shelter, even if you travel from settlement to settlement trying to find out who you really are and where you\u2019re from."
+      },
+      {
+        "name": "Warrior Braves",
+        "description": "Your parents were warrior braves who sought to protect the various folks of the Kalanawan region. You are heir to a proud lineage, one who understands the role of violence, and so you have been taught this same very thing. Your family was well respected in your settlement."
+      }
+    ],
+    "socialStanding": [
+      {
+        "name": "Bihag",
+        "description": "You were the victim of the Eighth Star Era\u2019s burgeoning violence, and have become nothing but wealth to be traded. You begin with nothing."
+      },
+      {
+        "name": "Bayang",
+        "description": "You were indebted or were born into debt of a powerful person, whether it be a famed warrior, merchant, or aristocrat. Your hands are calloused from your work. You begin with a small push dagger."
+      },
+      {
+        "name": "Nugkat",
+        "description": "You were a loyal worker to your communities\u2019 chief. You had your own house within the community, and offered part of your labor to him. You begin with a farming implement."
+      },
+      {
+        "name": "Kalita-o",
+        "description": "You were a freeman, working as a warrior for the datu that you have chosen. The datu shares their spoils with you, their fellow warriors, and you earn your own house with your own wealth, though you answer to the datu\u2019s beck and call and sometimes toil for them. Gain a weapon."
+      },
+      {
+        "name": "Mafengal",
+        "description": "You were born into richness, into the blood of the datu of your settlement. You are connected to the datu either through blood or social connections, and enjoy the benefits of nobility. You do not toil for the datu but you must pick up arms when called to battle. You have enjoyed the ability to take on multiple arts. Mafengel very commonly use giant flowers, foliage, insect parts, and such as prestigious regaila. You begin with a giant flower petal cloak."
+      },
+      {
+        "name": "Datu",
+        "description": "You are directly connected to your settlement\u2019s datu, either the datu is your uncle, grandparent, or parent. You are revered as an Aristocrat, although the expectation for you is much higher. If you are born female then you were treated as a binukot, a veiled maiden, hidden from the rest of the world until you were to be wed to someone your parents decided is fit for their social class. If you are born male you were trained in the arts of war and leadership. You begin with a royal heirloom."
+      }
+    ]
+  },
+  {
+    "name": "akai",
+    "honorifics": "Tuan [too-WAN] (General)",
+    "namingConvention": "Akai names are often a single or two words. They share many names with the Rajahnate and with Naksuwarga.",
+    "names": [
+      "Asip",
+      "Sandayli",
+      "Sumandak",
+      "Hamba",
+      "Buddiman",
+      "Akal",
+      "Layu",
+      "Saliha",
+      "Salimin",
+      "Maputra",
+      "Patima",
+      "Bahira",
+      "Sawira",
+      "Muhaddi",
+      "Hinda Hanman",
+      "Manalum",
+      "Gura",
+      "Gumantung",
+      "Aliya",
+      "Angkala",
+      "Hakim",
+      "Pakrud",
+      "Aisha",
+      "Idda"
+    ],
+    "tips": [
+      "You must point out the beauty of a situation.",
+      "Keep things that must be secret secret.",
+      "Revel in the striving that must be inflicted for Goddess.",
+      "Aim always to exalt Goddess.",
+      "Every thing is a physical reminder of the Goddess’ greatness."
+    ],
+    "startingEquipment": "As an Akainon, you begin with two: a grand silk headdress, a ceremonial kris, gold flower ear ornaments, a phoenixheaded bottle, a silk jacket, wooden sandals, a ring with a carnelian, a black and white shawl, a ceremonial kampilan, a crimson headdress, a golden diadem, a colorful sarong, a broken shield, garuda ear ornaments, a Kilin vessel, a kinnari lamp",
+    "subculture": [
+      {
+        "name": "The Holy Kedatuan of Harigii",
+        "description": "The Holy Kedatuan of Harigii. Called solely because of the ancient holy temple built upon a high mountain by the first few preachers and apostles of the Moon Goddess, and was where the First Teacher, Indra Guro, died and was buried. The Holy Temple has since withered away to the elements, as it was built on bamboo, save for the four pillars that it was built upon, which never wilt away. When a person cut the pillar to examine it, the part that was cut immediately withered and aged. Many people that live in Harigii grow up to become priests, scholars, and monks for the Moon faith. Harigii has since become the pilgrimage site for all Bulanists. The current Datu of Harigii is a once-pandita preacher named Datu Dahit Sabad. You can speak Harigiinon and begin with a holy ritual spear."
+      },
+      {
+        "name": "Pasara",
+        "description": "Pasara. The capital of the island of Ulahina, the crown jewel of the Sultanate, ruled by the Datu Gaddung Kira-Kira, who is a peerless blacksmith and a loyal vassal to Yarashgara. Pasara is an entry city that leads into verdant forests, jade statues overgrown now by trees, and clear streams that flow out of the mountain. The mountain upon which Pasara lies at the base of Mount Sithi, is said to be the home of the Diwata Sithi, Goddess of Tears and Love, and it is said that the two rivers that stream down on both sides of the mountain are her tears. Most people that live here are known to be excellent entertainers and performers, creating an extravagant economy for tourists and travelers from all across The Sword Isles and the greater world. You can speak Pasaranun and begin with a saffron shawl."
+      },
+      {
+        "name": "Yikapu",
+        "description": "Yikapu. A polity ruled by the current Mahapanglima, or Grand General, Jamrud Wanni. Yikapu is situated on a small island south of Jambangan, and it is protected by moonstone fortresses and star-bamboo towers. Here the superior military force of Akai is both trained, stationed, and launched. The satariya trained here are taught how to use lantaka, cannons used for war, powered by strange busalian sorceries, as well as how to use their soul to fight back against the beguiling enchantments of both god and witch. You can speak Yikapunun and begin brass plate armor."
+      },
+      {
+        "name": "Naksuwarga",
+        "description": "Naksuwarga. An ancient polity that once stretched its influence across Jamiyun Kulisa\u2019s Arrows, that region of the isles that are fraught with warring even with the Continent. Naksuwarga was principally invaded by the ancient Mahajola, which spread Annuvaran thought and religion into its shores, which then expanded to the rest of The Sword Isles through missionaries and traders. Now Akai has claimed it for its own, but its kings, called Rakan, are powerful and refuse to be cowed, and pray upon their more ancient gods to eventually fight back against Akai. If you come from Naksuwarga, you can speak Nak-an and carry around a necklace of small gods."
+      },
+      {
+        "name": "Barungsai",
+        "description": "Barungsai. Another ancient polity that once warred continuously with Naksuwarga. Naksuwarga once conquered Barungsai and massacred its ruling family, but has since been able to free itself from Naksuwarga\u2019s clutches. They practice a mix of indigenous Barungsaian religion known as Jiwajiwa (literally, Lives) and Ashinin religion, and so they are composed of regal and royal heritage. From them comes the story of Hari Binalo and Hara Harmangga, the King Guardian Spirit and the Demon Witch Queen. Barungsai is intimately close with nature, and they write their scriptures upon stone monoliths, which are then carved away to become the many gods that they worship, a form of revelatory scripture. If you come from Barungsai, you can speak Barunga and carry around a jasmine wreath that never wilts, a symbol of Jiwajiwa."
+      },
+      {
+        "name": "Kirir",
+        "description": "Kirir. Kirir is another site of ancient land that is home to the Aasama, the People of the Waters, who worship (alongside Baginda Sumongsuklay) the ancient Goddess Dewigansa (literally, Goose Goddess) who embodies their Sea and Sky duality. The people of Kiri live in either stilt houses built on the sides of cliffs or far off from shores. They can hold their breath far longer than other cultures can, and Kirir has a special mother pearl that is also the egg for the next Lokapala Naga, who is supposed to guard the world from the dangers of the Chaos that surrounds the Cosmos. If you come from Kirir, you can speak Kirirnun and begin with pearl bracelets and anklets."
+      },
+      {
+        "name": "Luwas",
+        "description": "Luwas. Luwas is a modern settlement founded after Sultan Yarashgara XI, the one before the Sultana, walked down the Footsteps of the Gods and found a place of rest within Luwas, which was beautiful and had vast prawling flowerbeds before its mountain. Luwas was turned into a veritable paradise, with elephants and tigers from Jamiyun Kulisa\u2019s Arrows, lions from the jungles deep of Naksuwarga, and all kinds of orchids and jasmines from every portion of the Sword Isles. Yarahsgara XI\u2019s corpse is said to be mummified here, within an ancient tomb within a cave upon the base of Mount Luwas. It is rumored that Yarahsgara XI converted to Annuvaran right before his death. If you come from the beautiful naturalistic settlements of Luwas, you can speak Luwanon and begin with petal swords and thorn daggers."
+      },
+      {
+        "name": "Jambangan",
+        "description": "Jambangan. The Land of Flowers. The holy city-state in the middle of the Sultanate\u2019s jurisdiction. It is large enough to cover all of the island of Siga, where it is situated. In the middle of the archipelago is a holy pyramid to the Moon Goddess Baginda Sumongsuklay, which they call the Holy Lunar Temple. Beside it is the Grand Lunar Palace Kota, where the current Omniscient Queen Sultana: Yarashgara XII, lives along with her closest relatives and servants. The Palace Fortress is impregnable. Workers, debtors, and warriors live in swathes of neighborhoods. Siga thus faces war from all sides, but it is fiercely defended by loyal datu and satariya, as well as strong stone fortifications. You begin with city clothing (trousers, silk jacket, headwrap) and a bronze mirror."
+      }
+    ],
+    "lineage": [
+      {
+        "name": "Esteemed General",
+        "description": "Esteemed General. One of your parents is an esteemed warlord, perhaps a datu on their own? Or just a general chosen by the Sultana herself. Whatever it may be, you were born into the shadows of your general parent, whose stories were sung far and wide across the Footsteps of the Gods. Will you ever live up to their name? They trained you when you were a child, but it was one of hardship and pain."
+      },
+      {
+        "name": "Warrior Heroes",
+        "description": "Warrior Heroes. You come from a long line of warrior heroes, famous across the Footsteps of the Gods and maybe even the entirety of the Sword Isles. You have not been trained in their paths, though: you were left to this legacy on your own. You have a mentor, perhaps, but you have to live up to the legacy on your own terms. Can you do it? 3 Feared Witches. Your ancestors were witches that channeled demons in the deep forests to wage war against the spirits of good, who upheld the status quo of violence. Until now you fight and fight, and perfect sorceries. Or perhaps you were not in conjunction with sorcery? It weighs on you anyway."
+      },
+      {
+        "name": "Missionaries",
+        "description": "Missionaries. Your lineage is a lineage of Missionaries from the Lunar Faith, who have probably come from the Southeastern Continent. Therefore, you were brought up with a supreme and almost penetrating knowledge of the Lunar Faith, and this has colored every part of your life. You know the genealogies (the tarsilas), the stories and myths of the angels, the secrets of the Lunar Palace, and the vast ideologies and expanses of time that colored the travels of the First Prophet."
+      },
+      {
+        "name": "Foreign Arrival",
+        "description": "Foreign Arrival. Your lineage comes from outside the Sword Isles in general. Akai is strategically positioned near the center of the world (Akainon would have you believe that it is the center of the world) so a lot of trade goes through Akai. Thus, large swathes of foreigners, usually merchants, have arrived from foreign shores. What do you look like? It doesn\u2019t matter, really. You\u2019re Akainon, now. Your appearance does catch the eye."
+      },
+      {
+        "name": "Lunar Sorcerers",
+        "description": "Lunar Sorcerers. You come from a long line\u2013perhaps an entire settlement even\u2013of sorcerers that practiced Lunar Sorcery\u2013that is, magic using the strength and power of the moon, rather than the land or through their own Gahum. This makes any sorcery or martial art they practice colored and embellished with marks of the moon: crescents, flowers, butteflies, stars, white discs. Your connection to the moon grounds you, paradoxically, to knowing what is truly an illusion and what is truly real."
+      },
+      {
+        "name": "Horse Tamer",
+        "description": "Horse Tamer. You come from a long line of horse tamers that travel far and wide and range across the isles upon horses. Sword Isle horses are good for both riding and as pack animals, so they are a common sight. Especially in Kalanawan, where the fields are long. As a horse tamer, you have an inherent connection with the grand horses of Siga."
+      },
+      {
+        "name": "Lunate Knight",
+        "description": "Lunate Knight. These were faithful vassals and knights of the Sultana herself, not just conscripts created to make a standing army. They answer to nobody but the Sultana, and thus they enjoy the benefits of being a vassal to the Sultana bring: their own royal compound in Jambangan\u2019s vast flower rivers, part of weapons and spoils from grand lunar conquests, and the ability to partake in the Sultana\u2019s table when they feast. More importantly, they could marry any of the nobility in Jambangan and raise their own stature, and secure their descendant\u2019s future. It was a profession that many longed for, especially in the bloodthirsty Sword Isles."
+      }
+    ],
+    "socialStanding": [
+      {
+        "name": "Bihag",
+        "description": "You were the victim of the Eighth Star Era\u2019s burgeoning violence, and have become nothing but wealth to be traded. You begin with nothing. High chance of you being a sina foreigner."
+      },
+      {
+        "name": "Ipun",
+        "description": "You were indebted or were born into debt of a powerful person, whether it be a famed warrior, merchant, or aristocrat. Your hands are calloused from your work. You begin with a small push dagger."
+      },
+      {
+        "name": "Kiapangdilihan",
+        "description": "You were a loyal worker to your communities\u2019 chief. You had your own house within the community, and offered part of your labor to him. You begin with a farming implement."
+      },
+      {
+        "name": "Satariya",
+        "description": "You were a freeman, working as a warrior for the datu that you have chosen. The datu shares their spoils with you, their fellow warriors, and you earn your own house with your own wealth, though you answer to the datu\u2019s beck and call and sometimes toil for them. Gain a weapon."
+      },
+      {
+        "name": "Orangkaya",
+        "description": "Those materially wealthy, constituting a secondary class of nobles who are not noble by blood, but by wealth. They live their lives as freemen, going from town to town either selling their wares, setting up food booths where they sell their food, or offer other services, such as hunting, cleaning, warring, and smithing. Gain a piece of treasure."
+      },
+      {
+        "name": "Tuwan",
+        "description": "You were born into richness, into the blood of the datu of your settlement. You are connected to the datu either through blood or social connections, and enjoy the benefits of nobility. You do not toil for the datu but you must pick up arms when called to battle. You have enjoyed the ability to take on multiple arts. Nobles in the Sultanate serve and give a tribute to the Sultana. The Sultana is akin to an empress, ruling over kings, that are the datu and rajahs. Nobles can become pandita, or wise-men, if they become well-versed in the Bulanan. They are knowledgeable in the Moon Law and custom. Gain a burning bright silver lance."
+      },
+      {
+        "name": "Panglima",
+        "description": "You are directly connected to your settlement\u2019s datu, either the datu is your uncle, grandparent, or parent. You are revered as an Aristocrat, although the expectation for you is much higher. If you are born female then you were treated as a binukot, a veiled maiden, hidden from the rest of the world until you were to be wed to someone your parents decided is fit for their social class. If you are born male you were trained in the arts of war and leadership. You begin with a royal heirloom."
+      },
+      {
+        "name": "Lunar Royalty",
+        "description": "You are directly related to Lunar Sultana herself, which makes you one of the 78 Lunar Princes. Be careful, the others are out to kill you. They understand only one can become the next Lunar Monarch. It is cutthroat, but you are also given some of the best training affordable in the entirety of the Sword Isles, and have known extravagant privileges. You have a number of consorts and servants following after you. Princes that are of royal blood are referred to as Katchil, and the crown prince was termed Rajah Muda. Rajah Laut were third-ranking dignitaries. A high-ranking council of elders known as the Bichara Atas counsels the Sultana. You begin with a silver ear ornament that signifies your Lunar Heritage."
+      }
+    ]
+  },
+  {
+    "name":"virbanwa",
+    "honorifics": "Ginoo [gee-nu-O] (Masculine), Binibini [bee-nee-bee-nee] (Feminine), Poon [Po-ON] (Lord, general)",
+    "namingConvention": "Virbanwans have surnames, mandated by the Lakanate. Their names are tainted by Pale King nomenclature.",
+    "names": [
+      "Huwan",
+      "Lesandra",
+      "Eeya",
+      "Pavlo",
+      "Ymbrosyo",
+      "Karmala",
+      "Dyusa",
+      "Ylisa",
+      "Olrac",
+      "Dranbreb"
+    ],
+    "surnames": [
+      "De Sutla",
+      "Salamanka",
+      "Dabila",
+      "Oropon",
+      "Dimauri",
+      "Magsaysay",
+      "Reyes",
+      "De Basi"
+    ],
+    "tips": [
+      "You must choose if you stay a puppet of the Ashen Star.",
+      "You are prone to saying something rash.",
+      "You have access to stranger technologies, use them to your advantage.",
+      "Virbanwa is an exemplar of unity: therefore work together.",
+      "You are prone to having a world view tainted by propaganda."
+    ],
+    "startingEquipment": "As a Virbanwan, you begin with two: Abaka slippers, a foreign trinket, a necklace from your hometown, a bangle made of boar tusk, a frayed silk coat, a bamboo staff, beautiful textile from the last place you visited, a golden anklet, a piece of the underwater realms, a compass that you don’t need, food from a place you’ve never been before",
+    "subculture": [
+      {
+        "name": "Provincial",
+        "description": "Provincial. You live in the provinces, outside of the city. You all once had your own cultures (and truly, you still retain them in one way or another) but you have been thoroughly erased by Virbanwan imperialism, and you are conditioned to follow the city\u2019s lead, and the city\u2019s lead only. You can speak Virbanwanun and you begin with a worthless item."
+      },
+      {
+        "name": "Corregimiento",
+        "description": "Corregimiento. You live in the borders of Virbanwa, where various corregimientos or forts are put up, to protect the Lakanate from attacks from outside, as well as to continue its expansion. You may have been conscripted from a young age, or if not, at least have been taught how to protect yourself from raids. You can speak Virbanwanun and you begin with a bolo."
+      },
+      {
+        "name": "City",
+        "description": "You live in the heart of darkness, the grand capital city of Virbanwa. Ananara is so large that it consumes most of the Ananaran Bay, and has choked out the grand River it sits upon (whose name now has been forgotten, though many say that it is named Layag, or Layaraya, or Namyan), killing the diwata of the river. Ananara is the crown city of the Lakanate, where the current Batara Lakan, Lakan Huwan Rekno, and the royal family live, ordained as divine ruler by the Mahapari (greatest priest), currently Yesidru. Ananara is the largest metropole in all of The Sword Isles, owing to its long history as being the eventual descendant of the ancient grand chiefdom of Tundun. It is structured like a wheel, with all roads being the spokes, and the Broken Bone Cathedral Palace being the hub. Near the hub, all buildings are made of bloodstone, created from the coagulated and then mined blood of killed Pale Kings. In random areas of the city, the ancient Angel Machines powered by Pale King blood have been colonized and repurposed into apartment complexes. Important due to the ever increasing trade and population brought about by domestic and international trade. Port trade is lively here, and the people here really do believe that Virbanwa is the most powerful of the polities. All people here usually wear (and you begin with): silk jackets, balloon pants, and simple wooden sandals (paruka)."
+      }
+    ],
+    "lineage": [
+      {
+        "name": "Fury Prophets Orphan",
+        "description": "You are an orphan taken in by the Fury Prophets, a group of mendicants who live in Ananara, who preach the coming Sword Fury Devouring of Makaubos, who shall annihilate all. To that end you have been trained in almost every art of violence. Not of war, but of violence, personal violence, as an asceticism to achieve Conjunction with Makaubos, the Wrath aspect of Makagagahum."
+      },
+      {
+        "name": "Saint of Beggars Offering",
+        "description": "You were an offering to the Saint of Beggars. You\u2019ve never known your real parents: your parents were the Beggar-Mendicants of the Saint of Beggars, who is known as Buyung, who is an ancient god of the Isles, a diwata of the chattel. You\u2019ve learned how to swindle, love, sneak, destroy, steal, and pray under the bastards of the Saint of Beggars, all of whom have been given as an offering to try and alleviate their own lives. \u201cBeggars should not exist\u201d is the first principle of the Saint of Beggars."
+      },
+      {
+        "name": "Bloodbound to the Lakan",
+        "description": "You are one of the Batara Lakan\u2019s concubine\u2019s children, which cannot be shown to the public. Therefore you cannot be royalty or an aristocrat, and the truth of who you are must be kept quiet."
+      },
+      {
+        "name": "Corregimiento Child",
+        "description": "You were born in a corregimiento: a border settlement that is fortified by stone walls, created on the fringes of Virbanwan territory to both keep back the waves of the other settlements as well as to create anchor points for expansion. In the borders, you are exposed to most of the other cultures of the Sword Isles, but the priests are more strict in their hold of power, and punish others for the smallest deviation from religious norm from Sampalataya."
+      },
+      {
+        "name": "Farmers",
+        "description": "You were born into a settlement of farmers. You have nothing much to your name, and you are constantly swindled out of your labor. You don\u2019t even own your labor! Those capitalist pig datu take your grains from you to sell it to the City but pay you nothing in return. What a fucking joke. You burn your brows off to work here. Something has to give. You\u2019re tired of resilience."
+      },
+      {
+        "name": "State Kawal",
+        "description": "You come from a line of State Kawal: Kawal that enforce the Batara Lakan\u2019s invisible power across the various polities subsumed under Virbanwa\u2019s flag. You have been taught the things the State Kawal would be taught, but this might have made you blind to propaganda."
+      },
+      {
+        "name": "Rebels",
+        "description": "You have known nothing but the constant struggle. You live deep into the mountains, once holy, now nothing but places for foreigners to create new ventures or live in, and for capitalist datu to rip portions out of to create beaches in places that used to be swamps. You have been raised therefore to the harsh truth of the Lakanate. Therefore: down to the State and God!"
+      },
+      {
+        "name": "Pale King",
+        "description": "You are born of a Pale King. Your eyes are the color of frozen azure, your hair the color of platinum ray, your skin the alabaster of ravishing death. It is all right to not love who you are, but rememer that the circumstances of your birth matters less than your impact on the world. Therefore choose Hiyang instead of Scourge. Therefore become better than who you are."
+      }
+    ],
+    "socialStanding": [
+      {
+        "name": "Disenfranchised",
+        "description": "You are the dregs of society, kept alive but with contempt and without help. You are downtrodden and living is painful. You begin with nothing. Many Virbanwan bihag that don\u2019t get sold become Disenfranchised. Many Mendicants and Friars are considered Disenfranchised. 3-4 Peasant. You are a peasant farmer. You must be from the provinces. You are downtrodden and taxes are too much for you. You begin with a chopping sword."
+      },
+      {
+        "name": "Worker",
+        "description": "You work in the endless machineries and bureacracy of Virbanwa. You must be from the city. You are downtroddden and living is too expensive. Some priests are this. You begin with 3 coins."
+      },
+      {
+        "name": "Middle Class",
+        "description": "You have some capital, and get to enjoy some parts of life, but Virbanwan propaganda has bred contempt in you for the lower classes. What do you do with your privilege? You begin with 10 coins."
+      },
+      {
+        "name": "Ruling Class",
+        "description": "You are the great beast of our times, born with a silver spoon in your mouth and capable of pursuing whatever you wish. Do you not see who you are, an angel with the wings of blood? Choose how to live your life; it is not God who will judge you but the people. Begin with 3 Silver-Minted Coins, which are considered Bahandi across the Sword Isles. You cannot become a Headtaker for any reason."
+      }
+    ]
+  },
+  {
+    "name":"ba-e", 
+    "honorifics": "Gat for Males, Binibini for females.",
+    "namingConvention": "Similar to Rajahnate conventions. They do not have surnames, and usually use one or two words.",
+    "names": [
+      "Pangil",
+      "Lontok",
+      "Dula",
+      "Angkatan",
+      "Namwaran",
+      "Tagkan",
+      "Palaba",
+      "Kalamayin",
+      "Panginoan",
+      "Bagtas",
+      "Sasaban",
+      "Salalila",
+      "Avijirkaya",
+      "Maitan",
+      "Salihan",
+      "Talim",
+      "Lumban",
+      "Pila",
+      "Gatid",
+      "Dewata"
+    ],
+    "tips": [
+      "You are more often than not a follower of Ashinin- Annuvaran-Anitu faith. Remind another of the Righteous Path.",
+      "Only through merit can one find strength and glory.",
+      "The great saints that have gone before you offer a path to righteousness.",
+      "There is more to this world than physicality.",
+      "The gods are great, yet still stuck within the cycle of violence."
+    ],
+    "startingEquipment": "As a Ba-enon, you begin with two: glass beads, a statue of the Tranquil Sage Ascetic Annuvara, a soft bamboo flute, a pack of healing poultices that will run out soon, flowers in a garland, cooking implements, jarlets filled with hot spring water, a white stone from a holy mountain, a hardwood shield (kalasag), a breastplate made of elephant hide, a collection of boar tusks, a peaked iron helmet, bamboo shinguards, golden bangles, a hunting spear, wooden sandals",
+    "subculture": [
+      {
+        "name": "Miatang",
+        "description": "Miatang. A coast settlement at the northern tip of the Kumintang region. Miatang is the land nexus for trade with Pannai and Gatusan. It is ruled by a powerful laksamana, Datu Hagutak. Known for stone fortifications and bamboo watchtowers, they regularly fend off raids from the northern polities. Many maharlika are brought here as a final part of their training, where they are forced to live in Miatang for a single harvest to provide both on the boots training for the maharlika, as well as well needed warriors to protect Miatang. You begin with a weapon."
+      },
+      {
+        "name": "Pailah",
+        "description": "Pailah. Directly to the north of Ba-e, Pailah, which is ruled by Datu Ganasakti, a son of the Sangpamegat, is one of the most important centers of trade and commerce in Ba-e, other than the city of Ba-e itself. Holding at least a thousand households, they craft pottery, weave textiles, smith gold, and craft weapons. Here Baik Hu also stations their trading junks, along with Naksuwarga and Madaki adyongs who trade with them horses, weapons, and debtors. It is currently suffering from ashen star missionaries from Virbanwa. Traders and travelers frequent Pailah due to its close proximity with Mainit, the polity of medicinal hot springs. You begin with a horse."
+      },
+      {
+        "name": "Namayan",
+        "description": "Namayan. A banwa ruled by three Datu: Datu Karas, Datu Dayawan, and Datu Mabantad. It serves as a trading polity for Sinuku and Vuyu to the south, as well as access to the plains where rice can be grown. However, it is constantly suffering invasions from Virbanwa, causing it to earn a brunt of Ba-e\u2019s maharlika to shore up defenses. The banwa itself is made up of a collection of stone fortresses, that lets people retreat into whenever a raiding party arrives. When needed, however, Namayan is beside a thick jungle with many earthen outcroppings, and the folk of Namayan can retreat there. Namayan is still also a prime trading port, whereupon they trade with gold kernels and gold barter rings as currency. Namayan is also the main shipbuilding polity of Ba-e. You begin with a carnelian adorned bracelet."
+      },
+      {
+        "name": "Talim",
+        "description": "Talim. Upon an island in the middle of the bay of Pulilan, a few ways north from Namayan, there is the island of Talim. Used as a respite port for most traders, it has begun to create housing districts where traders can pay the Datu, a Kadanay named Kiyalilidan, to rest before traveling back home. Thus Talim has become a prime place for trading cultures and stories, most of which are inscribed upon copperplate. Talim is known for having the largest population of Kadanay left, whereupon they spend their days writing upon copperplate histories and secrets and sorceries, as well as try to find ways to replicate the Stonewaking sorceries of their ancestors. You begin with a ritual knife."
+      },
+      {
+        "name": "Ba-e",
+        "description": "Ba-e. The great city from which the Sangpamegat\u2019s power emanates, it is a land of pagodas and stupas, of holy golden temples and strangler fig complexes. It is influenced intensely by Baikhan culture, and has a large number of Baikhan refuge enclaves within. Ba-e is a trading center: merchants and traders of Ba-e bring the items brought by Baik Hu to the rest of the islands north, especially to trade with those of the Gatusan and the myriad islands to its east, before returning to pay back those Baikhan eight to nine moons later. Sangpamegat Kalangitan\u2019s stone and jade jewelry shimmer and glow with glowing green patterns, betraying their ability to use the sacred ancient Kadanay artifacts. You begin with a white parasol."
+      }
+    ],
+    "lineage": [
+      {
+        "name": "Baikhan Refugees",
+        "description": "Baikhan Refugees. Your family comes from the great Southeastern Continent, ruled over by the August Jade Empress. Due to the increasingly draconian laws your family has escaped the vast Jade Empire under the Yling Dynasty, of the Blazing Magnolia, increasingly fraught with civil war and scheming ministers. Finding peace and freedom in Ba-e, which exults in life and love."
+      },
+      {
+        "name": "Educators",
+        "description": "Educators. Your family comes from trained educators\u2013usually monks who gave up the Monastic Life\u2013who teach in royal houses and even the great pagoda that is the House of Wisdom. Being in such an academic environment since birth has shaped how you approach things: you come at situations with a more methodical bent, not afraid to reference and cross reference and use things that you have learned before. You probably know a great deal about writing, and know how to write upon copperplate."
+      },
+      {
+        "name": "Artists",
+        "description": "Artists. You come from a family of artists, who practice the art of painting, introduced here from Baik Hu. You carry around a paint brush and try to capture the world around you, realizing that it is about to end."
+      },
+      {
+        "name": "Blacksmiths",
+        "description": "Blacksmiths. You come from a line of blacksmiths, either one who traveled around (most blacksmiths traveled from settlement to settlement with an apprentice peddling their wares and offering their labor) or one who had a close aristocrat patron that allowed them to stay in one settlement (or perhaps they were royalty themselves?) You learned the tools of the trade from them, and you have become mighty and loving when learning about the sacred act of Creation."
+      },
+      {
+        "name": "Honey Gatherers",
+        "description": "Honey Gatherers. You come from a family of professional honey gatherers, who travel into the deep wood to gather honey from beehives, mingling with the spirits of the forest to give them a bountiful harvest. Honey is the primary form of sweetener in the isles, and from it comes popular honey mead."
+      },
+      {
+        "name": "Artifactsmiths",
+        "description": "Artifactsmiths. A renowned kind of smith that crafts ancient spiritual artifacts, a holy mixture of blacksmithing, pottery, carpentry, and sorcery. These panday are known to learn the Stonewaking Arts from Kadanay smiths. Becoming an artifactsmith in Ba-e is a very difficult endeavor, requiring practical knowledge of basic blacksmithing in addition to passing a test conducted by the sages of Ba-e and past artifactsmith. Most artifactsmiths end up learning that they have Kadanay blood within them, although this is not the norm."
+      },
+      {
+        "name": "Fishermen",
+        "description": "Fishermen. You come from a lineage of fishermen, either by the river mouths or out in the sea. You were born with a trident, harpoon, and net in your hands. The waters have known you long before you were born, and you embraced this. Everyday, you leap into the rushing rapids. Your hands are one with the fishes, and your patience for your aquatic friends knows no bounds."
+      },
+      {
+        "name": "Monastery Town",
+        "description": "Monastery Town. You come from a village that lies below a Monastery, usually with either a large temple pagoda or stone statue of the primary deity being worshipped or being used as a Spirit Guide. You were born knowing all about that God\u2019s stories and history and teachings. You revel in their festivals, and something about you is shaped in their likeness, whether it be your hair, your fingernails, or jewelry. Why did you leave? Did you ever really know that God? Achieve Conjunction, Become Hiyang."
+      }
+    ],
+    "socialStanding": [
+      {
+        "name": "Bihag",
+        "description": "You were the victim of the Eighth Star Era\u2019s burgeoning violence, and have become nothing but wealth to be traded. You begin with nothing."
+      },
+      {
+        "name": "Aliping Sagigilid",
+        "description": "You were indebted or were born into debt of a powerful person, whether it be a famed warrior, merchant, or aristocrat. Your hands are calloused from your work. You begin with a small push dagger."
+      },
+      {
+        "name": "Aliping Namamahay",
+        "description": "You were a loyal worker to your communities\u2019 chief. You had your own house within the community, and offered part of your labor to him. You begin with a farming tool."
+      },
+      {
+        "name": "Maharlika",
+        "description": "You were a freeman, working as a warrior for the datu that you have chosen. The datu shares their spoils with you, their fellow warriors, and you earn your own house with your own wealth, though you answer to the datu\u2019s beck and call and sometimes toil for them. Gain a weapon."
+      },
+      {
+        "name": "Maginoo",
+        "description": "Ba-e aristocrats are known to be the most pompous of nobles among the Sword Isles. Having taken after the Baikhans that they\u2019ve traded with for so long, they have grand wooden longhouses decorated with gold and built like pagodas. They wear long silk gowns, long sarongs, complex golden diadems, and walk upon wooden sandals, their feet never to touch the ground. They have servants carrying their parasols, and they are carried upon palanquins either by elephants or by their own servants. When they speak, they speak in lilting tones, and they always adhere to the Golden Web Tapestry. Many Ba-e aristocrats also have Kadanay ancestry, which shows in their magenta eyes. You begin with a valuable item."
+      },
+      {
+        "name": "Kadatuan",
+        "description": "You are directly connected to your settlement\u2019s datu, either the datu is your uncle, grandparent, or parent. You are revered as an Aristocrat, although the expectation for you is much higher. If you are born female then you were treated as a binukot, a veiled maiden, hidden from the rest of the world until you were to be wed to someone your parents decided is fit for their social class. If you are born male you were trained in the arts of war and leadership. You begin with a royal heirloom."
+      },
+      {
+        "name": "Sun\u2019s Royalty",
+        "description": "You are directly related to the Sangpamegat, who had a host of concubines in her royal palace. You therefore inherit the grand Sun Heritage, and have the eyes of a Kadanay\u2019s: magenta and burning. You walk around with a host of servants, have a personal Sun Shadow (Arawanino) who has pledged their life to protect you, and are taught histories, arts, warfare, poetry, and martial arts, both local and foreign. You begin with a gold sash, a signifier of your solar royalty."
+      }
+    ]
+  }
+]

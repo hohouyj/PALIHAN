@@ -1,7 +1,7 @@
 <template>
   <v-container>
-    <v-btn to="/test" nuxt>
-      Lmao this is a test
+    <v-btn to="/kadungganan" nuxt>
+      Kadungganan
     </v-btn>
     <v-btn to="/aklatan" nuxt>
       Techniques
