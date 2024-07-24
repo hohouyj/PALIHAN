@@ -1,0 +1,37 @@
+{{define "index"}}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/htmx.org@2.0.1"></script>
+    <title>Index</title>
+  </head>
+  <body>
+    <h1>This is a H1</h1>
+    <h2>This is a H2</h2>
+    <p>This is a paragraph</p>
+    <div id="lmao">Swap This Part</div>
+    <button hx-get="/button" hx-target="#lmao" hx-swap="innerHTML">Click Me</button>
+  </body>
+</html>
+{{end}}
+
+{{define "count"}}
+Clicked {{.}} Times
+{{end}}
+
+
+{{define "technique"}}
+<div>
+    This is a Technique
+    <h1>
+        {{.Name}}
+    </h1>
+    <h2>{{.DisciplineName}}</h2>
+    <p>{{.IsEnlightenment}}</p>
+    <p>{{.Lore}}</p>
+    <p>{{.Description}}</p>
+    <p>{{.PrereqNames}}</p>
+</div>
+{{end}}
