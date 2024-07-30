@@ -43,6 +43,7 @@ func (t *Template) Render(w io.Writer, name string, data interface{}, c echo.Con
 
 func main() {
 	t := getTechniques()
+	d := getDisciplines()
 	e := echo.New()
 	e.Debug = true
 	renderer := &Template{
@@ -52,7 +53,7 @@ func main() {
 
 	e.Renderer = renderer
 
-	e.Static("/static", "data")
+	e.Static("/css", "css")
 
 	e.GET("/", func(c echo.Context) error {
 		return c.Render(http.StatusOK, "index", nil)
@@ -66,5 +67,15 @@ func main() {
 		searchTechniqueString := c.FormValue("searchTechniqueString")
 		return c.Render(http.StatusOK, "techniquesList", getFilteredTechniques(searchTechniqueString).Techniques)
 	})
+
+	e.GET("/filteredDisciplines", func(c echo.Context) error {
+		searchDisciplineString := c.FormValue("searchDisciplineString")
+		return c.Render(http.StatusOK, "disciplinesList", getFilteredDisciplines(searchDisciplineString).Disciplines)
+	})
+
+	e.GET("/disciplines", func(c echo.Context) error {
+		return c.Render(http.StatusOK, "disciplines", d.Disciplines)
+	})
+
 	e.Logger.Fatal(e.Start(":42069"))
 }

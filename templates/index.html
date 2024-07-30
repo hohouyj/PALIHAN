@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://unpkg.com/htmx.org@2.0.1"></script>
   <title>Index</title>
+  <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -15,6 +16,9 @@
     <ul>
       <li>
         <button hx-get="/techniques" hx-target="#mainPage" hx-swap="innerHTML">Techniques</button>
+      </li>
+      <li>
+        <button hx-get="/disciplines" hx-target="#mainPage" hx-swap="innerHTML">Disciplines</button>
       </li>
     </ul>
   </div>

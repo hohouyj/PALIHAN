@@ -65,7 +65,6 @@ func getFilteredTechniques(searchString string) Techniques {
 }
 
 func (t Technique) String() string {
-
 	reStr := fmt.Sprintf(`
 	Name: %q
 	Discipline: %q
