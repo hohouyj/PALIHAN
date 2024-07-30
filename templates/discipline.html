@@ -1,25 +1,32 @@
 {{block "trait" .}}
-<h3>{{.Name}}</h3>
+
+<h4>{{.Name}}</h4>
 <p>{{.Lore}}</p>
 <p>{{.Description}}</p>
-{{end}} {{block "violence" .}}
-<h3>
-  {{.Name}} {{.ActionCost}} {{if ne .ActionCost "1"}} Beats {{else}} Beat
+
+{{end}}
+
+{{block "violence" .}}
+
+<h4>
+  {{.Name}} {{.ActionCost}} {{if eq .ActionCost "1"}} Beat {{else}} Beats
   {{end}}
-</h3>
+</h4>
 <p>{{.Lore}}</p>
 <p>{{.Description}}</p>
+
 {{end}}
 
 {{ block "discipline" .}}
+
 <div id="discipline">
-  <h1>{{ .Name }}</h1>
-  <h2>{{.Hp}}Hp</h2>
+  <h3>{{ .Name }} {{.Hp}} Hp</h3>
   <p>{{.WeaponSuggestions}}</p>
   <p>{{.ArmorSuggestions}}</p>
   {{range .Traits}} {{template "trait" .}} {{end}} {{range .Violence}}
   {{template "violence" .}} {{end}}
 </div>
+
 {{ end }}
 
 
@@ -44,5 +51,7 @@
 {{end}}
 
 {{block "disciplinesList" . }}
+
 {{ range . }} {{ template "discipline" . }} {{ end }}
+
 {{end}}
