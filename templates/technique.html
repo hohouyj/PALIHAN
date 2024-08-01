@@ -1,0 +1,47 @@
+{{block "technique" .}}
+<div id="technique" class="technique">
+  <h2>
+    {{if .IsEnlightenment }}
+    Enlightenment: 
+    {{end}}
+    {{.Name}}
+  </h2>
+  <h3>{{.DisciplineName}}</h3>
+
+ 
+  <p>
+    {{if .PrereqNames}}
+    Prerequisites:
+    {{end}}
+    {{range .PrereqNames}}
+    {{.}}
+    {{end}}
+  </p>
+  <p class="lore"><i>{{.Lore}}</i></p>
+  {{range .Description}}
+  <p>{{.}}</p>
+  {{end}}
+
+</div>
+{{end}}
+
+{{ block "techniques" . }}
+<h1>Techniques</h1>
+<div id="techniques">
+  <input type="text" name="searchTechniqueString" hx-get="/filteredTechniques" hx-trigger="keyup changed delay:500ms"
+    hx-target="#search-results" placeholder="Search..." hx-swap="innerHTML">
+  <div id="search-results">
+    {{ range . }}
+    {{ template "technique" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+
+{{ block "techniquesList" .}}
+
+{{ range . }}
+{{ template "technique" . }}
+{{ end }}
+
+{{end}}
