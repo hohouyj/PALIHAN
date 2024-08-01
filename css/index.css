@@ -4,10 +4,40 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  /* outline: 1px solid red; */
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #222;
-  padding-bottom: 50px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  float: right;
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  display: flex;
+  padding-right: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.lore {
+  font-size: 0.8rem;
+}
+
+.technique {
+  padding-bottom: 1rem;
 }

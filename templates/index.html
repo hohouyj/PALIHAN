@@ -12,9 +12,9 @@
 
 <body>
   <nav class="nav">
-  <h1 hx-get="/" hx-target="body">PALIHAN</h1>
+  <h1 class="title" hx-get="/" hx-target="body">PALIHAN</h1>
   {{template "indexPage"}}
-  </nav> 
+  </nav>
   <div class="hero">
     <div class="container content" id="mainPage"></div>
   </div>
@@ -28,16 +28,15 @@
 
 {{define "indexPage"}}
 
-<ul>
-  <li>
-    <button hx-get="/techniques" hx-target="#mainPage" hx-swap="innerHTML">Techniques</button>
+<ul class="nav-links">
+  <li class="nav-link" >
+    <div class="button-link" hx-get="/techniques" hx-target="#mainPage" hx-swap="innerHTML">Techniques</div>
   </li>
-  <li>
-    <button hx-get="/disciplines" hx-target="#mainPage" hx-swap="innerHTML">Disciplines</button>
+  <li class="nav-link" >
+    <div class="button-link" hx-get="/disciplines" hx-target="#mainPage" hx-swap="innerHTML">Disciplines</div>
   </li>
-  <li>
-    <a href="/disciplines">Disciplines Link</a>
-  </li>
+  <div></div>
 </ul>
+
 
 {{end}}

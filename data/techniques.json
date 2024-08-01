@@ -178,12 +178,9 @@
       "disciplineName": "Sarimanok Knight",
       "isEnlightenment": false,
       "lore": "The Sarimanok, holy omen birds, ascend into the sky and burst into the winds, and you become one with them. Sarimanok Knights are known for being one of the quickest warriors in the lands, able to fight and hunt down skyships. An ancient story about the Sarimanok is about how the Elder Rajah Indarapatra, King of Mournful Compassion, fell in love with a certain Moon Spirit, said to have been later an incarnation of Baginda Sumongsuklay herself. When the Moon Spirit, named Bayi Bulan, ascended to the moon, Indarapatra wept, until a sarimanok that was his umalagad for so long offered to take him to the moon, where Indarapatra is said to now live in eternal happiness.",
-      "prereqNames": [
-        "Manaul Stone Raid Spend 1 Beat to take on the Sky Cloak Stance. While in this stance",
-        "you ignore all terrain when moving",
-        "and you ignore cover."
-      ],
+      "prereqNames": [],
       "description": [
+        "Manaul Stone Raid Spend 1 Beat to take on the Sky Cloak Stance. While in this stance you ignore all terrain when moving and you ignore cover.",
         "Lightning-Struck Cultivation: Spend +1 Beat when you take on this stance to immediately Rush 5, and then your next Metal Attack gains +1 Attack Tooth.",
         "Whirlwind Riding Mantle: +1 Beat to make it so that you Fly whenever you move while in the Stance."
       ]

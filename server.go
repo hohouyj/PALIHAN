@@ -60,7 +60,7 @@ func main() {
 	})
 
 	e.GET("/techniques", func(c echo.Context) error {
-		return c.Render(http.StatusOK, "techniques", t.Techniques[0:10])
+		return c.Render(http.StatusOK, "techniques", t.Techniques)
 	})
 
 	e.GET("/filteredTechniques", func(c echo.Context) error {
