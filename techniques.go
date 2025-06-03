@@ -24,7 +24,7 @@ type Techniques struct {
 
 func (t Techniques) Names() []string {
 	var reNames []string
-	for i := 0; i < len(t.Techniques); i++ {
+	for i := range t.Techniques {
 		reNames = append(reNames, t.Techniques[i].Name)
 	}
 	return reNames
@@ -32,7 +32,7 @@ func (t Techniques) Names() []string {
 
 func (t Techniques) Disciplines() []string {
 	var reDisciplines []string
-	for i := 0; i < len(t.Techniques); i++ {
+	for i := range t.Techniques {
 		reDisciplines = append(reDisciplines, t.Techniques[i].DisciplineName)
 	}
 	return reDisciplines
@@ -56,7 +56,7 @@ func getFilteredTechniques(searchString string) Techniques {
 	techniqueNames := t.Names()
 	techniqueDisciplines := t.Disciplines()
 	var reTechniques Techniques
-	for i := 0; i < len(techniqueNames); i++ {
+	for i := range techniqueNames {
 		if fuzzy.MatchFold(searchString, techniqueNames[i]) || fuzzy.MatchFold(searchString, techniqueDisciplines[i]) {
 			reTechniques.Techniques = append(reTechniques.Techniques, t.Techniques[i])
 		}
