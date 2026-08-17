@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Georgia", "Times New Roman", serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-parchment text-ink font-body antialiased;
+    background-image:
+      radial-gradient(circle at 20% 0%, rgba(224, 138, 30, 0.06), transparent 40%),
+      radial-gradient(circle at 100% 100%, rgba(107, 20, 20, 0.06), transparent 40%);
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  /* Section header pill in the Kadungganan Sheet style */
+  .sheet-header {
+    @apply bg-maroon text-parchment font-display text-sm font-semibold tracking-wide px-3 py-1.5 rounded-t-md;
+  }
+  .sheet-header-gold {
+    @apply bg-gold text-white font-display text-sm font-semibold tracking-wide px-3 py-1.5 rounded-t-md;
+  }
+  .sheet-box {
+    @apply border-2 border-maroon rounded-md bg-white/70;
+  }
+  .sheet-box-gold {
+    @apply border-2 border-gold rounded-md bg-white/70;
+  }
+  .card {
+    @apply block rounded-lg border-2 border-maroon/20 bg-white/80 p-4 shadow-sm transition
+           hover:border-maroon hover:shadow-md focus:outline-none focus:ring-2 focus:ring-gold;
+  }
+  .tag {
+    @apply inline-block rounded-full px-2.5 py-0.5 text-xs font-semibold;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-4 py-2 text-sm font-semibold
+           transition focus:outline-none focus:ring-2 focus:ring-gold disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-primary {
+    @apply btn bg-maroon text-parchment hover:bg-maroon-dark;
+  }
+  .btn-gold {
+    @apply btn bg-gold text-white hover:bg-gold-dark;
+  }
+  .btn-outline {
+    @apply btn border-2 border-maroon text-maroon hover:bg-maroon hover:text-parchment;
+  }
+  .field-label {
+    @apply block text-xs font-bold uppercase tracking-wide text-maroon mb-1;
+  }
+  .field-input {
+    @apply w-full rounded-md border-2 border-maroon/30 bg-white px-3 py-2 text-sm
+           focus:border-maroon focus:outline-none focus:ring-1 focus:ring-maroon;
+  }
+}
+
+/* Print styles for character sheet */
+@media print {
+  .no-print { display: none !important; }
+  body { background: white; }
+  .print-page { page-break-after: always; }
+}
